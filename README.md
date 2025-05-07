@@ -1,1 +1,1 @@
-# ntccnextgen.github.io
+# NTCCNextGen website
