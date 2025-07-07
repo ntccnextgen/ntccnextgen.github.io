@@ -1,0 +1,1460 @@
+---
+title: ""
+author: ""
+date: "2025-05-04"
+format:
+  revealjs:
+    css: [theme.css]
+    theme: simple
+    transition: slide
+    slide-number: c/t
+    width: 1600
+    height: 900
+    incremental: true
+    verticalAlign: top
+    footer: "<h10>NTCC NextGen 2025</h10>"
+engine: knitr
+knitr:
+  opts_chunk: 
+    class-output: hscroll
+editor: source
+---
+
+# Bible Trivia Categories {#bible-trivia-categories}
+
+Choose a category to begin:
+
+- [Heroes of the Faith](#heroes-of-the-faith) (23 questions)
+- [Children of Israel](#children-of-israel) (7 questions)
+- [Kings](#kings) (12 questions)
+- [Prophets](#prophets) (8 questions)
+- [Jesus and His Disciples](#jesus-and-his-disciples) (6 questions)
+- [Who God Is](#who-god-is) (8 questions)
+- [Fruit of Faith](#fruit-of-faith) (11 questions)
+- [Punishments & Consequences](#punishments-consequences-and-unfortunate-events) (7 questions)
+- [Wars and Conflict](#wars-and-conflict) (4 questions)
+- [Promise and Privilege](#promise-and-privilege) (3 questions)
+- [Fun Facts](#fun-facts) (10 questions)
+
+---
+
+# Heroes of the Faith {#heroes-of-the-faith}
+
+Great heroes of the faith: Noah, Joseph, Moses, David, and Paul
+
+---
+
+## Noah
+
+**Question:** Of what wood was Noah's Ark made?
+
+- A. Gopher wood
+- B. Acacia wood
+- C. Cedar of Lebanon
+- D. Carob wood
+
+::: {.fragment}
+**Answer:** A. Gopher wood (Gen 6:14)
+:::
+
+---
+
+**Question:** How long was the ark?
+
+- A. 500 cubits
+- B. 100 cubits
+- C. 300 cubits
+- D. 250 cubits
+
+::: {.fragment}
+**Answer:** C. 300 cubits (Gen 6:15)
+:::
+
+---
+
+**Question:** For how long did the flood rain fall?
+
+- A. 80 days and nights
+- B. 12 days and nights
+- C. 107 days and nights
+- D. 40 days and 40 nights
+
+::: {.fragment}
+**Answer:** D. 40 days and 40 nights (Gen 7:12)
+:::
+
+---
+
+**Question:** How long did the flood cover the earth?
+
+- A. 19 days
+- B. 150 days
+- C. 50 days
+- D. 15 days
+
+::: {.fragment}
+**Answer:** B. 150 days (Gen 7:24)
+:::
+
+---
+
+## Joseph
+
+**Question:** How old was Joseph when his brethren sold him into slavery?
+
+- A. 69
+- B. 23
+- C. 17
+- D. 90
+
+::: {.fragment}
+**Answer:** C. 17 (Gen 37:2)
+:::
+
+---
+
+**Question:** Who suggested that Joseph interpret the dreams of Pharaoh?
+
+- A. Potiphar
+- B. The cupbearer
+- C. Judah
+- D. The baker
+
+::: {.fragment}
+**Answer:** B. The cupbearer (Gen 41:12–13)
+:::
+
+---
+
+**Question:** What are the names of Joseph's two sons?
+
+- A. John and Mark
+- B. Cain and Abel
+- C. Ephraim and Manasseh
+- D. Dan and Naphtali
+
+::: {.fragment}
+**Answer:** C. Ephraim and Manasseh (Gen 41:51–52)
+:::
+
+---
+
+## Moses
+
+**Question:** How long did Moses's mother hide him to escape the death edict of Pharaoh?
+
+- A. 13 months
+- B. 10 months
+- C. 3 months
+- D. 7 months
+
+::: {.fragment}
+**Answer:** C. 3 months (Exod 2:2)
+:::
+
+---
+
+**Question:** Who was Moses's father-in-law?
+
+- A. Laban
+- B. Mordechai
+- C. Jethro
+- D. Cyrus
+
+::: {.fragment}
+**Answer:** C. Jethro (Exod 3:1)
+:::
+
+---
+
+**Question:** What was the name of Aaron's (Moses's brother) wife?
+
+- A. Elisheba
+- B. Miriam
+- C. Zipporah
+- D. Deborah
+
+::: {.fragment}
+**Answer:** A. Elisheba (Exod 6:23)
+:::
+
+---
+
+**Question:** How old was Moses when he gave God's message to Pharaoh: "Let my people go"?
+
+- A. 80 years
+- B. 18 years
+- C. 13 years
+- D. 39 years
+
+::: {.fragment}
+**Answer:** A. 80 years (Exod 7:7)
+:::
+
+---
+
+**Question:** What was the first of the ten plagues in Egypt?
+
+- A. Frogs
+- B. Water turned into blood
+- C. Plague of lice
+- D. Darkness
+
+::: {.fragment}
+**Answer:** B. Water turned into blood (Exod 7:20)
+:::
+
+---
+
+**Question:** Where was Moses buried?
+
+- A. In Canaan
+- B. In a cave
+- C. In the valley of Moab
+- D. In the desert
+
+::: {.fragment}
+**Answer:** C. In the valley of Moab (Deut 34:6)
+:::
+
+---
+
+## David
+
+**Question:** What was the height of Goliath?
+
+- A. Six cubits and a span
+- B. Seven cubits and two spans
+- C. Nine cubits and a span
+- D. Five cubits and three spans
+
+::: {.fragment}
+**Answer:** A. Six cubits and a span (1 Sam 17:4)
+:::
+
+---
+
+**Question:** When Saul was pursuing David, in which cave did David seek refuge?
+
+- A. Cave at Makkedah
+- B. Cave of Machpelah
+- C. Cave of Adullam
+- D. Dambulla Cave
+
+::: {.fragment}
+**Answer:** C. Cave of Adullam (1 Sam 22:1)
+:::
+
+---
+
+**Question:** Who was the chief of the three mighty men of David?
+
+- A. Jonathan
+- B. Benaiah
+- C. Josheb-basshebeth
+- D. Abishai
+
+::: {.fragment}
+**Answer:** C. Josheb-basshebeth (2 Sam 23:8)
+:::
+
+---
+
+## Paul
+
+**Question:** Who restored Paul's sight after the Lord blinded him?
+
+- A. Peter
+- B. Luke
+- C. Ananias
+- D. Matthew
+
+::: {.fragment}
+**Answer:** C. Ananias (Acts 9:17–18)
+:::
+
+---
+
+**Question:** How did Paul escape Damascus when the Jews were trying to kill him?
+
+- A. He was let down from the city walls in a basket
+- B. An angel lifted him out
+- C. An earthquake created the means of escape
+- D. Silas came to his rescue
+
+::: {.fragment}
+**Answer:** A. He was let down from the city walls in a basket (Acts 9:25)
+:::
+
+---
+
+**Question:** Where was Paul stoned?
+
+- A. Melita
+- B. Damascus
+- C. Galilee
+- D. Lystra
+
+::: {.fragment}
+**Answer:** D. Lystra (Acts 14:19)
+:::
+
+---
+
+**Question:** Where was an altar erected "to the unknown God"?
+
+- A. Athens
+- B. Capernaum
+- C. Thessalonica
+- D. Jericho
+
+::: {.fragment}
+**Answer:** A. Athens (Acts 17:22–23)
+:::
+
+---
+
+**Question:** What Athenian judge was converted under Paul's preaching?
+
+- A. Eunice
+- B. Candace
+- C. Eubulus
+- D. Dionysius
+
+::: {.fragment}
+**Answer:** D. Dionysius (Acts 17:34)
+:::
+
+---
+
+**Question:** What was Paul's occupation?
+
+- A. Carpentry
+- B. Tentmaking
+- C. Stonemasonry
+- D. Fishing
+
+::: {.fragment}
+**Answer:** B. Tentmaking (Acts 18:3)
+:::
+
+---
+
+**Question:** Prior to raising Eutychus from the dead, Paul preached a lengthy sermon. At what hour did he end his sermon?
+
+- A. Early morning
+- B. Mid afternoon
+- C. Late evening
+- D. Midnight
+
+::: {.fragment}
+**Answer:** D. Midnight (Acts 20:7)
+:::
+
+---
+
+**Question:** What does Paul say is the fulfillment of the law?
+
+- A. Righteousness
+- B. Patience
+- C. Faith
+- D. Love
+
+::: {.fragment}
+**Answer:** D. Love (Rom 13:10)
+:::
+
+---
+
+# [Return to Categories](#bible-trivia-categories)
+
+---
+
+# Children of Israel {#children-of-israel}
+
+Questions about God's chosen people through their highs and lows
+
+---
+
+**Question:** What was the total number of the children of Israel that went down to Egypt?
+
+- A. 1000
+- B. 70
+- C. 53
+- D. 560
+
+::: {.fragment}
+**Answer:** B. 70 (Gen 46:27)
+:::
+
+---
+
+**Question:** How long were the children of Israel in Egypt?
+
+- A. 150 years
+- B. 40 years
+- C. 215 years
+- D. 666 years
+
+::: {.fragment}
+**Answer:** C. 215 years
+:::
+
+---
+
+**Question:** How were the children of Israel guided in their forty years of wandering in the wilderness?
+
+- A. By a pillar of cloud by day and a pillar of fire by night
+- B. By the voice of God
+- C. By Moses
+- D. By Aaron's rod
+
+::: {.fragment}
+**Answer:** A. By a pillar of cloud by day and a pillar of fire by night (Exod 13:21)
+:::
+
+---
+
+**Question:** How long did the children of Israel journey in the wilderness of Shur before they found water?
+
+- A. 5 days
+- B. 15 days
+- C. 3 days
+- D. 7 days
+
+::: {.fragment}
+**Answer:** C. 3 days (Exod 15:22)
+:::
+
+---
+
+**Question:** Upon what mountain was Israel cursed for disobedience?
+
+- A. Mount Moriah
+- B. Mount Zion
+- C. Mount Carmel
+- D. Mount Ebal
+
+::: {.fragment}
+**Answer:** D. Mount Ebal (Deut 27:13)
+:::
+
+---
+
+**Question:** By whom were the children of Israel carried captive into Assyria?
+
+- A. Nebuchadnezzar
+- B. Tiglathpileser
+- C. Darius
+- D. Ahaz
+
+::: {.fragment}
+**Answer:** B. Tiglathpileser (2 Kgs 15:29)
+:::
+
+---
+
+**Question:** How long were the children of Israel in captivity?
+
+- A. 70 years
+- B. 49 years
+- C. 59 years
+- D. 100 years
+
+::: {.fragment}
+**Answer:** A. 70 years (Jer 25:11)
+:::
+
+---
+
+# [Return to Categories](#bible-trivia-categories)
+
+---
+
+# Kings {#kings}
+
+Questions about the earthly rulers of Israel and Judah, both good and evil
+
+---
+
+**Question:** What were Solomon's other names?
+
+- A. Jedediah and Lemuel
+- B. Joab and Lemuel
+- C. Jedediah and Joab
+- D. Lemuel and Jeremiah
+
+::: {.fragment}
+**Answer:** A. Jedediah and Lemuel (2 Sam 12:25; Prov 31:1)
+:::
+
+---
+
+**Question:** What king was guilty of idolatry in making two golden calves and commanding the people to worship them?
+
+- A. Jeroboam
+- B. Jehu
+- C. Joktan
+- D. Joram
+
+::: {.fragment}
+**Answer:** A. Jeroboam (1 Kgs 12:28)
+:::
+
+---
+
+**Question:** Who was the most wicked king of Israel?
+
+- A. Ahab
+- B. Abimelech
+- C. Manasseh
+- D. Menahem
+
+::: {.fragment}
+**Answer:** A. Ahab (1 Kgs 21:25)
+:::
+
+---
+
+**Question:** What two kings disguised themselves before going into battle, and were both slain by archers?
+
+- A. Ahab and Zedekiah
+- B. Enosh and Zedekiah
+- C. Japeth and Josiah
+- D. Ahab and Josiah
+
+::: {.fragment}
+**Answer:** D. Ahab and Josiah (1 Kings 22:34; 2 Chron 35:22)
+:::
+
+---
+
+**Question:** What king was killed by his own sons?
+
+- A. Manasseh
+- B. Sennacherib
+- C. Ahaz
+- D. Jotham
+
+::: {.fragment}
+**Answer:** B. Sennacherib (2 Kgs 19:36)
+:::
+
+---
+
+**Question:** What king of Judah was overtaken by an invading army and had his eyes put out?
+
+- A. Zedekiah
+- B. Jehoram
+- C. Abijah
+- D. Rehoboam
+
+::: {.fragment}
+**Answer:** A. Zedekiah (2 Kgs 25:7)
+:::
+
+---
+
+**Question:** What king's name meant peaceable?
+
+- A. Manasseh
+- B. Josiah
+- C. Solomon
+- D. David
+
+::: {.fragment}
+**Answer:** C. Solomon (1 Chron 22:9)
+:::
+
+---
+
+**Question:** Who was made king of Judah at seven years of age after having been hidden for six years?
+
+- A. Jehoshaphat
+- B. Hosea
+- C. Joash
+- D. Ahaz
+
+::: {.fragment}
+**Answer:** C. Joash (2 Chron 23:11)
+:::
+
+---
+
+**Question:** What king did God smite with leprosy?
+
+- A. Athaliah
+- B. Jehoram
+- C. Amaziah
+- D. Uzziah
+
+::: {.fragment}
+**Answer:** D. Uzziah (2 Chron 26:19)
+:::
+
+---
+
+**Question:** What king of Israel followed heathen practices by burning his children in the fire?
+
+- A. Abimelech
+- B. Ahab
+- C. Menahem
+- D. Ahaz
+
+::: {.fragment}
+**Answer:** D. Ahaz (2 Chron 28:3)
+:::
+
+---
+
+**Question:** What king was on the throne of Judah when he was only eight years old?
+
+- A. Adonibezek
+- B. Jehoiachin
+- C. Joash
+- D. David
+
+::: {.fragment}
+**Answer:** B. Jehoiachin (2 Chron 36:9)
+:::
+
+---
+
+**Question:** What was the name of the king of Judah who had his eyes put out and then was imprisoned for life?
+
+- A. Zedekiah
+- B. Absalom
+- C. Jehoshaphat
+- D. Abimelech
+
+::: {.fragment}
+**Answer:** A. Zedekiah (Jer 52:11)
+:::
+
+---
+
+# [Return to Categories](#bible-trivia-categories)
+
+---
+
+# Prophets {#prophets}
+
+Questions about God's appointed mouthpieces on earth
+
+---
+
+**Question:** What was the first prophecy?
+
+- A. The end of the age
+- B. The victory over Satan of the seed of the woman
+- C. The second coming of Christ
+- D. The destruction of the temple
+
+::: {.fragment}
+**Answer:** B. The victory over Satan of the seed of the woman (Gen 3:15)
+:::
+
+---
+
+**Question:** What aged prophet's hands were upheld by two persons and caused the armies of Israel to be victorious?
+
+- A. Elisha
+- B. Elijah
+- C. Moses
+- D. Hosea
+
+::: {.fragment}
+**Answer:** C. Moses (Exod 17:12)
+:::
+
+---
+
+**Question:** What prophet foretold the result of the ten tribes of Israel?
+
+- A. Isaiah
+- B. Nahum
+- C. Ahijah
+- D. Nehemiah
+
+::: {.fragment}
+**Answer:** C. Ahijah (1 Kgs 11:29)
+:::
+
+---
+
+**Question:** Who prophesied that Judah should be carried captive into Babylon?
+
+- A. Zechariah
+- B. Nahum
+- C. Jeremiah
+- D. Haggai
+
+::: {.fragment}
+**Answer:** C. Jeremiah (Jer 20:4)
+:::
+
+---
+
+**Question:** Which of the prophets was carried captive to Babylon?
+
+- A. Ezekiel
+- B. Malachi
+- C. Nehemiah
+- D. Zechariah
+
+::: {.fragment}
+**Answer:** A. Ezekiel (Ezek 1:1)
+:::
+
+---
+
+**Question:** What prophet was suspended between earth and heaven by a lock of his hair?
+
+- A. Daniel
+- B. Ezekiel
+- C. Joel
+- D. Elisha
+
+::: {.fragment}
+**Answer:** B. Ezekiel (Ezek 8:3)
+:::
+
+---
+
+**Question:** What prophet was sent as a missionary to the Ninevites?
+
+- A. Jonah
+- B. Paul
+- C. Elon
+- D. Malachi
+
+::: {.fragment}
+**Answer:** A. Jonah (Jonah 1:1–2)
+:::
+
+---
+
+**Question:** The destruction of Nineveh was the fulfillment of whose prophecy?
+
+- A. The prophet Jonah
+- B. The prophet Isaiah
+- C. The prophet Daniel
+- D. The prophet Nahum
+
+::: {.fragment}
+**Answer:** D. The prophet Nahum (Nah 3)
+:::
+
+---
+
+# [Return to Categories](#bible-trivia-categories)
+
+---
+
+# Jesus and His Disciples {#jesus-and-his-disciples}
+
+Questions about our Savior and the twelve men who walked alongside him
+
+---
+
+**Question:** What was our Savior's last command to his disciples?
+
+- A. Help widows and orphans
+- B. Love others
+- C. Make disciples of all the nations and baptize them
+- D. Honor the Sabbath
+
+::: {.fragment}
+**Answer:** C. Make disciples of all the nations and baptize them (Matt 28:19)
+:::
+
+---
+
+**Question:** Of whom did our Savior say, "I will make you fishers of men?"
+
+- A. Of Matthew, Peter, and Simeon
+- B. Of Simeon, Peter, and Andrew
+- C. Of James, Peter, and Andrew
+- D. Of Thomas, Matthew, and Peter
+
+::: {.fragment}
+**Answer:** B. Of Simeon, Peter, and Andrew (Mark 1:17)
+:::
+
+---
+
+**Question:** What two distinct promises did our Savior make to his disciples when he was about to leave them?
+
+- A. The gift in heaven and his return
+- B. The salvation of their souls and the gift of the Comforter
+- C. The riches of the world and a place in heaven
+- D. The gift of the Comforter and his own personal return
+
+::: {.fragment}
+**Answer:** D. The gift of the Comforter and his own personal return (John 12:16, 19, 22, 28)
+:::
+
+---
+
+**Question:** Which apostle told Christ he had left all to follow him?
+
+- A. Matthew
+- B. James
+- C. John
+- D. Peter
+
+::: {.fragment}
+**Answer:** D. Peter (John 13:37)
+:::
+
+---
+
+**Question:** Who took Judas's place among the twelve?
+
+- A. Matthias
+- B. Stephen
+- C. Jude
+- D. Paul
+
+::: {.fragment}
+**Answer:** A. Matthias (Acts 1:23)
+:::
+
+---
+
+**Question:** Which of the apostles first suffered martyrdom?
+
+- A. Andrew
+- B. Thomas
+- C. James
+- D. Paul
+
+::: {.fragment}
+**Answer:** C. James (Acts 12:2)
+:::
+
+---
+
+# [Return to Categories](#bible-trivia-categories)
+
+---
+
+# Who God Is {#who-god-is}
+
+Questions about the vastness and character of our Lord
+
+---
+
+**Question:** What were the first words God spoke to man?
+
+- A. Rule the earth
+- B. Fill the earth
+- C. Be fruitful and multiply
+- D. Love your neighbor
+
+::: {.fragment}
+**Answer:** C. Be fruitful and multiply (Gen 1:28)
+:::
+
+---
+
+**Question:** What is the meaning of *Jehovah Shammah*?
+
+- A. Jehova is there
+- B. Jehova is here
+- C. Jehova is near
+- D. Jehova is with us
+
+::: {.fragment}
+**Answer:** A. Jehova is there (Ezek 48:35)
+:::
+
+---
+
+**Question:** How did God manifest his presence at the dedication of the temple?
+
+- A. Fire came down from heaven
+- B. A cloud came from heaven
+- C. Rain came from heaven
+- D. A thunder came from heaven
+
+::: {.fragment}
+**Answer:** A. Fire came down from heaven (2 Chron 7:1)
+:::
+
+---
+
+**Question:** On what three occasions are we expressly told that Jesus wept?
+
+- A. In Gethsemane and twice in Bethlehem
+- B. Over Jerusalem and twice in Nazareth
+- C. At the grave of Lazarus, over Jerusalem, and in Gethsemane
+- D. At the grave of Lazarus, over Jerusalem, and in Bethlehem
+
+::: {.fragment}
+**Answer:** C. At the grave of Lazarus, over Jerusalem, and in Gethsemane (John 11:33; Luke 19:41; Heb 5:7)
+:::
+
+---
+
+**Question:** Quote the first and last words of our Savior while on earth?
+
+- A. "I am the Way, the Truth, and the Life"; and, "Father, forgive them, for they know not what they do."
+- B. "Why were you searching for me? Didn't you know I had to be in my Father's house?"; and, "It is finished"
+- C. "You shall love the Lord your God with all your heart and with all your soul and with all your mind"; and, "Father, into your hands I commit my spirit"
+- D. "I am the Way, the Truth, and the Life"; and, "It is finished."
+
+::: {.fragment}
+**Answer:** B. "Why were you searching for me? Didn't you know I had to be in my Father's house?"; and, "It is finished" (Luke 2:49; John 19:30)
+:::
+
+---
+
+**Question:** With whom did our Savior spend his last Sabbath?
+
+- A. The apostles
+- B. Peter, James, and John
+- C. Simon the leper
+- D. Mark and Luke
+
+::: {.fragment}
+**Answer:** C. Simon the leper (Matt 26:6)
+:::
+
+---
+
+**Question:** Who is called the light of the world?
+
+- A. Moses
+- B. Jesus
+- C. John
+- D. Abraham
+
+::: {.fragment}
+**Answer:** B. Jesus (John 8:12; 12:46)
+:::
+
+---
+
+**Question:** What was the first miracle performed by Christ?
+
+- A. Healing of the blind man
+- B. Feeding of the five thousand
+- C. Water turned to wine
+- D. Jesus walking on water
+
+::: {.fragment}
+**Answer:** C. Water turned to wine (John 2:1)
+:::
+
+---
+
+# [Return to Categories](#bible-trivia-categories)
+
+---
+
+# Fruit of Faith {#fruit-of-faith}
+
+Questions about living out your faith and demonstrating evidence of true belief
+
+---
+
+**Question:** When was the Sabbath first instituted, and by whom was it observed?
+
+- A. By Noah, after the flood
+- B. By God, after creation
+- C. By Adam, in the garden of Eden
+- D. By Moses, at the giving of the ten commandments
+
+::: {.fragment}
+**Answer:** B. By God, after creation (Gen 2:2–3)
+:::
+
+---
+
+**Question:** Who made the first confession to the Lord, as recorded in the Bible?
+
+- A. Abram
+- B. Jacob
+- C. Adam
+- D. Moses
+
+::: {.fragment}
+**Answer:** B. Jacob (Gen 32:9)
+:::
+
+---
+
+**Question:** Who delivered Israel by killing 600 Philistines with an ox goad?
+
+- A. David
+- B. Jonathan
+- C. Shamgar
+- D. Samson
+
+::: {.fragment}
+**Answer:** C. Shamgar (Judg 3:31)
+:::
+
+---
+
+**Question:** Who was the first recorded person raised from death to life?
+
+- A. Tabitha
+- B. Jesus
+- C. Lazarus
+- D. The son of Zarephath's daughter
+
+::: {.fragment}
+**Answer:** D. The son of Zarephath's daughter (1 Kgs 17:21)
+:::
+
+---
+
+**Question:** Who partook of a meal prepared by an angel, and was sustained forty days and nights while in the mountain?
+
+- A. Manoah
+- B. Joseph
+- C. Elijah
+- D. Moses
+
+::: {.fragment}
+**Answer:** C. Elijah (1 Kgs 19:8–9)
+:::
+
+---
+
+**Question:** What is the whole duty of man, according to the Scriptures?
+
+- A. Be fruitful and multiply
+- B. Love enemies
+- C. Take care of the earth
+- D. Fear God and keep his commandments
+
+::: {.fragment}
+**Answer:** D. Fear God and keep his commandments (Eccl 12:13)
+:::
+
+---
+
+**Question:** Which three men, in different periods, stood almost alone in their godliness, among a crooked and perverse generation?
+
+- A. Abraham, Daniel, and Job
+- B. Joseph, Jacob, and Daniel
+- C. Jacob, Noah, and Joseph
+- D. Noah, Daniel, and Job
+
+::: {.fragment}
+**Answer:** D. Noah, Daniel, and Job (Ezek 14:14)
+:::
+
+---
+
+**Question:** Who beheld a vision in the valley of dry bones?
+
+- A. Jeremiah
+- B. Ezekiel
+- C. Joseph
+- D. Daniel
+
+::: {.fragment}
+**Answer:** B. Ezekiel (Ezek 37)
+:::
+
+---
+
+**Question:** Who was compelled to bear the cross of Christ to the place of crucifixion?
+
+- A. Joseph
+- B. John
+- C. Peter
+- D. Simon
+
+::: {.fragment}
+**Answer:** D. Simon (Mark 15:21)
+:::
+
+---
+
+**Question:** What woman continued in prayer day and night in the temple?
+
+- A. Drusilla
+- B. Mary
+- C. Anna
+- D. Lydia
+
+::: {.fragment}
+**Answer:** C. Anna (Luke 2:36)
+:::
+
+---
+
+**Question:** Who was the first Christian martyr?
+
+- A. Stephen
+- B. Peter
+- C. John
+- D. Paul
+
+::: {.fragment}
+**Answer:** A. Stephen (Acts 7:58)
+:::
+
+---
+
+# [Return to Categories](#bible-trivia-categories)
+
+---
+
+# Punishments, Consequences, and Unfortunate Events {#punishments-consequences-and-unfortunate-events}
+
+Questions about the negative results of sinful decisions and divine consequences
+
+---
+
+**Question:** Who lost their lives for using "strange" fire?
+
+- A. Nadab and Abihu
+- B. Jacob and Esau
+- C. Ahab and Zedekiah
+- D. Sisera and Barek
+
+::: {.fragment}
+**Answer:** A. Nadab and Abihu (Lev 9:24; 10:1–2)
+:::
+
+---
+
+**Question:** What man of Israel was stoned for blaspheming God?
+
+- A. The son of Isaac
+- B. Methuselah
+- C. The son of Shelomith
+- D. Kenan
+
+::: {.fragment}
+**Answer:** C. The son of Shelomith (Lev 24:10–11)
+:::
+
+---
+
+**Question:** Which three men were swallowed alive in a pit?
+
+- A. Korah, Dathan, Hadad
+- B. Jetur, Dathan, Abiram
+- C. Korah, Dathan, Abiram
+- D. Korah, Dathan, Rachab
+
+::: {.fragment}
+**Answer:** C. Korah, Dathan, Abiram (Num 26:9–10)
+:::
+
+---
+
+**Question:** What tribe had no inheritance in the land of promise?
+
+- A. Reubenites
+- B. Levites
+- C. Gadites
+- D. Manassa
+
+::: {.fragment}
+**Answer:** B. Levites (Deut 8:1, 5)
+:::
+
+---
+
+**Question:** Who was punished with death for touching the ark of God?
+
+- A. Caleb
+- B. Naaman
+- C. Uzza
+- D. Obed
+
+::: {.fragment}
+**Answer:** C. Uzza (1 Chron 13:9, 13)
+:::
+
+---
+
+**Question:** What woman upon the death of her son, the king of Judah, murdered her grandchildren and usurped the kingdom?
+
+- A. Jezebel
+- B. Rahab
+- C. Athaliah
+- D. Anna
+
+::: {.fragment}
+**Answer:** C. Athaliah (2 Chron 22:10)
+:::
+
+---
+
+**Question:** What man, although warned, invited his murderer to a feast?
+
+- A. Jesse
+- B. Gedaliah
+- C. Gideon
+- D. Dan
+
+::: {.fragment}
+**Answer:** B. Gedaliah (Jer 40:14)
+:::
+
+---
+
+# [Return to Categories](#bible-trivia-categories)
+
+---
+
+# Wars and Conflict {#wars-and-conflict}
+
+Questions about battles and conflicts throughout biblical history
+
+---
+
+**Question:** What city was taken by stratagem and burned, with 12,000 women and children?
+
+- A. Nineveh
+- B. Thessalonica
+- C. Ai
+- D. Bethel
+
+::: {.fragment}
+**Answer:** C. Ai (Josh 8:5, 25)
+:::
+
+---
+
+**Question:** How many Philistines did Samson slay with a jaw bone?
+
+- A. 1,000
+- B. 40
+- C. 666
+- D. 2,000
+
+::: {.fragment}
+**Answer:** A. 1,000 (Judg 15:15)
+:::
+
+---
+
+**Question:** What warrior fought so long and desperately that his hand was stuck to the hilt of his sword?
+
+- A. Elijah
+- B. Jabez
+- C. Eleazar
+- D. Cush
+
+::: {.fragment}
+**Answer:** C. Eleazar (2 Sam 23:10)
+:::
+
+---
+
+**Question:** Who was in command of the largest army recorded in the Bible?
+
+- A. Zedekiah
+- B. Ahab
+- C. Asa
+- D. Amon
+
+::: {.fragment}
+**Answer:** C. Asa (2 Chron 14:9): This comprised 300,000 men from Judah and 280,000 men from Benjamin.
+:::
+
+---
+
+# [Return to Categories](#bible-trivia-categories)
+
+---
+
+# Promise and Privilege {#promise-and-privilege}
+
+Questions about God's promises and blessings to his people
+
+---
+
+**Question:** To whom did God promise that his children should be in numbers as the stars in heaven?
+
+- A. Abraham
+- B. Jacob
+- C. Moses
+- D. Jethro
+
+::: {.fragment}
+**Answer:** A. Abraham (Gen 15:5)
+:::
+
+---
+
+**Question:** Of which person who was not of Abraham's seed did God say, "I will make him a great nation?"
+
+- A. Zelophehad
+- B. Ishmael
+- C. Esau
+- D. Caleb
+
+::: {.fragment}
+**Answer:** B. Ishmael (Gen 17:20)
+:::
+
+---
+
+**Question:** What were the three major promises God gave to Abraham?
+
+- A. Wealth, blessing, and the stars of heaven
+- B. Seed, land, and blessing
+- C. Blessing, health, and birthright
+- D. Priesthood, wealth, and health
+
+::: {.fragment}
+**Answer:** B. Seed, land, and blessing (Gen 12:1–3; 15:5–7; 17:2–8)
+:::
+
+---
+
+# [Return to Categories](#bible-trivia-categories)
+
+---
+
+# Fun Facts {#fun-facts}
+
+Random but interesting facts from Scripture worth knowing
+
+---
+
+**Question:** What was the garden of Eden guarded with to prevent future access to the tree of life?
+
+- A. A pillar of fire
+- B. A cherubim and a flaming sword
+- C. A giant wall
+- D. Leviathan
+
+::: {.fragment}
+**Answer:** B. A cherubim and a flaming sword (Gen 3:24)
+:::
+
+---
+
+**Question:** What is the first city mentioned in the Bible?
+
+- A. Babylon
+- B. Nineveh
+- C. Enoch
+- D. Sodom
+
+::: {.fragment}
+**Answer:** C. Enoch (Gen 4:17)
+:::
+
+---
+
+**Question:** What is the name of the city to which Lot escaped at the destruction of Sodom?
+
+- A. Golon
+- B. Zoar
+- C. Silo
+- D. Cabul
+
+::: {.fragment}
+**Answer:** B. Zoar (Gen 19:23)
+:::
+
+---
+
+**Question:** How many cities were given to the Levites for their use?
+
+- A. 56
+- B. 48
+- C. 34
+- D. 99
+
+::: {.fragment}
+**Answer:** B. 48 (Josh 21:11)
+:::
+
+---
+
+**Question:** Which two men hid in a well to save their lives?
+
+- A. Jonathan and Ahimaaz
+- B. Gideon and Phurah
+- C. Saul and Jonathan
+- D. David and Jonathan
+
+::: {.fragment}
+**Answer:** A. Jonathan and Ahimaaz (2 Sam 17:17–19)
+:::
+
+---
+
+**Question:** What queen of Bible times is described by the epithet "that wicked woman"?
+
+- A. Lydia
+- B. Esther
+- C. Athaliah
+- D. Jezebel
+
+::: {.fragment}
+**Answer:** C. Athaliah (2 Chron 24:7)
+:::
+
+---
+
+**Question:** What book of the Bible was written without explicitly mentioning the name of God?
+
+- A. Songs of Solomon
+- B. Esther
+- C. Ruth
+- D. Haggai
+
+::: {.fragment}
+**Answer:** B. Esther
+:::
+
+---
+
+**Question:** What other nation besides Israel is to be scattered to every people?
+
+- A. Egypt
+- B. Lebanon
+- C. Syria
+- D. Elam
+
+::: {.fragment}
+**Answer:** D. Elam (Jer 49:36)
+:::
+
+---
+
+**Question:** Who was the first Christian convert in Europe?
+
+- A. Lydia
+- B. Phoebe
+- C. Priscilla
+- D. Salome
+
+::: {.fragment}
+**Answer:** A. Lydia (Acts 16:14)
+:::
+
+---
+
+**Question:** Where will the great feast of the marriage supper of the Lamb be spread?
+
+- A. Earth
+- B. Garden of Eden
+- C. Bosom of Abraham
+- D. Heaven
+
+::: {.fragment}
+**Answer:** D. Heaven (Rev 12:9)
+:::
+
+---
+
+# [Return to Categories](#bible-trivia-categories)
+
+---
+

@@ -1,0 +1,473 @@
+---
+title: ""
+author: ""
+date: "2025-05-04"
+format:
+  revealjs:
+    css: [theme.css]
+    theme: simple
+    transition: slide
+    slide-number: c/t
+    width: 1600
+    height: 900
+    incremental: true
+    verticalAlign: top
+    preview-links: auto
+    embed-resources: true
+    navigation-mode: vertical
+    countdown: 10
+    footer: "<h10>NTCC NextGen 2025</h10>"
+engine: knitr
+knitr:
+  opts_chunk: 
+    class-output: hscroll
+editor: source
+---
+
+---
+
+## Choose Your Difficulty {.allow-slide-skip #home} 
+
+
+* [200 points](#diff-200)
+* [400 points](#diff-400)
+* [600 points](#diff-600)
+* [800 points](#diff-800)
+* [1000 points](#diff-1000)
+
+---
+
+## Difficulty: 200 Points {#diff-200}
+
+### Old Testament – \$200
+
+**Question:** Who led the Israelites out of Egypt?
+
+* A: Abraham
+* B: David
+* C: Moses
+* D: Joshua
+
+::: {.fragment}
+**Answer:** C: Moses
+:::
+
+[⬅ ](#diff-200)
+[home](#home)
+---
+
+### New Testament – \$200
+
+**Question:** Who baptized Jesus?
+
+* A: Peter
+* B: Paul
+* C: John the Baptist
+* D: James
+
+::: {.fragment}
+**Answer:** C: John the Baptist
+:::
+
+[⬅ ](#diff-200)
+[home](#home)
+---
+
+### Bible Geography – \$200
+
+**Question:** What city was Jesus born in?
+
+* A: Nazareth
+* B: Jerusalem
+* C: Bethlehem
+* D: Capernaum
+
+::: {.fragment}
+**Answer:** C: Bethlehem
+:::
+
+[⬅ ](#diff-200)
+[home](#home)
+---
+
+### Famous Verses – \$200
+
+**Question:** “For God so loved the world…” is from which verse?
+
+* A: John 3:16
+* B: Matthew 6:33
+* C: Psalm 23:1
+* D: Romans 8:28
+
+::: {.fragment}
+**Answer:** A: John 3:16
+:::
+
+[⬅ ](#diff-200)
+[home](#home)
+---
+
+### People of the Bible – \$200
+
+**Question:** Who was thrown into the lion’s den?
+
+* A: Elijah
+* B: Daniel
+* C: Jonah
+* D: David
+
+::: {.fragment}
+**Answer:** B: Daniel
+:::
+
+[⬅ ](#diff-200)
+[home](#home)
+---
+
+## Difficulty: 400 Points {#diff-400}
+
+### Old Testament – \$400
+
+**Question:** What was the first plague in Egypt?
+
+* A: Frogs
+* B: Locusts
+* C: Water turned to blood
+* D: Death of firstborn
+
+::: {.fragment}
+**Answer:** C: Water turned to blood
+:::
+
+[⬅ ](#diff-400)
+[home](#home)
+---
+
+### New Testament – \$400
+
+**Question:** How many disciples did Jesus have?
+
+* A: 10
+* B: 12
+* C: 7
+* D: 40
+
+::: {.fragment}
+**Answer:** B: 12
+:::
+
+[⬅ ](#diff-400)
+[home](#home)
+---
+
+### Bible Geography – \$400
+
+**Question:** Which river did John the Baptist baptize in?
+
+* A: Euphrates
+* B: Nile
+* C: Tigris
+* D: Jordan
+
+::: {.fragment}
+**Answer:** D: Jordan
+:::
+
+[⬅ ](#diff-400)
+[home](#home)
+---
+
+### Famous Verses – \$400
+
+**Question:** “The Lord is my shepherd…” is from which Psalm?
+
+* A: 1
+* B: 23
+* C: 119
+* D: 51
+
+::: {.fragment}
+**Answer:** B: Psalm 23
+:::
+
+[⬅ ](#diff-400)
+[home](#home)
+---
+
+### People of the Bible – \$400
+
+**Question:** Who killed Goliath?
+
+* A: Saul
+* B: Solomon
+* C: Samson
+* D: David
+
+::: {.fragment}
+**Answer:** D: David
+:::
+
+[⬅ ](#diff-400)
+[home](#home)
+---
+
+## Difficulty: 600 Points {#diff-600}
+
+### Old Testament – \$600
+
+**Question:** What was the sign of God’s covenant with Noah?
+
+* A: Fire
+* B: Rainbow
+* C: Star
+* D: Tree
+
+::: {.fragment}
+**Answer:** B: Rainbow
+:::
+
+[⬅ ](#diff-600)
+[home](#home)
+---
+
+### New Testament – \$600
+
+**Question:** What is the first book of the New Testament?
+
+* A: Mark
+* B: Luke
+* C: Matthew
+* D: Acts
+
+::: {.fragment}
+**Answer:** C: Matthew
+:::
+
+[⬅ ](#diff-600)
+[home](#home)
+---
+
+### Bible Geography – \$600
+
+**Question:** On what mountain did Moses receive the Ten Commandments?
+
+* A: Mount Zion
+* B: Mount Carmel
+* C: Mount Sinai
+* D: Mount of Olives
+
+::: {.fragment}
+**Answer:** C: Mount Sinai
+:::
+
+[⬅ ](#diff-600)
+[home](#home)
+---
+
+### Famous Verses – \$600
+
+**Question:** “I can do all things through Christ…” comes from which letter?
+
+* A: Philippians
+* B: Romans
+* C: Galatians
+* D: Ephesians
+
+::: {.fragment}
+**Answer:** A: Philippians (4:13)
+:::
+
+[⬅ ](#diff-600)
+[home](#home)
+---
+
+### People of the Bible – \$600
+
+**Question:** Who was the oldest person recorded in the Bible?
+
+* A: Adam
+* B: Noah
+* C: Methuselah
+* D: Abraham
+
+::: {.fragment}
+**Answer:** C: Methuselah (969 years)
+:::
+
+[⬅ ](#diff-600)
+[home](#home)
+---
+
+## Difficulty: 800 Points {#diff-800}
+
+### Old Testament – \$800
+
+**Question:** Which Old Testament character interpreted dreams in Egypt?
+
+* A: Daniel
+* B: Joseph
+* C: Moses
+* D: Aaron
+
+::: {.fragment}
+**Answer:** B: Joseph
+:::
+
+[⬅ ](#diff-800)
+[home](#home)
+---
+
+### New Testament – \$800
+
+**Question:** Who was the first Christian martyr?
+
+* A: Stephen
+* B: Peter
+* C: James
+* D: Paul
+
+::: {.fragment}
+**Answer:** A: Stephen
+:::
+
+[⬅ ](#diff-800)
+[home](#home)
+---
+
+### Bible Geography – \$800
+
+**Question:** Where did Paul experience his conversion?
+
+* A: Damascus
+* B: Rome
+* C: Jerusalem
+* D: Antioch
+
+::: {.fragment}
+**Answer:** A: Damascus (on the road)
+:::
+
+[⬅ ](#diff-800)
+[home](#home)
+---
+
+### Famous Verses – \$800
+
+**Question:** “Be still and know that I am God…” is found in which Psalm?
+
+* A: Psalm 46
+* B: Psalm 91
+* C: Psalm 1
+* D: Psalm 103
+
+::: {.fragment}
+**Answer:** A: Psalm 46:10
+:::
+
+[⬅ ](#diff-800)
+[home](#home)
+---
+
+### People of the Bible – \$800
+
+**Question:** Who replaced Judas Iscariot as a disciple?
+
+* A: Barnabas
+* B: Matthias
+* C: Silas
+* D: Timothy
+
+::: {.fragment}
+**Answer:** B: Matthias
+:::
+
+[⬅ ](#diff-800)
+[home](#home)
+---
+
+## Difficulty: 1000 Points {#diff-1000}
+
+### Old Testament – \$1000
+
+**Question:** Who was the only female judge of Israel?
+
+* A: Ruth
+* B: Esther
+* C: Deborah
+* D: Miriam
+
+::: {.fragment}
+**Answer:** C: Deborah
+:::
+
+[⬅ ](#diff-1000) 
+[home](#home)
+
+---
+
+### New Testament – \$1000
+
+**Question:** What island was John on when he wrote Revelation?
+
+* A: Cyprus
+* B: Patmos
+* C: Crete
+* D: Malta
+
+::: {.fragment}
+**Answer:** B: Patmos
+:::
+
+[⬅ ](#diff-1000)
+[home](#home)
+---
+
+### Bible Geography – \$1000
+
+**Question:** What region is known as “the land of milk and honey”?
+
+* A: Moab
+* B: Goshen
+* C: Canaan
+* D: Bashan
+
+::: {.fragment}
+**Answer:** C: Canaan
+:::
+
+[⬅ ](#diff-1000)
+[home](#home)
+---
+
+### Famous Verses – \$1000
+
+**Question:** Finish this verse: “Your word is a lamp to my feet…”
+
+* A: and a light to my path
+* B: and guide to my soul
+* C: and strength to my bones
+* D: and peace in my heart
+
+::: {.fragment}
+**Answer:** A: and a light to my path (Psalm 119:105)
+:::
+
+[⬅ ](#diff-1000)
+[home](#home)
+---
+
+### People of the Bible – \$1000
+
+**Question:** Which apostle was a tax collector?
+
+* A: Matthew
+* B: Andrew
+* C: Thomas
+* D: Philip
+
+::: {.fragment}
+**Answer:** A: Matthew
+:::
+
+[⬅ ](#diff-1000)
+[home](#home)

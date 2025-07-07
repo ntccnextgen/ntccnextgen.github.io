@@ -1,0 +1,427 @@
+---
+title: ""
+author: ""
+date: "2025-06-15"
+format:
+  revealjs:
+    css: [theme.css]
+    theme: simple
+    transition: slide
+    slide-number: c/t
+    width: 1600
+    height: 900
+    incremental: true
+    verticalAlign: top
+    footer: "<h10>NTCC NextGen 2025</h10>"
+engine: knitr
+knitr:
+  opts_chunk: 
+    class-output: hscroll
+editor: source
+---
+
+# Sunday Worship {background-image="images/simon-berger-twukN12EN7c-unsplash.jpg" background-size="cover" background-color="black"}
+
+\
+<h2><p style="color: gray;">Monthly theme: Broken but Redeemed</p></h2>
+
+\
+
+<h2>Scripture: Romans 5:8</h2>
+\
+\
+<h3><p style="color: yellow;">***But God demonstrates His own love toward us, in that while we were still sinners, Christ died for us. (NKJV)***</p></h3>
+
+\
+<h4>
+
+Theme of the year:
+
+<p style="color: lightblue;">God's Masterpiece - Reflecting His Image and Living Like Jesus</p>
+
+</h4>
+
+
+## Game time: Mathew Matthew, One One
+
+- Players are numbered off: Matthew, Mark, Luke, John, 1,2,3,4,5,6 etc.
+Matthew sits in the super chair. This person starts clapping, two claps on legs, two claps with fists (more quiet)
+- Matthew starts by saying "Matthew Matthew, Number Number" where number is the number or book that he/she send it to, say five. Then Five says "Five Five, Two Two" .
+- Just say someone makes a mistake or fouls - i.e. gets out of rhythm, says the person next to them, says the person who sent it to them, claps incorrectly, speeks out of place. 
+- Then they stand up and goes down to the lowest number. everyone below that person stands up and moves up one number so that their number changes.
+
+- The aim of the game is to get to matthew and stay there.
+  
+------------------------------------------------------------------------
+
+## 🎵 Worship  {background-image="images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg"  background-size="cover" background-color="black"}
+<p style="color: navy;">[Great Is Thy Faithfulness - Reawaken Hymns](https://www.youtube.com/watch?v=lbDNkwcuBus&t=8s)</p>
+
+:::: {.columns}
+::: {.column width="60%"}
+1 Great is thy faithfulness, O God my Father; 
+there is no shadow of turning with thee; 
+thou changest not, thy compassions, they fail not; 
+as thou hast been thou forever wilt be.
+
+Refrain: 
+Great is thy faithfulness! 
+Great is thy faithfulness! 
+Morning by morning new mercies I see:
+all I have needed thy hand hath provided--
+Great is thy faithfulness, Lord, unto me!
+
+:::
+::::
+
+## 🎵 Worship  {background-image="images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg"  background-size="cover" background-color="black"}
+<p style="color: navy;">[Great Is Thy Faithfulness - Reawaken Hymns](https://www.youtube.com/watch?v=lbDNkwcuBus&t=8s)</p>
+
+:::: {.columns}
+::: {.column width="60%"}
+2 Summer and winter and springtime and harvest,
+sun, moon, and stars in their courses above
+join with all nature in manifold witness 
+to thy great faithfulness, mercy, and love. 
+
+Refrain: 
+Great is thy faithfulness! 
+Great is thy faithfulness! 
+Morning by morning new mercies I see:
+all I have needed thy hand hath provided--
+Great is thy faithfulness, Lord, unto me!
+
+:::
+::::
+
+## 🎵 Worship  {background-image="images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg"  background-size="cover" background-color="black"}
+<p style="color: navy;">[Great Is Thy Faithfulness - Reawaken Hymns](https://www.youtube.com/watch?v=lbDNkwcuBus&t=8s)</p>
+
+:::: {.columns}
+::: {.column width="60%"}
+3 Pardon for sin and a peace that endureth, 
+thine own dear presence to cheer and to guide, 
+strength for today and bright hope for tomorrow,
+blessings all mine, with ten thousand beside! 
+
+Refrain: 
+Great is thy faithfulness! 
+Great is thy faithfulness! 
+Morning by morning new mercies I see:
+all I have needed thy hand hath provided--
+Great is thy faithfulness, Lord, unto me!
+
+
+:::
+::::
+## 🎵 Lyric highlights  {background-image="https://images.unsplash.com/photo-1506260408121-e353d10b87c7?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  background-size="cover" background-color="black"}
+
+
+
+## 🎵 Worship  {background-image="images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg"  background-size="cover" background-color="black"}
+<p style="color: navy;">[I Surrender All - Reawaken Hymns](https://www.youtube.com/watch?v=xSPcuV5Sli8)</p>
+
+
+## 🎵 Worship  {background-image="images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg"  background-size="cover" background-color="black"}
+<p style="color: navy;">[Tis so sweet to trust in Jesus](https://www.youtube.com/watch?v=xSPcuV5Sli8)</p>	
+
+## Bible study: Broken but Redeemed
+
+📖 Scriptures:Romans 5:6–8 (NKJV)
+
+"For when we were still without strength, in due time Christ died for the ungodly. For scarcely for a righteous man will one die; yet perhaps for a good man someone would even dare to die. But God demonstrates His own love toward us, in that while we were still sinners, Christ died for us."
+
+
+- A. We Are All Broken
+  - We don’t see ourselves fully broken, but we recognize brokenness around us—in sin, pain, and suffering.
+  - Once broken, impossible to restore ourselves—only God can mend us.
+
+- B. Unmerited Gift of Redemption
+  - Christ died for us, while still sinners—not after we cleaned up.
+  - The focus shifts from works to God’s sacrificial grace, as Paul emphasizes.
+
+- C. Redemption Turns Brokenness Beautiful
+  - Stories of Sarah, Naomi, Moses illustrate how God restores & thrives through brokenness.
+  - It’s not OR redemption—it’s redemption through brokenness.
+
+
+## Discussion
+
+- How do you see brokenness in your own life—even when others don’t?
+-	What challenge keeps you from fully believing Christ died for you?
+-	How can we welcome redemption through our brokenness, not just after?
+-	How does knowing we were undeserving shape our gratitude?
+
+
+## Bible study: God Still Uses the Broken - Power in Weakness
+
+📖 Scriptures:2 Corinthians 12:7-10 (NKJV)
+
+"7And lest I should be exalted above measure by the abundance of the revelations, a thorn in the flesh was given to me, a messenger of Satan to buffet me, lest I be exalted above measure. 8Concerning this thing I pleaded with the Lord three times that it might depart from me. 9And He said to me, “My grace is sufficient for you, for My strength is made perfect in weakness.” Therefore most gladly I will rather boast in my infirmities, that the power of Christ may rest upon me. 10Therefore I take pleasure in infirmities, in reproaches, in needs, in persecutions, in distresses, for Christ’s sake. For when I am weak, then I am strong."
+
+
+"And He said to me, <p style="color: red;">'My grace is sufficient for you, for My strength is made perfect in weakness.'</p> Therefore most gladly I will rather boast in my infirmities, that the power of Christ may rest upon me. "
+
+
+	
+## 🎬 Movie discussion: [*Chosen Season 1: Episode 1*](https://watch.thechosen.tv/video/184683594334)
+
+::: fragment
+**Overview:** - "I Have Called You By Name"
+
+- Mary Magdalene (Lilith)
+  - Mary is depicted as a woman tormented by demonic possession, living under the name "Lilith." Despite attempts by religious leaders to help her, she remains in despair until a transformative encounter with Jesus, who calls her by her true name, leading to her healing and redemption. 
+
+- Simon Peter and Andrew
+  - The episode portrays Simon and his brother Andrew as fishermen struggling with debt and considering compromising their values to appease Roman authorities. Their desperation highlights the societal pressures faced by many during that time. 
+:::
+
+## 🎬 Movie discussion: [*Chosen Season 1: Episode 1*](https://watch.thechosen.tv/video/184683594334?start=61&fs=1)
+
+::: fragment
+**Overview:** - "I Have Called You By Name"
+
+- Nicodemus
+    - A respected Pharisee, Nicodemus is shown grappling with the limitations of his religious understanding when he fails to exorcise demons from Mary. His journey reflects a spiritual awakening and a quest for deeper truth. 
+
+- Matthew
+    -   Matthew is introduced as a meticulous tax collector, ostracized by his community for collaborating with the Romans. His character sets the stage for exploring themes of acceptance and transformation. 
+:::
+
+# 🙏 Prayer & Commitment
+
+**Commit:**
+
+ - Reflect on one way we can treat ourselves and others  differently from what we learn today.
+ - Pray for identity and boldness to reflect God’s image in daily life.
+-   🎵 Worship: [**Build My Life (Instrumental)**](https://www.youtube.com/watch?v=U8jR3bD1u18)
+
+------------------------------------------------------------------------
+
+# Announcements
+
+::: fragment
+[DCCYC Wed. 6/11/2025 to Sun. 6/15/2025](https://dccyc.org)
+
+DCCYC 2025 Registration Fees:
+
+-   Early Registration (April 18 - May 4) = \$420.00 per camper
+-   Regular Registration (May 5 - May 18) = \$470.00 per camper
+-   Final Desperation Registration (May 19 - May 25) = \$520.00 per camper
+:::
+
+## Groupme: join us on group chat
+
+![](images/clipboard-785477511.png)
+
+## Devotion Plan
+
+[Day 1: How Jesus Became the King of the World (That He Always Was)](https://www.youtube.com/watch?v=xmFPS0f-kzs&t=2s)
+
+[Day 2: We Studied the Temple in the Bible (Here’s What We Found)](https://www.youtube.com/watch?v=wTnq6I3vUbU)
+
+[Day 3: We Studied the "Day of the Lord" in the Bible (Here’s What We Found)](https://www.youtube.com/watch?v=tEBc2gSSW04&t=1s)
+
+[Day 4: The Satan and Demons • Understand Evil Spiritual Beings in the Bible (Spiritual Beings Series Ep 4)](https://www.youtube.com/watch?v=CamYtVpoTNk)
+
+[Day 5: How God Deals With Evil Without Destroying Humanity](https://www.youtube.com/watch?v=G_OlRWGLdnw)
+
+[Day 6: The Resurrection of Jesus](https://www.youtube.com/watch?v=_unHmAf7INk)
+
+[Day 7: Holy Saturday]()
+
+[Day 8: The Resurrection of Jesus: Luke 24](https://www.youtube.com/watch?v=_unHmAf7INk)
+
+------------------------------------------------------------------------
+
+## Turn your eyes upon Jesus
+
+:::{.fragment}
+Verse 1
+
+O soul, are you weary and troubled?
+
+No light in the darkness you see?
+
+There’s light for a look at the Savior,
+
+And life more abundant and free. 
+
+:::
+
+## 
+
+Chorus
+
+Turn your eyes upon Jesus,
+
+Look full in His wonderful face,
+
+And the things of earth will grow strangely dim,
+
+In the light of His glory and grace. 
+
+##
+
+Verse 2
+
+Through death into life everlasting,
+
+He passed, and we follow Him there;
+
+O’er us sin no more hath dominion,
+
+For more than conquerors we are. 
+
+##
+Chorus
+
+Turn your eyes upon Jesus,
+
+Look full in His wonderful face,
+
+And the things of earth will grow strangely dim,
+
+In the light of His glory and grace. 
+
+##  How Great Thou Art
+
+Verse 1
+
+O Lord my God, when I in awesome wonder
+
+Consider all the worlds Thy Hands have made;
+
+I see the stars, I hear the rolling thunder,
+
+Thy power throughout the universe displayed.
+
+## 
+
+Chorus
+
+Then sings my soul, my Savior God, to Thee,
+
+How great Thou art, how great Thou art.
+
+Then sings my soul, my Savior God, to Thee,
+
+How great Thou art, how great Thou art!
+
+## 
+Verse 2
+
+When through the woods and forest glades I wander,
+
+And hear the birds sing sweetly in the trees.
+
+When I look down from lofty mountain grandeur,
+
+And hear the brook and feel the gentle breeze.
+
+##  Amazing Grace
+
+Verse 1 
+
+Amazing grace! how sweet the sound
+
+That saved a wretch like me!
+
+I once was lost, but now am found,
+
+Was blind, but now I see. 
+
+## 
+
+Verse 2 
+
+’Twas grace that taught my heart to fear,
+
+And grace my fears relieved;
+
+How precious did that grace appear
+
+The hour I first believed! 
+
+## Verse 3 
+
+The Lord hath promised good to me,
+
+His word my hope secures;
+
+He will my shield and portion be,
+
+As long as life endures. 
+
+## Verse 4
+
+When we’ve been there ten thousand years,
+
+Bright shining as the sun,
+
+We’ve no less days to sing God’s praise
+
+Than when we first begun. 
+
+## Amazing Grace (My Chains Are Gone)
+
+Verse 1
+
+Amazing grace! how sweet the sound
+
+That saved a wretch like me!
+
+I once was lost, but now am found,
+
+Was blind, but now I see.
+
+## Verse 2
+
+’Twas grace that taught my heart to fear,
+
+And grace my fears relieved;
+
+How precious did that grace appear
+
+The hour I first believed!
+
+## Chorus
+
+My chains are gone, I’ve been set free
+
+My God, my Savior has ransomed me
+
+And like a flood His mercy reigns
+
+Unending love, amazing grace
+
+## Verse 3
+
+The Lord has promised good to me
+
+His word my hope secures
+
+He will my shield and portion be
+
+As long as life endures
+
+## Verse 4
+
+The earth shall soon dissolve like snow
+
+The sun forbear to shine
+
+But God, who called me here below
+
+Will be forever mine
+
+## Chorus
+
+My chains are gone, I’ve been set free
+
+My God, my Savior has ransomed me
+
+And like a flood His mercy reigns
+
+Unending love, amazing grace
+

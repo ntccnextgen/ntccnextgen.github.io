@@ -1,0 +1,640 @@
+---
+title: ""
+author: ""
+date: "2025-06-22"
+format:
+  revealjs:
+    css: [theme.css]
+    theme: simple
+    transition: slide
+    slide-number: c/t
+    width: 1600
+    height: 900
+    incremental: true
+    verticalAlign: top
+    footer: "<h10>NTCC NextGen 2025</h10>"
+    scroll-view: true
+engine: knitr
+knitr:
+  opts_chunk: 
+    class-output: hscroll
+editor: source
+---
+
+# Sunday Worship {background-image="images/tobias-keller-73F4pKoUkM0-unsplash.jpg" background-size="cover" background-color="black"}
+
+\
+<h2><p style="color: gray;">Monthly theme: Broken but Redeemed</p></h2>
+
+\
+
+<h2>Scripture: Romans 5:8</h2>
+\
+\
+<h3><p style="color: yellow;">***But God demonstrates His own love toward us, in that while we were still sinners, Christ died for us. (NKJV)***</p></h3>
+
+\
+<h4>
+
+Theme of the year:
+
+<p style="color: lightblue;">God's Masterpiece - Reflecting His Image and Living Like Jesus</p>
+
+</h4>
+
+## Game time: Let's open the bible
+
+  - Split into two teams
+  - Each team will choose a bible
+  - Choose a representative in different round for the competition 
+  - Find and read out the verse
+
+## Game time: Let's open the bible (Round 1)
+::: {style="font-size: 80%;"}
+
+1.	Genesis 1:1
+    - "In the beginning God created the heavens and the earth."
+2.	Matthew 6:33
+    - “But seek first his kingdom and his righteousness, and all these things will be given to you as well.”
+3.	1 Timothy 4:12
+    - “Don’t let anyone look down on you because you are young, but set an example for the believers in speech, in conduct, in love, in faith and in purity.”
+4.	Psalm 23:1
+    - “The LORD is my shepherd; I shall not want.”
+5.	Micah 6:8
+    - “He has shown you, O mortal, what is good. And what does the LORD require of you? To act justly and to love mercy and to walk humbly with your God.”
+    
+:::
+
+## Game time: Let's open the bible (Round 2) 
+::: {style="font-size: 75%;"}
+
+6. Isaiah 40:31
+    - “But those who hope in the LORD will renew their strength. They will soar on wings like eagles; they will run and not grow weary, they will walk and not be faint.”
+7.	John 14:6
+    - “Jesus answered, ‘I am the way and the truth and the life. No one comes to the Father except through me.’”
+8.	Romans 8:28
+    - “And we know that in all things God works for the good of those who love him, who have been called according to his purpose.”
+9.	Philippians 4:13
+    - “I can do all things through Christ who strengthens me.”
+10.	Joshua 1:9
+    - “Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the LORD your God will be with you wherever you go.”
+    
+:::
+
+## Game time: Let's open the bible (Round 3)
+
+::: {style="font-size: 50%;"}
+11.	Leviticus 19:19
+    - “Keep my decrees. Do not mate different kinds of animals. Do not plant your field with two kinds of seed. Do not wear clothing woven of two kinds of material.”
+12.	Numbers 22:28
+    - “Then the LORD opened the donkey’s mouth, and it said to Balaam, ‘What have I done to you to make you beat me these three times?’”
+13.	2 Kings 2:23–24
+    - “From there Elisha went up to Bethel. As he was walking along the road, some boys came out of the town and jeered at him. ‘Get out of here, baldy!’ they said. ‘Get out of here, baldy!’ He turned around, looked at them and called down a curse on them in the name of the LORD. Then two bears came out of the woods and mauled forty-two of the boys.”
+14.	Habakkuk 3:19
+    - “The Sovereign LORD is my strength; he makes my feet like the feet of a deer, he enables me to tread on the heights.”
+15.	Zephaniah 3:17
+    - “The LORD your God is with you, the Mighty Warrior who saves. He will take great delight in you; in his love he will no longer rebuke you, but will rejoice over you with singing.”
+Challenging New Testament Verses
+16.	Mark 14:51–52
+    - “A young man, wearing nothing but a linen garment, was following Jesus. When they seized him, he fled naked, leaving his garment behind.”
+17.	Acts 20:9
+    - “Seated in a window was a young man named Eutychus, who was sinking into a deep sleep as Paul talked on and on. When he was sound asleep, he fell to the ground from the third story and was picked up dead.”
+18.	2 Corinthians 12:7
+    - “…Therefore, in order to keep me from becoming conceited, I was given a thorn in my flesh, a messenger of Satan, to torment me.”
+19.	Philemon 1:10–11
+    - “I appeal to you for my son Onesimus, who became my son while I was in chains. Formerly he was useless to you, but now he has become useful both to you and to me.”
+20.	Revelation 2:17
+    - “Whoever has ears, let them hear what the Spirit says to the churches. To the one who is victorious, I will give some of the hidden manna. I will also give that person a white stone with a new name written on it, known only to the one who receives it.”
+:::
+    
+
+  
+------------------------------------------------------------------------
+
+## 🎵 Worship  {background-image="images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg"  background-size="cover" background-color="black" .scrollable} 
+<p style="color: navy;">[Great Is Thy Faithfulness - Reawaken Hymns](https://www.youtube.com/watch?v=lbDNkwcuBus&t=8s)</p>
+
+:::: {.columns}
+::: {.column width="60%"} 
+1 Great is thy faithfulness, O God my Father; 
+there is no shadow of turning with thee; 
+thou changest not, thy compassions, they fail not; 
+as thou hast been thou forever wilt be.
+
+Refrain: 
+Great is thy faithfulness! 
+Great is thy faithfulness! 
+Morning by morning new mercies I see:
+all I have needed thy hand hath provided--
+Great is thy faithfulness, Lord, unto me!
+
+\
+
+2 Summer and winter and springtime and harvest,
+sun, moon, and stars in their courses above
+join with all nature in manifold witness 
+to thy great faithfulness, mercy, and love. 
+
+Refrain: 
+Great is thy faithfulness! 
+Great is thy faithfulness! 
+Morning by morning new mercies I see:
+all I have needed thy hand hath provided--
+Great is thy faithfulness, Lord, unto me!
+
+\
+
+3 Pardon for sin and a peace that endureth, 
+thine own dear presence to cheer and to guide, 
+strength for today and bright hope for tomorrow,
+blessings all mine, with ten thousand beside! 
+
+Refrain: 
+Great is thy faithfulness! 
+Great is thy faithfulness! 
+Morning by morning new mercies I see:
+all I have needed thy hand hath provided--
+Great is thy faithfulness, Lord, unto me!
+
+:::
+::::
+
+
+## 🎵 Lyric highlights  {background-image="https://images.unsplash.com/photo-1506260408121-e353d10b87c7?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  background-size="cover" background-color="black"}
+
+\
+
+\
+
+\
+
+
+
+  - God’s Unchanging Nature: The hymn emphasizes that God “changest not” and has “no shadow of turning”
+  - Daily Mercies: The famous refrain declares “Morning by morning new mercies I see”
+  - God’s Provision: Celebrates how “All I have needed thy hand hath provided”
+  - Creation’s Witness: References the seasons and natural world as testimony to God’s faithfulness
+  - Eternal Promises: Highlights “Pardon for sin and a peace that endureth” and “Strength for today and bright hope for tomorrow”
+
+  - Author Thomas Chisholm wrote this hymp in 1923, which was inspired by simple daily experiences of God’s faithfulness rather than dramatic life events. 
+  
+## 🎵 Worship  {background-image="images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg"  background-size="cover" background-color="black" .scrollable}
+<p style="color: navy;">[I Surrender All - Reawaken Hymns](https://www.youtube.com/watch?v=xSPcuV5Sli8)</p>
+
+:::: {.columns}
+::: {.column width="60%"}
+1 All to Jesus I surrender,
+All to Him I freely give;
+I will ever love and trust Him,
+In His presence daily live.
+
+\
+
+Refrain:
+I surrender all, I surrender all;
+All to Thee, my blessed Savior,
+I surrender all.
+
+\
+
+2 All to Jesus I surrender,
+Make me, Savior, wholly Thine;
+Let me feel Thy Holy Spirit,
+Truly know that Thou art mine. 
+
+\
+
+Refrain:
+I surrender all, I surrender all;
+All to Thee, my blessed Savior,
+I surrender all.
+
+\
+
+3 All to Jesus I surrender,
+Lord, I give myself to Thee;
+Fill me with Thy love and power,
+Let Thy blessing fall on me. 
+
+\
+
+Refrain:
+I surrender all, I surrender all;
+All to Thee, my blessed Savior,
+I surrender all.
+
+\
+\
+\
+
+
+::::
+:::
+
+## 🎵 <h2><p style="color: gray;">Lyric highlights </p></h2> {background-image="https://images.unsplash.com/photo-1506260408121-e353d10b87c7?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  background-size="cover" background-color="black"}
+
+\
+
+\
+
+\
+
+
+
+Key Themes:
+
+  - Complete Surrender: The central message is yielding “all to Jesus” in every aspect of life
+  - Humility and Submission: Emphasizes bowing “humbly at His feet” in reverence
+  - Spiritual Transformation: Expresses the desire to be filled with the Holy Spirit
+  - Trust and Faith: Represents a deliberate choice made with love and trust
+  - Divine Blessing: Includes the prayer “Let thy blessings fall on me”
+
+
+  - Core Message: This hymn represents the profound spiritual journey of complete surrender to Christ, leading to joy, salvation, and spiritual fulfillment
+
+## 🎵 Worship  {background-image="images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg"  background-size="cover" background-color="black" .scrollable}
+<p style="color: navy;">[Tis so sweet to trust in Jesus](https://www.youtube.com/watch?v=xSPcuV5Sli8)</p>	
+
+:::: {.columns}
+::: {.column width="60%"}
+1
+’Tis so sweet to trust in Jesus,
+Just to take Him at His word;
+Just to rest upon His promise;
+Just to know, Thus saith the Lord.
+
+\
+
+Jesus, Jesus, how I trust Him,
+How I’ve proved Him o’er and o’er,
+Jesus, Jesus, Precious Jesus!
+  O for grace to trust Him more.
+
+\
+
+2
+O how sweet to trust in Jesus,
+Just to trust His cleansing blood;
+Just in simple faith to plunge me,
+’Neath the healing, cleansing flood.
+
+\
+Jesus, Jesus, how I trust Him,
+How I’ve proved Him o’er and o’er,
+Jesus, Jesus, Precious Jesus!
+  O for grace to trust Him more.
+
+\
+
+3
+Yes, ’tis sweet to trust in Jesus,
+Just from sin and self to cease;
+Just from Jesus simply taking
+Life, and rest, and joy, and peace.
+
+\
+Jesus, Jesus, how I trust Him,
+How I’ve proved Him o’er and o’er,
+Jesus, Jesus, Precious Jesus!
+  O for grace to trust Him more.
+
+\
+4
+I’m so glad I learned to trust Thee,
+Precious Jesus, Savior, Friend;
+And I know that Thou art with me,
+Wilt be with me to the end.
+
+\
+
+Jesus, Jesus, how I trust Him,
+How I’ve proved Him o’er and o’er,
+Jesus, Jesus, Precious Jesus!
+  O for grace to trust Him more.
+
+\
+\
+\
+
+::::
+:::
+
+## 🎵 Lyric highlights  {background-image="https://images.unsplash.com/photo-1506260408121-e353d10b87c7?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  background-size="cover" background-color="black"}
+
+\
+
+\
+
+\
+
+
+
+Key Themes:
+
+  - Simple Faith: Emphasizes taking Jesus “at His Word” and resting “upon His promise”
+  - Cleansing Power: References trusting in Jesus’ “cleansing blood” and the “healing, cleansing flood”
+  - Rest and Peace: Highlights finding “life and rest, and joy and peace” in Jesus
+  - Eternal Friendship: Celebrates Jesus as “Precious Jesus, Savior, Friend”
+  - Constant Presence: Affirms “I know that Thou art with me, wilt be with me to the end”
+  
+  - Notable Refrain: “Jesus, Jesus, how I trust Him! How I’ve proved Him o’er and o’er”
+
+
+## Game time: Superhero, Superpower
+
+- What is your favorite superhero?
+- What superpower do you want to have? (could be different from previous question)
+- What is the weakest thing your superhero have? (e.g. Ironman suite can be out of power)
+
+
+## Bible study: Broken but Redeemed
+
+📖 Scriptures:Romans 5:6–8 (NKJV)
+
+"For when we were still without strength, in due time Christ died for the ungodly. For scarcely for a righteous man will one die; yet perhaps for a good man someone would even dare to die. But God demonstrates His own love toward us, in that while we were still sinners, Christ died for us."
+
+<h5> 
+
+- A. We Are All Broken
+  - We don’t see ourselves fully broken, but we recognize brokenness around us—in sin, pain, and suffering.
+  - Once broken, impossible to restore ourselves—only God can mend us.
+
+- B. Unmerited Gift of Redemption
+  - Christ died for us, while still sinners—not after we cleaned up.
+  - The focus shifts from works to God’s sacrificial grace, as Paul emphasizes.
+
+- C. Redemption Turns Brokenness Beautiful
+  - Stories of Sarah, Naomi, Moses illustrate how God restores & thrives through brokenness.
+  - It’s not OR redemption—it’s redemption through brokenness.
+</h5>
+
+## Discussion
+
+- How do you see brokenness in your own life—even when others don’t?
+-	What challenge keeps you from fully believing Christ died for you?
+-	How can we welcome redemption through our brokenness, not just after?
+-	How does knowing we were undeserving shape our gratitude?
+
+
+## Bible study: God Still Uses the Broken - Power in Weakness
+
+📖 Scriptures:2 Corinthians 12:7-10 (NKJV)
+
+"7And lest I should be exalted above measure by the abundance of the revelations, a thorn in the flesh was given to me, a messenger of Satan to buffet me, lest I be exalted above measure. 8Concerning this thing I pleaded with the Lord three times that it might depart from me. 9And He said to me, “My grace is sufficient for you, for My strength is made perfect in weakness.” Therefore most gladly I will rather boast in my infirmities, that the power of Christ may rest upon me. 10Therefore I take pleasure in infirmities, in reproaches, in needs, in persecutions, in distresses, for Christ’s sake. For when I am weak, then I am strong."
+
+
+"And He said to me, <p style="color: red;">'My grace is sufficient for you, for My strength is made perfect in weakness.'</p> Therefore most gladly I will rather boast in my infirmities, that the power of Christ may rest upon me. "
+
+## Bible study: God Still Uses the Broken - Power in Weakness (continued)
+
+- Key Point: Paul saw his thorn (brokenness) not as a barrier, but a way to experience God’s power.
+
+- Discussion Questions:
+
+	1.	What do you think Paul’s “thorn” could’ve been?
+	2.  Do you have your own "thorn"?
+	3.	How does God’s strength show up in our weakest moments?
+	4.	Have you ever seen someone grow spiritually because of their struggles?
+
+## Bible study: God Still Uses the Broken - Power in Weakness (continued)
+
+- Stories of biblical characters God used after failure:
+
+    -	Peter
+        - (denial → preacher)
+    -	Jonah
+        - (ran away → prophet),
+    - Rahab
+      - (prostitute → honored in Jesus’ line)
+
+
+## 🎬 Movie: [*Chosen Season 1: Episode 2*](https://watch.thechosen.tv/video/184683594335)
+
+::: fragment
+**Overview:** - "Shabbat"
+
+
+:::
+
+## 🎬 Movie: [*Chosen Season 1: Episode 3*](https://watch.thechosen.tv/video/184683594336)
+
+
+::: fragment
+**Overview:** - "Jesus Loves The Little Children"
+
+
+:::
+
+
+------------------------------------------------------------------------
+
+## Turn your eyes upon Jesus {background-image="images/benjamin-voros-phIFdC6lA4E-unsplash.jpg"  background-size="cover" background-color="black" .scrollable} 
+
+
+Verse 1
+
+O soul, are you weary and troubled?
+
+No light in the darkness you see?
+
+There’s light for a look at the Savior,
+
+And life more abundant and free. 
+
+\
+\
+
+Chorus
+
+Turn your eyes upon Jesus,
+
+Look full in His wonderful face,
+
+And the things of earth will grow strangely dim,
+
+In the light of His glory and grace. 
+
+\
+
+Verse 2
+
+Through death into life everlasting,
+
+He passed, and we follow Him there;
+
+O’er us sin no more hath dominion,
+
+For more than conquerors we are. 
+
+\
+
+Chorus
+
+Turn your eyes upon Jesus,
+
+Look full in His wonderful face,
+
+And the things of earth will grow strangely dim,
+
+In the light of His glory and grace. 
+
+##  How Great Thou Art {background-image="images/benjamin-voros-phIFdC6lA4E-unsplash.jpg"  background-size="cover" background-color="black" .scrollable} 
+
+Verse 1
+
+O Lord my God, when I in awesome wonder
+
+Consider all the worlds Thy Hands have made;
+
+I see the stars, I hear the rolling thunder,
+
+Thy power throughout the universe displayed.
+
+\
+
+
+Chorus
+
+Then sings my soul, my Savior God, to Thee,
+
+How great Thou art, how great Thou art.
+
+Then sings my soul, my Savior God, to Thee,
+
+How great Thou art, how great Thou art!
+
+\
+
+Verse 2
+
+When through the woods and forest glades I wander,
+
+And hear the birds sing sweetly in the trees.
+
+When I look down from lofty mountain grandeur,
+
+And hear the brook and feel the gentle breeze.
+
+##  Amazing Grace {background-image="images/benjamin-voros-phIFdC6lA4E-unsplash.jpg"  background-size="cover" background-color="black" .scrollable} 
+
+Verse 1 
+
+Amazing grace! how sweet the sound
+
+That saved a wretch like me!
+
+I once was lost, but now am found,
+
+Was blind, but now I see. 
+
+
+\
+
+
+Verse 2 
+
+’Twas grace that taught my heart to fear,
+
+And grace my fears relieved;
+
+How precious did that grace appear
+
+The hour I first believed! 
+
+\
+
+Verse 3 
+
+The Lord hath promised good to me,
+
+His word my hope secures;
+
+He will my shield and portion be,
+
+As long as life endures. 
+
+\
+
+Verse 4
+
+When we’ve been there ten thousand years,
+
+Bright shining as the sun,
+
+We’ve no less days to sing God’s praise
+
+Than when we first begun. 
+
+## Amazing Grace (My Chains Are Gone) {background-image="images/benjamin-voros-phIFdC6lA4E-unsplash.jpg"  background-size="cover" background-color="black" .scrollable} 
+
+Verse 1
+
+Amazing grace! how sweet the sound
+
+That saved a wretch like me!
+
+I once was lost, but now am found,
+
+Was blind, but now I see.
+
+\
+
+Verse 2
+
+’Twas grace that taught my heart to fear,
+
+And grace my fears relieved;
+
+How precious did that grace appear
+
+The hour I first believed!
+
+\
+
+Chorus
+
+My chains are gone, I’ve been set free
+
+My God, my Savior has ransomed me
+
+And like a flood His mercy reigns
+
+Unending love, amazing grace
+
+\
+
+Verse 3
+
+The Lord has promised good to me
+
+His word my hope secures
+
+He will my shield and portion be
+
+As long as life endures
+
+
+\
+
+Verse 4
+
+The earth shall soon dissolve like snow
+
+The sun forbear to shine
+
+But God, who called me here below
+
+Will be forever mine
+
+\
+
+Chorus
+
+My chains are gone, I’ve been set free
+
+My God, my Savior has ransomed me
+
+And like a flood His mercy reigns
+
+Unending love, amazing grace
+

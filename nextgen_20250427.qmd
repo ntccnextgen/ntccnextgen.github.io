@@ -1,0 +1,159 @@
+---
+title: "Welcome to Sunday Worship and Spring Picnic"
+author: ""
+date: "2025-04-20"
+format:
+  revealjs:
+    theme: [default, ng_present.scss]
+    transition: slide
+    slide-number: c/t
+    incremental: true
+    verticalAlign: top
+    footer: "<h10>NTCC NextGen 2025</h10>"
+engine: knitr
+knitr:
+  opts_chunk: 
+    class-output: hscroll
+---
+
+# 
+
+<h1>
+
+Theme of the year:
+
+\
+
+God's Masterpiece - Reflecting His Image and Living Like Jesus
+
+</h1>
+
+\
+\
+
+<h2>For this month: Created for a Purpose</h2>
+
+\
+
+<h2>Scripture: [Jeremiah 29:11](https://www.bible.com/bible/114/JER.29.11.NKJV)</h2>
+
+
+# Tell a story
+
+- Name one thing that is different in the last week than the one before last.
+- What makes you surprised lately?
+- What can be exciting next week?
+
+------------------------------------------------------------------------
+
+# 🎵 Worship Songs
+
+
+## [“Build My Life” by Housefires](https://www.youtube.com/watch?v=1erd1sbHOxg)
+
+\
+\
+
+### *Build My Life* emphasizes dedicating our lives to God’s purpose and serving others, aligning with the theme of actively living out one’s divine calling.
+
+\
+\
+
+### Lyrics Highlight: “I will build my life upon Your love, it is a firm foundation.”
+
+------------------------------------------------------------------------
+
+## 🎬 Movie discussion: [*Risen*](https://www.amazon.com/gp/video/detail/B01BT5MMX2/ref=atv_hm_vid_c_baeECJ_1_3)
+
+:::{.fragment}
+**Overview:** - The resurrection seen through the eyes of a Roman tribune
+:::
+
+:::{.fragment}
+
+### **Discussion**
+
+- How did the people in *Risen* and the Bible react to the resurrection? ([54:55](https://www.amazon.com/gp/video/detail/B01BT5MMX2/ref=nav_ya_signin))
+- Why is belief without seeing difficult? What was Clavius' response when he discovered the gathering ([1:03:00](https://www.amazon.com/gp/video/detail/B01BT5MMX2/ref=nav_ya_signin))
+- What does resurrection mean for us today?
+- How Jesus' resurrection has anything to our theme (Created for a purpose)? 
+:::
+------------------------------------------------------------------------
+
+## 📝 Life Application
+
+**Reflect:** 
+
+- Where do you see signs of Jesus’ resurrection in your life? 
+- What area of your life needs resurrection?
+
+
+## Devotion Plan
+
+[Day 1: How Jesus Became the King of the World (That He Always Was)](https://www.youtube.com/watch?v=xmFPS0f-kzs&t=2s)
+
+[Day 2: We Studied the Temple in the Bible (Here’s What We Found)](https://www.youtube.com/watch?v=wTnq6I3vUbU)
+
+[Day 3: We Studied the “Day of the Lord” in the Bible (Here’s What We Found)](https://www.youtube.com/watch?v=tEBc2gSSW04&t=1s)
+
+[Day 4: The Satan and Demons • Understand Evil Spiritual Beings in the Bible (Spiritual Beings Series Ep 4)](https://www.youtube.com/watch?v=CamYtVpoTNk)
+
+[Day 5: How God Deals With Evil Without Destroying Humanity](https://www.youtube.com/watch?v=G_OlRWGLdnw)
+
+[Day 6: The Resurrection of Jesus](https://www.youtube.com/watch?v=_unHmAf7INk)
+
+[Day 7: Holy Saturday]()
+
+[Day 8: The Resurrection of Jesus: Luke 24](https://www.youtube.com/watch?v=_unHmAf7INk)
+
+------------------------------------------------------------------------
+
+## 🙏 Prayer & Commitment
+
+**Commit:** 
+
+- Invite Jesus’ resurrection power into your life 
+- Reflect on hope, peace, and purpose rising in you
+
+- 🎵 Worshop: [**Living Hope (Instrumental)**](https://www.youtube.com/watch?v=XeXsHuTyliw&t=29s)
+
+------------------------------------------------------------------------
+
+
+# 
+
+# **Media and reflection**
+
+\
+\
+\
+\
+
+
+[Chosen](https://watch.thechosen.tv/video/184683594334)
+
+# 
+
+
+#
+
+## Next month (May) theme: Made in His Image
+
+-	Key Verse: [Genesis 1:27](https://www.bible.com/bible/114/GEN.1.27.NKJV)
+- To learn: Appreciating diversity and God’s creativity in how He designed each of us.
+
+# Announcements
+
+:::{.fragment}
+[DCCYC Wed. 6/11/2025 to Sun. 6/15/2025](https://dccyc.org)
+
+DCCYC 2025 Registration Fees:
+
+- Early Registration (April 18 - May 4) = $420.00 per camper
+- Regular Registration (May 5 - May 18) = $470.00 per camper
+- Final Desperation Registration (May 19 - May 25) = $520.00 per camper
+:::
+
+## Groupme: join us on group chat
+
+![](images/clipboard-785477511.png)

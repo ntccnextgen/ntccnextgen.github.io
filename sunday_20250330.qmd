@@ -1,0 +1,190 @@
+---
+title: "A Survey of Large Language Models: Implications for Knowledge Mining"
+author: ""
+date: ""
+format:
+  revealjs:
+    theme: [default, dg_present.scss]
+    transition: slide
+    slide-number: c/t
+    incremental: true
+    verticalAlign: top
+    footer: "<h10>Large Language Model</h10>"
+engine: knitr
+knitr:
+  opts_chunk: 
+    class-output: hscroll
+---
+
+# Section 1: Introduction and LLM Evolution
+
+## Historical Evolution of Language Models
+
+::::: columns
+::: {.column .fragment width="“50%”"}
+-   From statistical language models to neural language models\
+-   Emergence of pre-trained language models (PLMs)\
+-   Scaling effect leading to LLMs (10B+ parameters)
+:::
+
+::: {.column .fragment width="“50%”"}
+
+![](images/clipboard-3619069974.png)
+:::
+:::::
+
+## Defining LLMs and Their Significance
+
+-   What constitutes a "large" language model\
+-   Emergent abilities at scale\
+-   Timeline: GPT-3, PaLM, LLaMA, etc.
+
+## Impact on Knowledge Mining
+
+-   Transformed information extraction/synthesis\
+-   Traditional data mining vs. AI knowledge mining\
+-   LLMs as knowledge discovery accelerators
+
+------------------------------------------------------------------------
+
+## Section 2: Pre-training Methodologies
+
+## Data Collection and Processing
+
+-   Training data sources (CommonCrawl, books, code)\
+-   Preprocessing: cleaning, tokenization, deduplication\
+-   Quality filtering techniques
+
+## Pre-training Objectives
+
+-   Causal language modeling\
+-   Masked language modeling\
+-   Contrastive learning approaches
+
+## Architecture and Scaling Considerations
+
+-   Transformer architecture variants\
+-   Scaling laws (Chinchilla optimal)\
+-   Hardware requirements (TPU/GPU clusters)
+
+## Knowledge Mining Applications
+
+-   Pre-training dynamics: fitting vs compression phases\
+-   Case study: Scientific literature mining\
+-   Emergent knowledge acquisition patterns
+
+------------------------------------------------------------------------
+
+## Section 3: Adaptation Techniques
+
+## Fine-tuning Approaches
+
+-   Full vs parameter-efficient fine-tuning\
+-   Instruction tuning & RLHF\
+-   Domain adaptation strategies
+
+## Adaptation Methods Comparison
+
+-   Continued pre-training\
+-   Annotation-based fine-tuning\
+-   LoRA/adapters (parameter-efficient)
+
+## Knowledge Mining Applications
+
+-   Biomedical literature mining\
+-   Knowledge editing/updating\
+-   Domain-specific IE pipelines
+
+------------------------------------------------------------------------
+
+## Section 4: Utilization Strategies
+
+## Prompting Techniques
+
+-   Zero/few-shot prompting\
+-   Chain-of-thought reasoning\
+-   Structured knowledge extraction
+
+## Retrieval-Augmented Generation (RAG)
+
+-   Components: retriever + generator\
+-   Factual accuracy enhancement\
+-   Implementation challenges
+
+## Knowledge Mining Applications
+
+-   Automated knowledge graph construction\
+-   Conflict resolution in mined knowledge\
+-   Accelerated scientific discovery
+
+------------------------------------------------------------------------
+
+## Section 5: Capacity Evaluation
+
+## Evaluation Metrics
+
+-   Standard NLP benchmarks (GLUE, SuperGLUE)\
+-   Knowledge-intensive tasks (TriviaQA, NaturalQs)\
+-   Factual consistency metrics
+
+## Knowledge Mining Evaluation
+
+-   Information extraction metrics (F1, precision)\
+-   Knowledge graph quality measures\
+-   BEIR, KILT benchmarks
+
+## Limitations and Challenges
+
+-   Hallucination mitigation\
+-   Bias detection/removal\
+-   Ethical considerations
+
+------------------------------------------------------------------------
+
+## Section 6: Future Directions
+
+## Emerging Research Areas
+
+-   Trustworthy knowledge mining\
+-   Multi-modal integration\
+-   Specialized architectures
+
+## Future of Knowledge Mining
+
+-   Hybrid traditional/LLM approaches\
+-   Cross-disciplinary applications\
+-   Research roadmap
+
+------------------------------------------------------------------------
+
+## Thought Exercises
+
+## Exercise 1: LLM Architecture Analysis
+
+**Objective:** Understand architectural impacts on knowledge capabilities\
+**Task:** Compare decoder-only vs encoder-decoder architectures\
+**Deliverable:** 2-page analysis with concrete examples
+
+## Exercise 2: Knowledge Conflict Resolution
+
+**Objective:** Explore contradiction handling in LLMs\
+**Task:** Design conflicting prompts + analysis\
+**Deliverable:** Resolution strategy proposal
+
+## Exercise 3: Pre-training Dataset Design
+
+**Objective:** Data's role in knowledge formation\
+**Task:** Create domain-specific corpus design\
+**Deliverable:** Annotated dataset blueprint
+
+## Exercise 4: Adaptation Comparison
+
+**Objective:** Evaluate adaptation approaches\
+**Task:** Compare fine-tuning vs RAG vs PEFT\
+**Deliverable:** Decision framework matrix
+
+## Exercise 5: Ethical Considerations
+
+**Objective:** Address knowledge extraction ethics\
+**Task:** Identify risks + mitigation strategies\
+**Deliverable:** Safeguard proposal document

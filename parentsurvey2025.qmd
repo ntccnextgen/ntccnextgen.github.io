@@ -1,0 +1,91 @@
+---
+title: "NTCC Youth Ministry Parent Meeting 2025"
+author: ""
+date: ""
+format:
+  revealjs:
+    theme: [default, dg_present.scss]
+    transition: slide
+    slide-number: c/t
+    incremental: true
+    verticalAlign: top
+    footer: "<h10>NTCC NextGen 2025</h10>"
+engine: knitr
+knitr:
+  opts_chunk: 
+    class-output: hscroll
+---
+
+## Central Theme: God’s Masterpiece
+
+### Reflecting His Image and Living Like Jesus
+
+\
+\
+
+> Ephesians 2:10 – “For we are God’s masterpiece. He has created us anew in Christ Jesus, so we can do the good things he planned for us long ago.”
+
+------------------------------------------------------------------------
+
+## Ministry Objectives
+
+1.  **Deepen Biblical Understanding**\
+    Facilitate comprehensive Bible study sessions to empower youth to explore and apply scriptural teachings, fostering lifelong discipleship.
+
+2.  **Cultivate Meaningful Fellowship**\
+    Create an inclusive and supportive community encouraging mutual support and accountability in spiritual growth.
+
+3.  **Promote Holistic Spiritual Growth**\
+    Encourage personal faith and character development through activities nurturing spiritual, moral, and ethical maturity.
+
+------------------------------------------------------------------------
+
+## Bible Study Plan: "Masterpiece"
+
+Monthly Themes Include:
+
+-   **April:** Jeremiah 29:11 – Created for a Purpose
+-   **May:** Genesis 1:27 – Made in His Image
+-   **June:** Romans 5:8 – Broken but Redeemed
+-   **July:** Galatians 2:20 – Identity in Christ
+-   **August:** Ephesians 2:10 – Equipped for Good Works
+
+------------------------------------------------------------------------
+
+# Event Planning
+
+## Fellowship Building
+
+-   Team sports activities
+-   Group-building exercises and retreats
+
+## Academic and Career Planning
+
+-   College application workshops
+-   Career exploration seminars
+
+## Leadership and Service Training
+
+-   Youth involvement in church services
+-   Community service opportunities
+-   Leadership training for sustained church engagement
+
+------------------------------------------------------------------------
+
+## Parent Survey
+
+We value your input! Please complete the survey:
+
+-   Food allergies or dietary restrictions
+-   Favorite food/snacks
+-   Hobbies and interests
+-   Favorite sports or activities
+-   Suggestions for additional activities or topics ![](images/clipboard-3077177780.png)
+
+Please scan the QR Code to complete the one-minute survey!
+
+------------------------------------------------------------------------
+
+## Thank You!
+
+Thank you for your support and partnership in nurturing the spiritual growth of our youth!

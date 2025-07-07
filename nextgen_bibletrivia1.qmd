@@ -1,0 +1,80 @@
+---
+title: ""
+author: ""
+date: "2025-05-04"
+format:
+  revealjs:
+    css: [theme.css]
+    theme: simple
+    transition: slide
+    slide-number: c/t
+    width: 1600
+    height: 900
+    incremental: true
+    verticalAlign: top
+    toc: false  # Disable automatic TOC
+    footer: "<h10>NTCC NextGen 2025</h10>"
+engine: knitr
+knitr:
+  opts_chunk: 
+    class-output: hscroll
+editor: source
+---
+
+# Bible Trivia Categories
+
+Choose a category to begin:
+
+- [Heroes of the Faith](#heroes-of-the-faith)
+- [Children of Israel](#children-of-israel) 
+- [Kings](#kings)
+- [Prophets](#prophets)
+- [Jesus and His Disciples](#jesus-and-his-disciples)
+- [Who God Is](#who-god-is)
+- [Fruit of Faith](#fruit-of-faith)
+- [Punishments & Consequences](#punishments-consequences-and-unfortunate-events)
+- [Wars and Conflict](#wars-and-conflict)
+- [Promise and Privilege](#promise-and-privilege)
+- [Fun Facts](#fun-facts)
+
+---
+
+# Heroes of the Faith {#heroes-of-the-faith}
+
+---
+
+## Noah
+
+**Question:** Of what wood was Noah's Ark made?
+
+- A. Gopher wood
+- B. Acacia wood
+- C. Cedar of Lebanon
+- D. Carob wood
+
+::: {.fragment}
+**Answer:** A. Gopher wood (Gen 6:14)
+:::
+
+---
+# [Return to Categories](#bible-trivia-categories)
+
+---
+
+# Children of Israel {#children-of-israel}
+
+---
+
+**Question:** What was the total number of the children of Israel that went down to Egypt?
+
+- A. 1000
+- B. 70
+- C. 53
+- D. 560
+
+::: {.fragment}
+**Answer:** B. 70 (Gen 46:27)
+:::
+
+---
+# [Return to Categories](#bible-trivia-categories)

@@ -1,0 +1,1789 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="sample_mock_files/libs/clipboard/clipboard.min.js"></script>
+<script src="sample_mock_files/libs/quarto-html/tabby.min.js"></script>
+<script src="sample_mock_files/libs/quarto-html/popper.min.js"></script>
+<script src="sample_mock_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="sample_mock_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="sample_mock_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="sample_mock_files/libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.6.40">
+
+  <title>sample_mock</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="sample_mock_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="sample_mock_files/libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+  </style>
+  <link rel="stylesheet" href="sample_mock_files/libs/revealjs/dist/theme/quarto-98a61877e0e098517330fe9b00a4f662.css">
+  <link rel="stylesheet" href="ng_present.scss">
+  <link href="sample_mock_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="sample_mock_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="sample_mock_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="sample_mock_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+
+<section>
+<section id="presentations" class="title-slide slide level1 center" data-background-image="images/palmtree.jpg" data-background-size="cover" data-background-color="#4f6952">
+<h1>05 - Presentations</h1>
+<h2>
+Making Slides with Code
+</h2>
+<h3>
+Tom Mock | 2022-07-25
+</h3>
+</section>
+<section id="quarto-presentation-formats" class="slide level2">
+<h2>Quarto presentation formats</h2>
+<ul>
+<li><code>revealjs</code> - essentially the replacement for <code>xaringan</code>, but with Pandoc-native syntax</li>
+<li><code>beamer</code> for LaTex slides</li>
+<li>Powerpoint for when you <em>have</em> to collaborate via Office</li>
+</ul>
+</section>
+<section id="revealjs" class="slide level2">
+<h2><code>revealjs</code></h2>
+<blockquote>
+<p>reveal.js is an open source HTML presentation framework. It’s a tool that enables anyone with a web browser to create fully-featured and beautiful presentations for free.</p>
+</blockquote>
+<div class="fragment">
+<ul>
+<li><p><code>revealjs</code> for Quarto is a framework for turning Pandoc-friendly markdown + code into beautiful slides</p></li>
+<li><p>User guide: <a href="https://quarto.org/docs/presentations/revealjs/" class="uri">https://quarto.org/docs/presentations/revealjs/</a></p></li>
+</ul>
+</div>
+</section>
+<section id="section" class="slide level2" data-background-image="images/quarto-slides.png" data-background-position="center" data-background-size="auto 50%">
+<h2></h2>
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="https://c.tenor.com/3EYd9ID79vcAAAAd/mic-drop-the-voice.gif" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div>
+</section>
+<section id="core-workflow" class="slide level2">
+<h2>Core workflow</h2>
+<pre><code>---
+format: revealjs
+---
+
+## Step 1
+- Split slides up with level 2 headers: `## Heading 2`
+- Add some markdown + text and/or some R/Python code
+
+## Step 2
+- quarto render
+
+## Step 3
+- Profit</code></pre>
+</section></section>
+<section>
+<section id="your-turn" class="title-slide slide level1 center" data-background-color="#447099" data-transition="slide-in">
+<h1><svg aria-hidden="true" role="img" viewbox="0 0 640 512" style="height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:white;overflow:visible;position:relative;"><path d="M64 96c0-35.3 28.7-64 64-64H512c35.3 0 64 28.7 64 64V352H512V96H128V352H64V96zM0 403.2C0 392.6 8.6 384 19.2 384H620.8c10.6 0 19.2 8.6 19.2 19.2c0 42.4-34.4 76.8-76.8 76.8H76.8C34.4 480 0 445.6 0 403.2zM281 209l-31 31 31 31c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-48-48c-9.4-9.4-9.4-24.6 0-33.9l48-48c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zM393 175l48 48c9.4 9.4 9.4 24.6 0 33.9l-48 48c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l31-31-31-31c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0z"></path></svg> Your Turn</h1>
+<ul>
+<li>Open <code>materials/workshop/05-presentations/revealjs-penguins.qmd</code></li>
+<li>Explore the code</li>
+<li>Add a new slide with a level 2 header and some text</li>
+<li>Render it!</li>
+</ul>
+</section>
+<section id="yaml-for-these-slides" class="slide level2">
+<h2>YAML for these slides</h2>
+<pre><code>---
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: "https://www.rstudio.com/wp-content/uploads/2018/10/RStudio-Logo-Flat.png"
+    footer: "[Get started with Quarto](https://rstudio-conf-2022.github.io/get-started-quarto/)"
+    css: ["theme/theme.css"]
+    theme: simple
+    echo: true
+---</code></pre>
+</section>
+<section id="transitions" class="slide level2">
+<h2>Transitions</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 83%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Transition</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>none</code></td>
+<td>No transition (switch instantly)</td>
+</tr>
+<tr class="even">
+<td><code>fade</code></td>
+<td>Cross fade</td>
+</tr>
+<tr class="odd">
+<td><code>slide</code></td>
+<td>Slide horizontally</td>
+</tr>
+<tr class="even">
+<td><code>convex</code></td>
+<td>Slide at a convex angle</td>
+</tr>
+<tr class="odd">
+<td><code>concave</code></td>
+<td>Slide at a concave angle</td>
+</tr>
+<tr class="even">
+<td><code>zoom</code></td>
+<td>Scale the incoming slide so it grows in from the center of the screen.</td>
+</tr>
+</tbody>
+</table>
+<div class="fragment">
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><a href=""></a><span class="pp">---</span></span>
+<span id="cb3-2"><a href=""></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Presentation"</span></span>
+<span id="cb3-3"><a href=""></a><span class="fu">format</span><span class="kw">:</span></span>
+<span id="cb3-4"><a href=""></a><span class="at">  </span><span class="fu">revealjs</span><span class="kw">:</span></span>
+<span id="cb3-5"><a href=""></a><span class="at">    </span><span class="fu">transition</span><span class="kw">:</span><span class="at"> slide</span></span>
+<span id="cb3-6"><a href=""></a><span class="at">    </span><span class="fu">transition-speed</span><span class="kw">:</span><span class="at"> fast</span></span>
+<span id="cb3-7"><a href=""></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="sizing" class="slide level2">
+<h2>Sizing</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 94%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><code>width</code></th>
+<th style="text-align: left;">The “normal” width of the presentation, aspect ratio will be preserved when the presentation is scaled to fit different resolutions. Can be specified using percentage units.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><code>height</code></td>
+<td style="text-align: left;">The “normal” height of the presentation, aspect ratio will be preserved when the presentation is scaled to fit different resolutions. Can be specified using percentage units.</td>
+</tr>
+</tbody>
+</table>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb4-1"><a href=""></a><span class="fu">format</span><span class="kw">:</span></span>
+<span id="cb4-2"><a href=""></a><span class="at">  </span><span class="fu">revealjs</span><span class="kw">:</span></span>
+<span id="cb4-3"><a href=""></a><span class="at">    </span><span class="fu">height</span><span class="kw">:</span><span class="at"> </span><span class="dv">900</span></span>
+<span id="cb4-4"><a href=""></a><span class="at">    </span><span class="fu">width</span><span class="kw">:</span><span class="at"> </span><span class="dv">1600</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="slide-numbering" class="slide level2">
+<h2>Slide numbering</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 81%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><code>slide-number</code></td>
+<td><p>Display the page number of the current slide</p>
+<ul>
+<li><p><code>true</code>: Show slide number</p></li>
+<li><p><code>false</code>: Hide slide number</p></li>
+</ul>
+<p>Can optionally be set as a string that specifies the number formatting:</p>
+<ul>
+<li><p><code>h.v</code>: Horizontal . vertical slide number</p></li>
+<li><p><code>h/v</code>: Horizontal / vertical slide number</p></li>
+<li><p><code>c</code>: Flattened slide number</p></li>
+<li><p><code>c/t</code>: Flattened slide number / total slides (default)</p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+<div class="fragment">
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb5-1"><a href=""></a><span class="pp">---</span></span>
+<span id="cb5-2"><a href=""></a><span class="fu">format</span><span class="kw">:</span></span>
+<span id="cb5-3"><a href=""></a><span class="at">  </span><span class="fu">revealjs</span><span class="kw">:</span></span>
+<span id="cb5-4"><a href=""></a><span class="at">    </span><span class="fu">slide-number</span><span class="kw">:</span><span class="at"> c/t</span><span class="co"> #&lt; collapsed/total</span></span>
+<span id="cb5-5"><a href=""></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="presentation-preview" class="slide level2">
+<h2>Presentation preview</h2>
+<ul>
+<li>In the latest version of RStudio, Quarto <code>revealjs</code> presentations will open up as a “background job” in the Presentation tab.</li>
+</ul>
+<div class="fragment">
+<p><img data-src="images/presentation-tab.png" height="800"></p>
+</div>
+</section></section>
+<section>
+<section id="your-turn-1" class="title-slide slide level1 center" data-background-color="#447099" data-transition="slide-in">
+<h1><svg aria-hidden="true" role="img" viewbox="0 0 640 512" style="height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:white;overflow:visible;position:relative;"><path d="M64 96c0-35.3 28.7-64 64-64H512c35.3 0 64 28.7 64 64V352H512V96H128V352H64V96zM0 403.2C0 392.6 8.6 384 19.2 384H620.8c10.6 0 19.2 8.6 19.2 19.2c0 42.4-34.4 76.8-76.8 76.8H76.8C34.4 480 0 445.6 0 403.2zM281 209l-31 31 31 31c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-48-48c-9.4-9.4-9.4-24.6 0-33.9l48-48c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zM393 175l48 48c9.4 9.4 9.4 24.6 0 33.9l-48 48c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l31-31-31-31c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0z"></path></svg> Your Turn</h1>
+<ul>
+<li>Using RStudio, create a new <code>revealjs</code> Quarto presentation</li>
+<li>Change YAML:
+<ul>
+<li>author for your name</li>
+<li>titled “My first Quarto Presentation!”</li>
+<li>Add slide numbering (what do the different types mean?)</li>
+</ul></li>
+<li>Write out what you did this morning (woke up, ate breakfast, walked to this room, etc) in sub-sections</li>
+<li>New sections should have level 2 headers</li>
+<li>Add a code chunk</li>
+<li>Link out to an image with markdown syntax</li>
+<li>Render it!</li>
+</ul>
+</section>
+<section id="revealjs-vs-xaringan" class="slide level2">
+<h2><code>revealjs</code> vs <code>xaringan</code></h2>
+<ul>
+<li><code>xaringan</code> for RMarkdown uses only <code>knitr</code> and <code>remark.js</code>, without Pandoc and with some Pandoc-incompatabilities</li>
+<li><code>revealjs</code> was a lesser known RMarkdown package, but is the primary HTML slide generator for Quarto</li>
+</ul>
+<div class="fragment">
+<p>If you loved <code>xaringan</code>, you’ll love <code>revealjs</code>!</p>
+</div>
+</section>
+<section id="presentation-visual-editor" class="slide level2">
+<h2>Presentation Visual Editor</h2>
+<p>Unlike <code>xaringan</code>, Quarto + <code>revealjs</code> can be edited with the RStudio Visual Editor!</p>
+
+<img data-src="images/reveal-visual-editor.jpeg" class="r-stretch"></section>
+<section id="separate-slides" class="slide level2">
+<h2>Separate slides</h2>
+<ul>
+<li><p>Level 2 header = new slide</p></li>
+<li><p>Level 1 header = new slide and new section</p></li>
+</ul>
+<div class="fragment">
+<ul>
+<li><code>---</code> can also delineate slides via horizontal rules or leave the heading “blank” for untitled slides</li>
+</ul>
+</div>
+</section>
+<section id="reminder-about-pandoc-div-and-spans" class="slide level2">
+<h2>Reminder about pandoc div and spans</h2>
+<pre><code>::: {.class}
+&lt;SOME CONTENT&gt;
+:::</code></pre>
+<div class="fragment">
+<pre><code>Some text with a specific [span]{.span-class}</code></pre>
+</div>
+</section>
+<section id="lists" class="slide level2">
+<h2>Lists</h2>
+<ul>
+<li>Create lists with <code>-</code> or <code>*</code> or <code>1.</code></li>
+</ul>
+<div class="fragment">
+<p>Incrementally reveal elements with:</p>
+<pre><code>::: {.incremental}
+
+- First item
+- Second item
+
+:::</code></pre>
+</div>
+<div class="fragment">
+<p>Or affect globally:</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb9-1"><a href=""></a><span class="fu">format</span><span class="kw">:</span></span>
+<span id="cb9-2"><a href=""></a><span class="at">  </span><span class="fu">revealjs</span><span class="kw">:</span></span>
+<span id="cb9-3"><a href=""></a><span class="at">    </span><span class="fu">incremental</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="fragment">
+<p>Or turn it off for specific lists</p>
+<pre><code>::: {.nonincremental}
+
+- 1st Item
+- 2nd Item
+
+:::</code></pre>
+</div>
+</section>
+<section id="incremental-lists" class="slide level2">
+<h2>Incremental lists</h2>
+<div>
+<ul>
+<li class="fragment">First item</li>
+<li class="fragment">Second item</li>
+<li class="fragment">Last item</li>
+</ul>
+</div>
+</section>
+<section id="incremental-reveal" class="slide level2">
+<h2>Incremental reveal</h2>
+<p>Not limited to just bullet points…</p>
+<p>Use <code>. . .</code> syntax to indicate a break at an arbitrary location</p>
+<div class="fragment">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href=""></a><span class="fu">head</span>(mtcars)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>                   mpg cyl disp  hp drat    wt  qsec vs am gear carb
+Mazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4
+Mazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4
+Datsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1
+Hornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1
+Hornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2
+Valiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1</code></pre>
+</div>
+</div>
+</div>
+</section>
+<section id="incremental-reveal-1" class="slide level2">
+<h2>Incremental reveal</h2>
+<div class="sourceCode" id="cb13"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb13-1"><a href=""></a>Not limited to just bullet points...</span>
+<span id="cb13-2"><a href=""></a></span>
+<span id="cb13-3"><a href=""></a>Use <span class="in">`. . .`</span> syntax to indicate a break at an arbitrary location</span>
+<span id="cb13-4"><a href=""></a></span>
+<span id="cb13-5"><a href=""></a>. . .</span>
+<span id="cb13-6"><a href=""></a></span>
+<span id="cb13-7"><a href=""></a><span class="in">```{r}</span></span>
+<span id="cb13-8"><a href=""></a><span class="in">head(mtcars)</span></span>
+<span id="cb13-9"><a href=""></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="fragments" class="slide level2">
+<h2>Fragments</h2>
+<p>You can also make a point with fragments</p>
+<div class="fragment">
+<div class="fragment">
+<p>Fade in</p>
+</div>
+<div class="fragment fade-out">
+<p>Fade out</p>
+</div>
+<div class="fragment highlight-red">
+<p>Highlight red</p>
+</div>
+<div class="fragment fade-in-then-out">
+<p>Fade in, then out</p>
+</div>
+<div class="fragment fade-up">
+<p>Slide up while fading in</p>
+</div>
+</div>
+</section>
+<section id="fragments-1" class="slide level2">
+<h2>Fragments</h2>
+<pre><code>::: {.fragment}
+Fade in
+:::
+
+::: {.fragment .fade-out}
+Fade out
+:::
+
+::: {.fragment .highlight-red}
+Highlight red
+:::
+
+::: {.fragment .fade-in-then-out}
+Fade in, then out
+:::
+
+::: {.fragment .fade-up}
+Slide up while fading in
+:::</code></pre>
+</section>
+<section id="fragments-nesting" class="slide level2">
+<h2>Fragments, nesting</h2>
+<p>Fragments can be nested to affect the same “text” multiple times</p>
+<div class="fragment fade-in">
+<div class="fragment highlight-red">
+<div class="fragment semi-fade-out">
+<p>Fade in &gt; Turn red &gt; Semi fade out</p>
+</div>
+</div>
+</div>
+</section>
+<section id="fragments-nesting-1" class="slide level2">
+<h2>Fragments, nesting</h2>
+<pre><code>::: {.fragment .fade-in}
+::: {.fragment .highlight-red}
+::: {.fragment .semi-fade-out}
+Fade in &gt; Turn red &gt; Semi fade out
+:::
+:::
+:::</code></pre>
+</section>
+<section id="fragments-spans" class="slide level2">
+<h2>Fragments, spans</h2>
+<p>This is an <span class="fragment highlight-red">important sentence!</span></p>
+<div class="fragment">
+<pre><code>This is an [important sentence!]{.fragment .highlight-red}</code></pre>
+</div>
+<div class="fragment">
+<p><br></p>
+<p>Mind the <span class="fragment fade-in">gap</span> when riding the rail!</p>
+</div>
+<div class="fragment">
+<pre><code>Mind the [gap]{.fragment .fade-in} when riding the rail!</code></pre>
+</div>
+</section>
+<section id="fragments-order" class="slide level2">
+<h2>Fragments, order</h2>
+<div class="fragment" data-fragment-index="3">
+<p>Appears last</p>
+</div>
+<div class="fragment" data-fragment-index="1">
+<p>Appears first</p>
+</div>
+<div class="fragment" data-fragment-index="2">
+<p>Appears second</p>
+</div>
+</section>
+<section id="fragments-order-1" class="slide level2">
+<h2>Fragments, order</h2>
+<pre><code>::: {.fragment fragment-index=3}
+Appears last
+:::
+
+::: {.fragment fragment-index=1}
+Appears first
+:::
+
+::: {.fragment fragment-index=2}
+Appears second
+:::</code></pre>
+</section></section>
+<section>
+<section id="your-turn-2" class="title-slide slide level1 center" data-background-color="#447099" data-transition="slide-in">
+<h1><svg aria-hidden="true" role="img" viewbox="0 0 640 512" style="height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:white;overflow:visible;position:relative;"><path d="M64 96c0-35.3 28.7-64 64-64H512c35.3 0 64 28.7 64 64V352H512V96H128V352H64V96zM0 403.2C0 392.6 8.6 384 19.2 384H620.8c10.6 0 19.2 8.6 19.2 19.2c0 42.4-34.4 76.8-76.8 76.8H76.8C34.4 480 0 445.6 0 403.2zM281 209l-31 31 31 31c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-48-48c-9.4-9.4-9.4-24.6 0-33.9l48-48c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zM393 175l48 48c9.4 9.4 9.4 24.6 0 33.9l-48 48c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l31-31-31-31c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0z"></path></svg> Your Turn</h1>
+<ul>
+<li>Open <code>materials/workshop/05-presentation/fragments.qmd</code></li>
+<li>Make the portions appear in order: top -&gt; bottom and left -&gt; right</li>
+</ul>
+</section>
+<section id="column-layout" class="slide level2">
+<h2>Column layout</h2>
+<pre><code>:::: {.columns}
+
+::: {.column width="40%"}
+contents...
+:::
+
+::: {.column width="60%"}
+contents...
+:::
+
+::::</code></pre>
+</section>
+<section id="column-layout-1" class="slide level2">
+<h2>Column layout</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p>On the left</p>
+</div><div class="column" style="width:60%;">
+<p>On the right</p>
+</div></div>
+</section>
+<section id="column-layout-2" class="slide level2">
+<h2>Column layout</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb20-1"><a href=""></a><span class="in">```{r}</span></span>
+<span id="cb20-2"><a href=""></a><span class="in">#| eval: false</span></span>
+<span id="cb20-3"><a href=""></a><span class="in">dplyr::glimpse(mtcars)</span></span>
+<span id="cb20-4"><a href=""></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div><div class="column" style="width:60%;">
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 32
+Columns: 11
+$ mpg  &lt;dbl&gt; 21.0, 21.0, 22.8, 21.4, 18.7, 18.1, 14.3, 24.4, 22.8, 19.2, 17.8,…
+$ cyl  &lt;dbl&gt; 6, 6, 4, 6, 8, 6, 8, 4, 4, 6, 6, 8, 8, 8, 8, 8, 8, 4, 4, 4, 4, 8,…
+$ disp &lt;dbl&gt; 160.0, 160.0, 108.0, 258.0, 360.0, 225.0, 360.0, 146.7, 140.8, 16…
+$ hp   &lt;dbl&gt; 110, 110, 93, 110, 175, 105, 245, 62, 95, 123, 123, 180, 180, 180…
+$ drat &lt;dbl&gt; 3.90, 3.90, 3.85, 3.08, 3.15, 2.76, 3.21, 3.69, 3.92, 3.92, 3.92,…
+$ wt   &lt;dbl&gt; 2.620, 2.875, 2.320, 3.215, 3.440, 3.460, 3.570, 3.190, 3.150, 3.…
+$ qsec &lt;dbl&gt; 16.46, 17.02, 18.61, 19.44, 17.02, 20.22, 15.84, 20.00, 22.90, 18…
+$ vs   &lt;dbl&gt; 0, 0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0,…
+$ am   &lt;dbl&gt; 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0,…
+$ gear &lt;dbl&gt; 4, 4, 4, 3, 3, 3, 3, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 4, 4, 4, 3, 3,…
+$ carb &lt;dbl&gt; 4, 4, 1, 1, 2, 1, 4, 2, 2, 4, 4, 3, 3, 3, 4, 4, 4, 1, 2, 1, 1, 2,…</code></pre>
+</div>
+</div>
+</div></div>
+</section>
+<section id="output-location-column-fragment" class="slide level2">
+<h2>Output location, <code>column-fragment</code></h2>
+<div class="cell columns column-output-location">
+<div class="column">
+<div class="sourceCode cell-code" id="cb22" data-code-line-numbers="|2"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb22-1"><a href=""></a><span class="in">```{r}</span></span>
+<span id="cb22-2"><a href=""></a><span class="in">#| output-location: column-fragment</span></span>
+<span id="cb22-3"><a href=""></a><span class="in">#| code-line-numbers: "|2"</span></span>
+<span id="cb22-4"><a href=""></a></span>
+<span id="cb22-5"><a href=""></a><span class="in">library(ggplot2)</span></span>
+<span id="cb22-6"><a href=""></a></span>
+<span id="cb22-7"><a href=""></a><span class="in">mtcars |&gt; </span></span>
+<span id="cb22-8"><a href=""></a><span class="in">  ggplot(aes(x = disp, y = mpg)) +</span></span>
+<span id="cb22-9"><a href=""></a><span class="in">  geom_point() +</span></span>
+<span id="cb22-10"><a href=""></a><span class="in">  geom_smooth(method = "loess", formula = "y~x")</span></span>
+<span id="cb22-11"><a href=""></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div><div class="column fragment">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="sample_mock_files/figure-revealjs/unnamed-chunk-5-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div></div>
+</section>
+<section id="output-location-column" class="slide level2">
+<h2>Output location, <code>column</code></h2>
+<div class="cell columns column-output-location">
+<div class="column">
+<div class="sourceCode cell-code" id="cb23" data-code-line-numbers="|2"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb23-1"><a href=""></a><span class="in">```{r}</span></span>
+<span id="cb23-2"><a href=""></a><span class="in">#| output-location: column</span></span>
+<span id="cb23-3"><a href=""></a><span class="in">#| code-line-numbers: "|2"</span></span>
+<span id="cb23-4"><a href=""></a></span>
+<span id="cb23-5"><a href=""></a><span class="in">library(ggplot2)</span></span>
+<span id="cb23-6"><a href=""></a></span>
+<span id="cb23-7"><a href=""></a><span class="in">mtcars |&gt; </span></span>
+<span id="cb23-8"><a href=""></a><span class="in">  ggplot(aes(x = disp, y = mpg)) +</span></span>
+<span id="cb23-9"><a href=""></a><span class="in">  geom_point() +</span></span>
+<span id="cb23-10"><a href=""></a><span class="in">  geom_smooth(method = "loess", formula = "y~x")</span></span>
+<span id="cb23-11"><a href=""></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div><div class="column">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="sample_mock_files/figure-revealjs/unnamed-chunk-6-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div></div>
+</section>
+<section id="output-location-fragment" class="slide level2">
+<h2>Output location, <code>fragment</code></h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb24" data-code-line-numbers="|2"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb24-1"><a href=""></a><span class="in">```{r}</span></span>
+<span id="cb24-2"><a href=""></a><span class="in">#| output-location: fragment</span></span>
+<span id="cb24-3"><a href=""></a><span class="in">#| code-line-numbers: "|2"</span></span>
+<span id="cb24-4"><a href=""></a></span>
+<span id="cb24-5"><a href=""></a><span class="in">library(ggplot2)</span></span>
+<span id="cb24-6"><a href=""></a></span>
+<span id="cb24-7"><a href=""></a><span class="in">mtcars |&gt; </span></span>
+<span id="cb24-8"><a href=""></a><span class="in">  ggplot(aes(x = disp, y = mpg)) +</span></span>
+<span id="cb24-9"><a href=""></a><span class="in">  geom_point() +</span></span>
+<span id="cb24-10"><a href=""></a><span class="in">  geom_smooth(method = "loess", formula = "y~x")</span></span>
+<span id="cb24-11"><a href=""></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell fragment">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="sample_mock_files/figure-revealjs/unnamed-chunk-7-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="output-location-slide" class="slide level2">
+<h2>Output location, <code>slide</code></h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb25" data-code-line-numbers="|2"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb25-1"><a href=""></a><span class="in">```{r}</span></span>
+<span id="cb25-2"><a href=""></a><span class="in">#| output-location: slide</span></span>
+<span id="cb25-3"><a href=""></a><span class="in">#| code-line-numbers: "|2"</span></span>
+<span id="cb25-4"><a href=""></a></span>
+<span id="cb25-5"><a href=""></a><span class="in">library(ggplot2)</span></span>
+<span id="cb25-6"><a href=""></a></span>
+<span id="cb25-7"><a href=""></a><span class="in">mtcars |&gt; </span></span>
+<span id="cb25-8"><a href=""></a><span class="in">  ggplot(aes(x = disp, y = mpg)) +</span></span>
+<span id="cb25-9"><a href=""></a><span class="in">  geom_point() +</span></span>
+<span id="cb25-10"><a href=""></a><span class="in">  geom_smooth(method = "loess", formula = "y~x")</span></span>
+<span id="cb25-11"><a href=""></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+
+</section>
+<section id="output-location-slide-output" class="slide level2 output-location-slide"><h2>Output location, <code>slide</code></h2><div class="cell output-location-slide">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="sample_mock_files/figure-revealjs/unnamed-chunk-8-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div></section><section id="column-layout-arbitrary-fragment" class="slide level2">
+<h2>Column Layout, arbitrary fragment</h2>
+<p>If you try <code>. . .</code> syntax WITH <code>::: {.columns}</code> - it won’t be incremental… BUT:</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="fragment">
+<h3 id="these-appear-first">These appear first</h3>
+<div>
+<ul>
+<li class="fragment">Make</li>
+<li class="fragment">Your</li>
+<li class="fragment">List</li>
+</ul>
+</div>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="fragment">
+<h3 id="then-this">Then this</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb26-1"><a href=""></a><span class="in">```{r}</span></span>
+<span id="cb26-2"><a href=""></a><span class="in">head(mtcars)</span></span>
+<span id="cb26-3"><a href=""></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>                   mpg cyl disp  hp drat    wt  qsec vs am gear carb
+Mazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4
+Mazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4
+Datsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1
+Hornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1
+Hornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2
+Valiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1</code></pre>
+</div>
+</div>
+</div>
+</div></div>
+</section>
+<section id="column-layout-arbitrary-fragment-1" class="slide level2">
+<h2>Column Layout, arbitrary fragment</h2>
+<p>You <em>can</em> nest <code>.incremental</code> + <code>.fragment</code> to get your expected behavior.</p>
+<div class=".columns">
+<div class=".column">
+<div class="sourceCode" id="cb28"><pre class="sourceCode numberSource code number-lines code-with-copy"><code class="sourceCode"><span id="cb28-1"><a href=""></a>## Column Layout, arbitrary fragment</span>
+<span id="cb28-2"><a href=""></a></span>
+<span id="cb28-3"><a href=""></a>::::: {.columns}</span>
+<span id="cb28-4"><a href=""></a></span>
+<span id="cb28-5"><a href=""></a>:::: {.column width="50%"}</span>
+<span id="cb28-6"><a href=""></a></span>
+<span id="cb28-7"><a href=""></a>::: {.fragment}</span>
+<span id="cb28-8"><a href=""></a></span>
+<span id="cb28-9"><a href=""></a>### These appear first</span>
+<span id="cb28-10"><a href=""></a></span>
+<span id="cb28-11"><a href=""></a>::: {.incremental}</span>
+<span id="cb28-12"><a href=""></a>- Make</span>
+<span id="cb28-13"><a href=""></a>- Your </span>
+<span id="cb28-14"><a href=""></a>- List</span>
+<span id="cb28-15"><a href=""></a>:::</span>
+<span id="cb28-16"><a href=""></a></span>
+<span id="cb28-17"><a href=""></a>:::</span>
+<span id="cb28-18"><a href=""></a></span>
+<span id="cb28-19"><a href=""></a>::::</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class=".column">
+<div class="sourceCode" id="cb29"><pre class="sourceCode numberSource markdown code number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb29-1"><a href=""></a>:::: {.column width="50%"}</span>
+<span id="cb29-2"><a href=""></a></span>
+<span id="cb29-3"><a href=""></a>::: {.fragment}</span>
+<span id="cb29-4"><a href=""></a></span>
+<span id="cb29-5"><a href=""></a><span class="fu">### Then this</span></span>
+<span id="cb29-6"><a href=""></a></span>
+<span id="cb29-7"><a href=""></a><span class="in">```{r}</span></span>
+<span id="cb29-8"><a href=""></a><span class="in">#| echo: fenced</span></span>
+<span id="cb29-9"><a href=""></a><span class="in">head(mtcars)</span></span>
+<span id="cb29-10"><a href=""></a><span class="in">```</span></span>
+<span id="cb29-11"><a href=""></a></span>
+<span id="cb29-12"><a href=""></a></span>
+<span id="cb29-13"><a href=""></a>:::</span>
+<span id="cb29-14"><a href=""></a></span>
+<span id="cb29-15"><a href=""></a>::::</span>
+<span id="cb29-16"><a href=""></a></span>
+<span id="cb29-17"><a href=""></a>:::::</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</section></section>
+<section>
+<section id="your-turn-3" class="title-slide slide level1 center" data-background-color="#447099" data-transition="slide-in">
+<h1><svg aria-hidden="true" role="img" viewbox="0 0 640 512" style="height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:white;overflow:visible;position:relative;"><path d="M64 96c0-35.3 28.7-64 64-64H512c35.3 0 64 28.7 64 64V352H512V96H128V352H64V96zM0 403.2C0 392.6 8.6 384 19.2 384H620.8c10.6 0 19.2 8.6 19.2 19.2c0 42.4-34.4 76.8-76.8 76.8H76.8C34.4 480 0 445.6 0 403.2zM281 209l-31 31 31 31c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-48-48c-9.4-9.4-9.4-24.6 0-33.9l48-48c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zM393 175l48 48c9.4 9.4 9.4 24.6 0 33.9l-48 48c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l31-31-31-31c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0z"></path></svg> Your Turn</h1>
+<ul>
+<li>Create a new presentation with RStudio&gt; New Quarto Presentation</li>
+<li>Create two columns with the <code>::: {.columns}</code> and use <code>.fragment</code> tags on the columns for incremental reveal of those columns</li>
+</ul>
+</section>
+<section id="images" class="slide level2">
+<h2>Images</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<pre><code>![](images/boston-sleep.png){fig-align="center"}</code></pre>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/boston-sleep.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<pre><code>![](images/boston-sleep.png)</code></pre>
+<p><img data-src="images/boston-sleep.png"></p>
+</div></div>
+</section>
+<section id="images-1" class="slide level2">
+<h2>Images</h2>
+<div class="sourceCode" id="cb32"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb32-1"><a href=""></a>::: columns</span>
+<span id="cb32-2"><a href=""></a>::: {.column width="50%"}</span>
+<span id="cb32-3"><a href=""></a>    <span class="al">![](images/boston-sleep.png)</span>{fig-align="center"}</span>
+<span id="cb32-4"><a href=""></a></span>
+<span id="cb32-5"><a href=""></a><span class="al">![](images/boston-sleep.png)</span>{fig-align="center"}</span>
+<span id="cb32-6"><a href=""></a>:::</span>
+<span id="cb32-7"><a href=""></a></span>
+<span id="cb32-8"><a href=""></a>::: {.column width="50%"}</span>
+<span id="cb32-9"><a href=""></a>    <span class="al">![](images/boston-sleep.png)</span></span>
+<span id="cb32-10"><a href=""></a></span>
+<span id="cb32-11"><a href=""></a><span class="al">![](images/boston-sleep.png)</span></span>
+<span id="cb32-12"><a href=""></a>:::</span>
+<span id="cb32-13"><a href=""></a>:::</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="stack-layout" class="slide level2">
+<h2>Stack layout</h2>
+<p>Incremental reveal of images/content</p>
+<div class="r-stack">
+<p><img data-src="images/howard-table.png" class="fragment" width="450"></p>
+<p><img data-src="images/boston-sleep.png" class="fragment" width="400"></p>
+<p><img data-src="images/boston-terrier.png" class="fragment" width="300"></p>
+</div>
+</section>
+<section id="stack-layout-1" class="slide level2">
+<h2>Stack layout</h2>
+<pre><code>::: {.r-stack}
+![](image1.png){.fragment width="450"}
+
+![](image2.png){.fragment width="400"}
+
+![](image3.png){.fragment width="300"}
+:::</code></pre>
+</section>
+<section id="section-1" class="slide level2" data-background-color="red">
+<h2></h2>
+<div class="r-fit-text">
+<p>ATTENTION</p>
+</div>
+</section>
+<section id="fit-text-.r-fit-text" class="slide level2">
+<h2>Fit Text <code>{.r-fit-text}</code></h2>
+<pre><code>::: {.r-fit-text}
+Attention
+:::</code></pre>
+</section>
+<section id="stretch-images-.r-stretch" class="slide level2">
+<h2>Stretch images <code>{.r-stretch}</code></h2>
+<p>Fit to the remaining space - this is the default behavior in <code>revealjs</code></p>
+<pre><code>![](images/howard-glamour.jpg){.r-stretch}</code></pre>
+<div class="fragment">
+<p><img data-src="images/howard-glamour.jpg"></p>
+</div>
+</section>
+<section id="title-slide-yaml-edition" class="slide level2">
+<h2>Title Slide, YAML edition</h2>
+<div class="sourceCode" id="cb36"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb36-1"><a href=""></a><span class="pp">---</span></span>
+<span id="cb36-2"><a href=""></a><span class="fu">format</span><span class="kw">:</span><span class="at"> revealjs</span></span>
+<span id="cb36-3"><a href=""></a><span class="fu">title</span><span class="kw">:</span><span class="at"> Hello Quarto</span></span>
+<span id="cb36-4"><a href=""></a><span class="fu">subtitle</span><span class="kw">:</span><span class="at"> Slides with revealjs</span></span>
+<span id="cb36-5"><a href=""></a><span class="fu">author</span><span class="kw">:</span><span class="at"> &lt;a href="https://themockup.blog"&gt;Tom Mock&lt;/a&gt;</span></span>
+<span id="cb36-6"><a href=""></a><span class="fu">date</span><span class="kw">:</span><span class="at"> 2022-07-11</span></span>
+<span id="cb36-7"><a href=""></a><span class="fu">institute</span><span class="kw">:</span><span class="at"> RStudio</span></span>
+<span id="cb36-8"><a href=""></a><span class="fu">title-slide-attributes</span><span class="kw">:</span></span>
+<span id="cb36-9"><a href=""></a><span class="at">    </span><span class="fu">data-background-image</span><span class="kw">:</span><span class="at"> images/paper-texture.jpg</span></span>
+<span id="cb36-10"><a href=""></a><span class="at">    </span><span class="fu">data-background-size</span><span class="kw">:</span><span class="at"> cover</span></span>
+<span id="cb36-11"><a href=""></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="fragment">
+<iframe src="../../materials/static/title-slide.html" width="1280px" height="720px">
+</iframe>
+</div>
+</section>
+<section id="title-slide-diy" class="slide level2">
+<h2>Title Slide, DIY</h2>
+<iframe src="../../materials/static/title-slide2.html" width="1280px" height="720px">
+</iframe>
+</section>
+<section id="section-2" class="slide level2">
+<h2></h2>
+<pre><code># {background-image="images/paper-texture.jpg" background-size="cover"}
+
+:::{style="text-align: center;"}
+
+&lt;h1&gt;Hello Quarto&lt;/h1&gt;
+&lt;img src="images/headshot.jpeg" style="border-radius: 50%; border:10px solid #447099;" width="250px"/&gt;
+&lt;h2&gt;Tom Mock, RStudio&lt;/h2&gt;
+
+:::</code></pre>
+</section>
+<section id="logo-and-footer" class="slide level2">
+<h2>Logo and Footer</h2>
+<pre><code>format: revealjs
+footer: &lt;https://quarto.org/&gt;
+logo: https://www.rstudio.com/wp-content/uploads/2018/10/RStudio-Logo-Flat.png</code></pre>
+<div class="fragment">
+<div style="position: absolute; height: 50px; width: 400px; background: #44709935; bottom: -50px; left: 750px;">
+
+</div>
+</div>
+<div class="fragment">
+<div style="position: absolute; height: 50px; width: 250px; background: #44709935; bottom: -50px; right: -150px;">
+
+</div>
+</div>
+<div class="fragment">
+<p>A footer can also be set by slide with:</p>
+<div class="footer">
+<p><a href="https://themockup.blog" class="uri">https://themockup.blog</a></p>
+</div>
+<pre><code>::: {.footer}
+&lt;https://themockup.blog&gt;
+:::</code></pre>
+</div>
+</section>
+<section id="slide-alignment" class="slide level2">
+<h2>Slide alignment</h2>
+<ul>
+<li>Heading level one will be center-aligned</li>
+<li>Heading level two will be left-aligned</li>
+</ul>
+<div class="fragment">
+<pre><code>::: {style="text-align: right;"}
+&lt;h2&gt;Right aligned!&lt;/h2&gt;
+
+-   Some bullets
+-   Another bullet
+:::</code></pre>
+<div style="text-align: right;">
+<h2>
+Right aligned!
+</h2>
+<ul>
+<li>Some bullets</li>
+<li>Another bullet</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="slide-backgrounds-color" class="slide level2" data-background-color="blue">
+<h2>Slide backgrounds, color</h2>
+<pre><code>## Slide backgrounds, color {background-color="blue"}</code></pre>
+</section>
+<section id="slide-backgrounds-images" class="slide level2" data-background-image="images/howard-table.png" data-background-size="cover">
+<h2>Slide backgrounds, images</h2>
+<pre><code>## Slide backgrounds, images {background-image="images/howard-table.png" background-size="cover"}</code></pre>
+</section>
+<section id="slide-backgrounds-images-1" class="slide level2">
+<h2>Slide backgrounds, images</h2>
+<p>Note, you may need to set a <code>background-color</code> to black/white to “force” the text to contrast.</p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Attribute</strong></th>
+<th style="text-align: left;"><strong>Default</strong></th>
+<th style="text-align: left;"><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><code>background-image</code></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">URL of the image to show. GIFs restart when the slide opens.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>background-size</code></td>
+<td style="text-align: left;">cover</td>
+<td style="text-align: left;">See <a href="https://developer.mozilla.org/docs/Web/CSS/background-size">background-size</a> on MDN.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>background-position</code></td>
+<td style="text-align: left;">center</td>
+<td style="text-align: left;">See <a href="https://developer.mozilla.org/docs/Web/CSS/background-position">background-position</a> on MDN.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>background-repeat</code></td>
+<td style="text-align: left;">no-repeat</td>
+<td style="text-align: left;">See <a href="https://developer.mozilla.org/docs/Web/CSS/background-repeat">background-repeat</a> on MDN.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>background-opacity</code></td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Opacity of the background image on a 0-1 scale. 0 is transparent and 1 is fully opaque.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="tabsets" class="slide level2">
+<h2>Tabsets</h2>
+<pre><code>::: {.panel-tabset}
+
+## Element 1
+
+## Element 2
+
+:::</code></pre>
+</section>
+<section id="tabsets-1" class="slide level2">
+<h2>Tabsets</h2>
+<div class="panel-tabset">
+<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Code</a></li><li><a href="#tabset-1-2">Output</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb44"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb44-1"><a href=""></a><span class="in">```{r}</span></span>
+<span id="cb44-2"><a href=""></a><span class="in">#| eval: false</span></span>
+<span id="cb44-3"><a href=""></a><span class="in">head(mtcars)</span></span>
+<span id="cb44-4"><a href=""></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+<div id="tabset-1-2">
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>                   mpg cyl disp  hp drat    wt  qsec vs am gear carb
+Mazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4
+Mazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4
+Datsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1
+Hornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1
+Hornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2
+Valiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="footnote" class="slide level2">
+<h2>Footnote</h2>
+<p>Footnotes in presentations are placed at the bottom of the slide and numbered.</p>
+<pre><code>For example, did you know that Howard is a dog^[Specifically he is a Boston Terrier, although sometimes he acts like a cat]?</code></pre>
+<div class="fragment">
+<p>For example, did you know that Howard is a dog<sup>1</sup>?</p>
+</div>
+<div class="fragment">
+<p>He also likes to sleep<sup>2</sup></p>
+</div>
+<aside><ol class="aside-footnotes"><li id="fn1"><p>Specifically he is a Boston Terrier, although sometimes he acts like a cat</p></li><li id="fn2"><p>He sleeps a LOT during the day… like a cat 🤔</p></li></ol></aside></section>
+<section id="asides" class="slide level2">
+<h2>Asides</h2>
+<p>Asides are like footnotes, but don’t have numbers<sup>1</sup>.</p>
+<div class="fragment">
+<pre><code>::: aside
+They are placed above footnotes if footnotes are present on the page
+:::</code></pre>
+
+</div>
+<aside><div>
+<pre><code>They are placed above footnotes if footnotes are present on the page</code></pre>
+</div><ol class="aside-footnotes"><li id="fn3"><p>Unlike feet that at least have like a shoe size or something?</p></li></ol></aside></section></section>
+<section id="your-turn-4" class="title-slide slide level1 center" data-background-color="#447099" data-transition="slide-in">
+<h1><svg aria-hidden="true" role="img" viewbox="0 0 640 512" style="height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:white;overflow:visible;position:relative;"><path d="M64 96c0-35.3 28.7-64 64-64H512c35.3 0 64 28.7 64 64V352H512V96H128V352H64V96zM0 403.2C0 392.6 8.6 384 19.2 384H620.8c10.6 0 19.2 8.6 19.2 19.2c0 42.4-34.4 76.8-76.8 76.8H76.8C34.4 480 0 445.6 0 403.2zM281 209l-31 31 31 31c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-48-48c-9.4-9.4-9.4-24.6 0-33.9l48-48c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zM393 175l48 48c9.4 9.4 9.4 24.6 0 33.9l-48 48c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l31-31-31-31c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0z"></path></svg> Your Turn</h1>
+<ul>
+<li>Create a new <code>revealjs</code> presentation</li>
+<li>Add several slides, each one should have <em>one</em> element:
+<ul>
+<li>Aside/footnote</li>
+<li>Tabset with code and output (two options on how!)</li>
+<li>Code highlighting walking through at least two lines</li>
+<li>A slide with an image as the background</li>
+</ul></li>
+<li>Render it!</li>
+</ul>
+</section>
+
+<section>
+<section id="code-1" class="title-slide slide level1 center" data-background-image="https://data.nssmag.com/images/galleries/18043/code-matrix.jpg" data-background-size="cover" data-background-color="black">
+<h1>Code</h1>
+
+</section>
+<section id="code-line-highlighting" class="slide level2">
+<h2>Code line-highlighting</h2>
+<p>Use <code>#| code-line-numbers: "3"</code> syntax - will highlight line and fade other lines</p>
+<div class="cell columns column-output-location">
+<div class="column">
+<div class="sourceCode cell-code" id="cb49" data-code-line-numbers="3"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb49-1"><a href=""></a><span class="in">```{r}</span></span>
+<span id="cb49-2"><a href=""></a><span class="in">#| output-location: column</span></span>
+<span id="cb49-3"><a href=""></a><span class="in">#| code-line-numbers: "3"</span></span>
+<span id="cb49-4"><a href=""></a></span>
+<span id="cb49-5"><a href=""></a><span class="in">library(ggplot2)</span></span>
+<span id="cb49-6"><a href=""></a></span>
+<span id="cb49-7"><a href=""></a><span class="in">mtcars |&gt; </span></span>
+<span id="cb49-8"><a href=""></a><span class="in">  ggplot(aes(x = disp, y = mpg)) +</span></span>
+<span id="cb49-9"><a href=""></a><span class="in">  geom_point() +</span></span>
+<span id="cb49-10"><a href=""></a><span class="in">  geom_smooth(method = "loess", formula = "y~x")</span></span>
+<span id="cb49-11"><a href=""></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div><div class="column">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="sample_mock_files/figure-revealjs/unnamed-chunk-12-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div></div>
+</section>
+<section id="code-line-highlighting-1" class="slide level2">
+<h2>Code line-highlighting</h2>
+<p>Sometimes you want to make a point though…</p>
+<div class="cell columns column-output-location">
+<div class="column">
+<div class="sourceCode cell-code" id="cb50" data-code-line-numbers="|3"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb50-1"><a href=""></a><span class="in">```{r}</span></span>
+<span id="cb50-2"><a href=""></a><span class="in">#| output-location: column</span></span>
+<span id="cb50-3"><a href=""></a><span class="in">#| code-line-numbers: "|3"</span></span>
+<span id="cb50-4"><a href=""></a></span>
+<span id="cb50-5"><a href=""></a><span class="in">library(ggplot2)</span></span>
+<span id="cb50-6"><a href=""></a></span>
+<span id="cb50-7"><a href=""></a><span class="in">mtcars |&gt; </span></span>
+<span id="cb50-8"><a href=""></a><span class="in">  ggplot(aes(x = disp, y = mpg)) +</span></span>
+<span id="cb50-9"><a href=""></a><span class="in">  geom_point() +</span></span>
+<span id="cb50-10"><a href=""></a><span class="in">  geom_smooth(method = "loess", formula = "y~x")</span></span>
+<span id="cb50-11"><a href=""></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div><div class="column">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="sample_mock_files/figure-revealjs/unnamed-chunk-13-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div></div>
+</section>
+<section id="code-line-highlighting-2" class="slide level2">
+<h2>Code line-highlighting</h2>
+<p>And I often want to “walk through” a set of code!</p>
+<div class="cell columns column-output-location">
+<div class="column">
+<div class="sourceCode cell-code" id="cb51" data-code-line-numbers="|3|5|8|10"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb51-1"><a href=""></a><span class="in">```{r}</span></span>
+<span id="cb51-2"><a href=""></a><span class="in">#| output-location: column</span></span>
+<span id="cb51-3"><a href=""></a><span class="in">#| code-line-numbers: "|3|5|8|10"</span></span>
+<span id="cb51-4"><a href=""></a></span>
+<span id="cb51-5"><a href=""></a><span class="in">library(ggplot2)</span></span>
+<span id="cb51-6"><a href=""></a></span>
+<span id="cb51-7"><a href=""></a><span class="in">mtcars |&gt; </span></span>
+<span id="cb51-8"><a href=""></a><span class="in">  ggplot(aes(x = disp, y = mpg)) +</span></span>
+<span id="cb51-9"><a href=""></a><span class="in">  geom_point() +</span></span>
+<span id="cb51-10"><a href=""></a><span class="in">  geom_smooth(method = "loess", formula = "y~x")</span></span>
+<span id="cb51-11"><a href=""></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div><div class="column">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="sample_mock_files/figure-revealjs/unnamed-chunk-14-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div></div>
+</section>
+<section id="themesappearance" class="slide level2">
+<h2>Themes/Appearance</h2>
+<p><a href="https://quarto.org/docs/presentations/revealjs/themes.html" class="uri">https://quarto.org/docs/presentations/revealjs/themes.html</a></p>
+<div class="fragment">
+<div class="sourceCode" id="cb52"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb52-1"><a href=""></a><span class="pp">---</span></span>
+<span id="cb52-2"><a href=""></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Presentation"</span></span>
+<span id="cb52-3"><a href=""></a><span class="fu">format</span><span class="kw">:</span></span>
+<span id="cb52-4"><a href=""></a><span class="at">  </span><span class="fu">revealjs</span><span class="kw">:</span><span class="at"> </span></span>
+<span id="cb52-5"><a href=""></a><span class="at">    </span><span class="fu">theme</span><span class="kw">:</span><span class="at"> serif</span></span>
+<span id="cb52-6"><a href=""></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="fragment">
+<div class="sourceCode" id="cb53"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb53-1"><a href=""></a><span class="pp">---</span></span>
+<span id="cb53-2"><a href=""></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Presentation"</span></span>
+<span id="cb53-3"><a href=""></a><span class="fu">format</span><span class="kw">:</span></span>
+<span id="cb53-4"><a href=""></a><span class="at">  </span><span class="fu">revealjs</span><span class="kw">:</span><span class="at"> </span></span>
+<span id="cb53-5"><a href=""></a><span class="at">    </span><span class="fu">theme</span><span class="kw">:</span><span class="at"> dark</span></span>
+<span id="cb53-6"><a href=""></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="fragment">
+<div class="sourceCode" id="cb54"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb54-1"><a href=""></a><span class="pp">---</span></span>
+<span id="cb54-2"><a href=""></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Presentation"</span></span>
+<span id="cb54-3"><a href=""></a><span class="fu">format</span><span class="kw">:</span></span>
+<span id="cb54-4"><a href=""></a><span class="at">  </span><span class="fu">revealjs</span><span class="kw">:</span><span class="at"> </span></span>
+<span id="cb54-5"><a href=""></a><span class="at">    </span><span class="fu">theme</span><span class="kw">:</span><span class="at"> </span><span class="kw">[</span><span class="at">default</span><span class="kw">,</span><span class="at"> custom.scss</span><span class="kw">]</span></span>
+<span id="cb54-6"><a href=""></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section></section>
+<section>
+<section id="arbitrary-html-position-absolute" class="title-slide slide level1 center">
+<h1>Arbitrary HTML + Position absolute</h1>
+
+</section>
+<section id="position-absolute" class="slide level2">
+<h2>Position = absolute</h2>
+<pre><code>![](image1.png){.absolute top=200 left=0 width="350" height="300"}
+
+![](image2.png){.absolute top=50 right=50 width="450" height="250"}
+
+![](image3.png){.absolute bottom=0 right=50 width="300" height="300"}</code></pre>
+</section>
+<section id="position-.absolute" class="slide level2">
+<h2>Position = <code>.absolute</code></h2>
+<p><img data-src="images/boston-sleep.png" class="absolute" style="top: 200px; left: 0px; width: 350px; "></p>
+<div class="fragment">
+<p><img data-src="images/boston-terrier.png" class="absolute" style="top: 50px; right: 50px; height: 250px; "></p>
+</div>
+<div class="fragment">
+<p><img data-src="images/lost-howard.jpeg" class="absolute" style="bottom: 0px; right: 50px; width: 300px; "></p>
+</div>
+</section>
+<section id="position-.absolute-1" class="slide level2">
+<h2>Position <code>.absolute</code></h2>
+<div class="sourceCode" id="cb56"><pre class="sourceCode numberSource code number-lines code-with-copy"><code class="sourceCode"><span id="cb56-1"><a href=""></a>![](images/boston-sleep.png){.absolute top="200" left="0" width="350"}</span>
+<span id="cb56-2"><a href=""></a></span>
+<span id="cb56-3"><a href=""></a>. . .</span>
+<span id="cb56-4"><a href=""></a></span>
+<span id="cb56-5"><a href=""></a>![](images/boston-terrier.png){.absolute top="50" right="50" height="250"}</span>
+<span id="cb56-6"><a href=""></a></span>
+<span id="cb56-7"><a href=""></a>. . .</span>
+<span id="cb56-8"><a href=""></a></span>
+<span id="cb56-9"><a href=""></a>![](images/lost-howard.jpeg){.absolute bottom="0" right="50" width="300"}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="auto-animate" class="slide level2" data-auto-animate="true" data-auto-animate-easing="ease-in-out">
+<h2 data-id="quarto-animate-title">Auto-Animate</h2>
+<p>Automatically animate matching elements across slides with Auto-Animate.</p>
+<div class="r-hstack">
+<div data-id="box1" data-auto-animate-delay="0" style="background: #2780e3; width: 200px; height: 150px; margin: 10px;">
+
+</div>
+<div data-id="box2" data-auto-animate-delay="0.1" style="background: #3fb618; width: 200px; height: 150px; margin: 10px;">
+
+</div>
+<div data-id="box3" data-auto-animate-delay="0.2" style="background: #e83e8c; width: 200px; height: 150px; margin: 10px;">
+
+</div>
+</div>
+</section>
+<section id="auto-animate-1" class="slide level2" data-auto-animate="true" data-auto-animate-easing="ease-in-out">
+<h2 data-id="quarto-animate-title">Auto-Animate</h2>
+<p>Automatically animate matching elements across slides with Auto-Animate.</p>
+<div class="r-stack">
+<div data-id="box1" style="background: #2780e3; width: 350px; height: 350px; border-radius: 200px;">
+
+</div>
+<div data-id="box2" style="background: #3fb618; width: 250px; height: 250px; border-radius: 200px;">
+
+</div>
+<div data-id="box3" style="background: #e83e8c; width: 150px; height: 150px; border-radius: 200px;">
+
+</div>
+</div>
+<!-- ## Auto-Animate {auto-animate="true" auto-animate-easing="ease-in-out"} -->
+<!-- ::: {style="font-size: 160px; text-align: center;"} -->
+<!-- IMPORTANT POINT! -->
+<!-- ::: -->
+<!-- ##  {auto-animate="true" auto-animate-easing="ease-in-out"} -->
+<!-- ::: {style="font-size: 25px;"} -->
+<!-- Ok, not that important! -->
+<!-- ::: -->
+<!-- ##  -->
+<!-- ``` code -->
+<!-- ## Auto-Animate {auto-animate="true" auto-animate-easing="ease-in-out"} -->
+<!-- ::: {style="font-size: 160px; text-align: center;"} -->
+<!-- IMPORTANT POINT! -->
+<!-- ::: -->
+<!-- ##  {auto-animate="true" auto-animate-easing="ease-in-out"} -->
+<!-- ::: {style="font-size: 25px;"} -->
+<!-- Ok, not that important! -->
+<!-- ::: -->
+<!-- ``` -->
+
+</section></section>
+
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="https://www.rstudio.com/wp-content/uploads/2018/10/RStudio-Logo-Flat.png" class="slide-logo"></p>
+<div class="footer footer-default">
+<p><a href="https://rstudio-conf-2022.github.io/get-started-quarto/">Get started with Quarto</a></p>
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="sample_mock_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="sample_mock_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="sample_mock_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="sample_mock_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="sample_mock_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="sample_mock_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="sample_mock_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="sample_mock_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="sample_mock_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="sample_mock_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1600,
+
+        height: 900,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
+    <script id="quarto-html-after-body" type="application/javascript">
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+      const toggleBodyColorMode = (bsSheetEl) => {
+        const mode = bsSheetEl.getAttribute("data-mode");
+        const bodyEl = window.document.querySelector("body");
+        if (mode === "dark") {
+          bodyEl.classList.add("quarto-dark");
+          bodyEl.classList.remove("quarto-light");
+        } else {
+          bodyEl.classList.add("quarto-light");
+          bodyEl.classList.remove("quarto-dark");
+        }
+      }
+      const toggleBodyColorPrimary = () => {
+        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+        if (bsSheetEl) {
+          toggleBodyColorMode(bsSheetEl);
+        }
+      }
+      toggleBodyColorPrimary();  
+      const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+      tabsets.forEach(function(tabset) {
+        const tabby = new Tabby('#' + tabset.id);
+      });
+      const isCodeAnnotation = (el) => {
+        for (const clz of el.classList) {
+          if (clz.startsWith('code-annotation-')) {                     
+            return true;
+          }
+        }
+        return false;
+      }
+      const onCopySuccess = function(e) {
+        // button target
+        const button = e.trigger;
+        // don't keep focus
+        button.blur();
+        // flash "checked"
+        button.classList.add('code-copy-button-checked');
+        var currentTitle = button.getAttribute("title");
+        button.setAttribute("title", "Copied!");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copied!");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
+        setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
+          button.setAttribute("title", currentTitle);
+          button.classList.remove('code-copy-button-checked');
+        }, 1000);
+        // clear code selection
+        e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
+      });
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+        const config = {
+          allowHTML: true,
+          maxWidth: 500,
+          delay: 100,
+          arrow: false,
+          appendTo: function(el) {
+              return el.closest('section.slide') || el.parentElement;
+          },
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start',
+        };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
+          config['offset'] = [0,0];
+          config['maxWidth'] = 700;
+        window.tippy(el, config); 
+      }
+      const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+      for (var i=0; i<noterefs.length; i++) {
+        const ref = noterefs[i];
+        tippyHover(ref, function() {
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+          try { href = new URL(href).hash; } catch {}
+          const id = href.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
+        });
+      }
+      const findCites = (el) => {
+        const parentEl = el.parentElement;
+        if (parentEl) {
+          const cites = parentEl.dataset.cites;
+          if (cites) {
+            return {
+              el,
+              cites: cites.split(' ')
+            };
+          } else {
+            return findCites(el.parentElement)
+          }
+        } else {
+          return undefined;
+        }
+      };
+      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+      for (var i=0; i<bibliorefs.length; i++) {
+        const ref = bibliorefs[i];
+        const citeInfo = findCites(ref);
+        if (citeInfo) {
+          tippyHover(citeInfo.el, function() {
+            var popup = window.document.createElement('div');
+            citeInfo.cites.forEach(function(cite) {
+              var citeDiv = window.document.createElement('div');
+              citeDiv.classList.add('hanging-indent');
+              citeDiv.classList.add('csl-entry');
+              var biblioDiv = window.document.getElementById('ref-' + cite);
+              if (biblioDiv) {
+                citeDiv.innerHTML = biblioDiv.innerHTML;
+              }
+              popup.appendChild(citeDiv);
+            });
+            return popup.innerHTML;
+          });
+        }
+      }
+    });
+    </script>
+    
+
+</body></html>

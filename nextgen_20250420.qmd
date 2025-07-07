@@ -1,0 +1,116 @@
+---
+title: "Welcome to Easter Sunday Worship"
+author: "Risen - Seeing and Believing"
+date: "2025-04-20"
+format:
+  revealjs:
+    theme: [default, ng_present.scss]
+    transition: slide
+    slide-number: c/t
+    incremental: true
+    verticalAlign: top
+    footer: "<h10>NTCC NextGen 2025</h10>"
+engine: knitr
+knitr:
+  opts_chunk: 
+    class-output: hscroll
+---
+
+## 🌅 Welcome to Easter Sunday! {.white-text} {background-image="images/easter/emptygrave_kelly-sikkema-mY6cga4GgOI-unsplash.jpg"}
+
+**Theme:** Risen – Seeing and Believing\
+**Inspired by the film:** *Risen (2016)*\
+**Key Passages:**\
+- Luke 24:1–12\
+- John 20:24–29
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+## 🎵 Worship Songs
+
+Let’s praise the Risen King!
+
+-   **"Living Hope" – Phil Wickham**
+-   **"Because He Lives" – Gaither / Matt Maher**
+-   **"Glorious Day" – Passion**
+-   **"Forever" – Kari Jobe**
+-   **"King of Kings" – Hillsong Worship**
+
+------------------------------------------------------------------------
+
+## 🎬 Movie Highlight: *Risen (2016)*
+
+**Overview:** - The resurrection seen through the eyes of a Roman tribune
+
+**Suggested Scenes:** - Crucifixion and burial - Tomb sealed - Empty tomb discovery - Clavius meets the risen Christ
+
+------------------------------------------------------------------------
+
+## Devotion Plan
+
+[Day 1: How Jesus Became the King of the World (That He Always Was)](https://www.youtube.com/watch?v=xmFPS0f-kzs&t=2s)
+
+[Day 2: We Studied the Temple in the Bible (Here’s What We Found)](https://www.youtube.com/watch?v=wTnq6I3vUbU)
+
+[Day 3: We Studied the “Day of the Lord” in the Bible (Here’s What We Found)](https://www.youtube.com/watch?v=tEBc2gSSW04&t=1s)
+
+[Day 4: The Satan and Demons • Understand Evil Spiritual Beings in the Bible (Spiritual Beings Series Ep 4)](https://www.youtube.com/watch?v=CamYtVpoTNk)
+
+[Day 5: How God Deals With Evil Without Destroying Humanity](https://www.youtube.com/watch?v=G_OlRWGLdnw)
+
+[Day 6: The Resurrection of Jesus](https://www.youtube.com/watch?v=_unHmAf7INk)
+
+[Day 7: Holy Saturday]()
+
+[Day 8: The Resurrection of Jesus: Luke 24](https://www.youtube.com/watch?v=_unHmAf7INk)
+
+## 📖 Bible Study
+
+**Scriptures:** - **Luke 24:1–12** – The Empty Tomb - **John 20:24–29** – Thomas and the Risen Lord
+
+**Discussion Questions:** - How did the people in *Risen* and the Bible react to the resurrection? - Why is belief without seeing difficult? - What does resurrection mean for us today?
+
+------------------------------------------------------------------------
+
+## 📝 Life Application
+
+**Reflect:** - Where do you see signs of Jesus’ resurrection in your life? - What area of your life needs resurrection?
+
+**Activity:** Empty Tomb Cards - Outside: “What was buried?” - Inside: “What has risen?”
+
+------------------------------------------------------------------------
+
+## 🙏 Prayer & Commitment
+
+**Commit:** - Invite Jesus’ resurrection power into your life - Reflect on hope, peace, and purpose rising in you
+
+🎵 Optional Background: "Living Hope" (Instrumental)
+
+------------------------------------------------------------------------
+
+## Thank You & Happy Easter!
+
+“He is not here; He has risen!” – Luke 24:6
+
+🌸 Share the joy of the resurrection with someone today!
+
+# 
+
+**Movie**
+
+\
+\
+
+[Risen](https://www.amazon.com/gp/video/detail/B01BT5MMX2/ref=atv_hm_vid_c_baeECJ_1_3)
+
+# Next week
+
+Bible reading plan: [**BibleProject \| Holy Week & Easter**](https://www.bible.com/reading-plans/36091-bibleproject-holy-week-easter)
+
+![](images/clipboard-971817415.png)
+
+## Groupme
+
+![](images/clipboard-785477511.png)
