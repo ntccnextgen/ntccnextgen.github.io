@@ -1,7 +1,7 @@
 ---
 title: ""
 author: ""
-date: "2025-07-05"
+date: "2025-07-06"
 format:
   revealjs:
     css: [theme.css]
@@ -20,6 +20,8 @@ knitr:
   opts_chunk: 
     class-output: hscroll
 editor: source
+filters: 
+  - timer
 ---
 
 # Sunday Worship {background-image="images/ales-krivec-4miBe6zg5r0-unsplash.jpg" background-size="cover" background-color="black"}
@@ -91,9 +93,7 @@ God's Masterpiece - Reflecting His Image and Living Like Jesus
 
 -   **Confirmed deaths**: At least **52 people**, including **18 adults** and **15 children**
 
--   
-
-    ## **Missing**: Over **37 people**, including **27 girls** from Camp Mystic summer camp
+-   **Missing**: Over **37 people**, including **27 girls** from Camp Mystic summer camp
 
 ## 🏠 Families & Campers
 
@@ -117,7 +117,7 @@ Be with neighboring communities as they begin recovery, repair, and rebuilding. 
 
 Bring hope in the midst of tragedy, reminding the brokenhearted that You are ever near. May Your presence bring restoration and new beginnings.
 
-In all things, be glorified. **In Jesus’ name, Amen.**
+In all things, be glorified. **In Jesus' name, Amen.**
 
 ## Theme of the month: "Identity in Christ"
 
@@ -136,10 +136,23 @@ In all things, be glorified. **In Jesus’ name, Amen.**
 
 ## Reflection time: Superhero, Superme
 
+
+::: fragment
 -   Write one unique gift of yourself ("quiet listener," "sketcher," etc.).
+
+- Please think about this for 30 seconds.
+<div id=".5minWaiting"></div>
+<script src="_extensions/produnis/timer/timer.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        initializeTimer(".5minWaiting", 30, "slide"); 
+    });
+</script>
+
 -   Another: a personal aspiration or value ("kindness," etc.).
 -   Third: a moment they felt truly known/seen.
 
+:::
 ------------------------------------------------------------------------
 
 ## 🎵 Worship {.scrollable background-image="images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg" background-size="cover" background-color="black"}
@@ -278,12 +291,6 @@ Jesus, Jesus, how I trust Him, How I’ve proved Him o’er and o’er, Jesus, J
 
 ## 🎵 Lyric highlights {background-image="images/ryan-hutton-Jztmx9yqjBw-unsplash.jpg" background-size="cover" background-color="black"}
 
-\
-
-\
-
-\
-
 Key Themes:
 
 -   Simple Faith: Emphasizes taking Jesus “at His Word” and resting “upon His promise”
@@ -311,13 +318,13 @@ Key Themes:
 
 ## 🔍 Related Scriptures
 
--   **Galatians 5:24** – “Those who belong to Christ Jesus have crucified the flesh with its passions and desires.”
+-   **Galatians 5:24** – “Those who belong to Christ Jesus have crucified the flesh with its passions and desires.”
 
--   **Romans 6:4–6** – “Our old self was crucified… that we might walk in newness of life.”
+-   **Romans 6:4–6** – “Our old self was crucified… that we might walk in newness of life.”
 
--   **Colossians 3:3–4** – “You have died, and your life is hidden with Christ in God.”      
+-   **Colossians 3:3–4** – “You have died, and your life is hidden with Christ in God.”      
 
--   **2 Corinthians 5:15** – “…so that those who live might no longer live for themselves but for him who died and was raised.”
+-   **2 Corinthians 5:15** – “…so that those who live might no longer live for themselves but for him who died and was raised.”
 
 ## 📖 Bible Study: Galatians 2:20
 
@@ -327,14 +334,6 @@ Key Themes:
 -   **Not I, but Christ** – Our new identity is Christ Himself living in us—He shapes our thoughts and actions.
 -   **Living by faith** – Our daily life is sustained not by law or self-effort, but by trusting Jesus.
 -   **Christ’s sacrificial love** – His death was personal and intentional: “who loved me and gave himself for me”.
-
-------------------------------------------------------------------------
-
-## 🌱 Real-Life Examples
-
--   **Baptism** → symbolic burial of the old self, new life in Christ (Romans 6) [oai_citation:8‡gotquestions.org](https://www.gotquestions.org/crucified-with-Christ.html?utm_source=chatgpt.com).
--   A friend overcame addiction **not** by willpower, but by daily reliance on Christ’s strength—betraying old identity.
--   **John Piper**: “Our old self — our unbelieving, rebellious, loving-sin self — dies with him. Our new self is created by the Spirit…” [oai_citation:9‡desiringgod.org](https://www.desiringgod.org/interviews/how-does-christ-live-in-me-galatians-2-20?utm_source=chatgpt.com)
 
 ------------------------------------------------------------------------
 
@@ -368,23 +367,6 @@ Key Themes:
 **Week 2: “Christ Lives in Me”**\
 Focus: Deeper understanding and daily awareness of Christ living within.
 
-## 
-
-## 
-
-## 
-
-## 🎬 Movie: [*Chosen Season 1: Episode 2*](https://watch.thechosen.tv/video/184683594335)
-
-::: fragment
-**Overview:** - "Shabbat"
-:::
-
-## 🎬 Movie: [*Chosen Season 1: Episode 3*](https://watch.thechosen.tv/video/184683594336)
-
-::: fragment
-**Overview:** - "Jesus Loves The Little Children"
-:::
 
 ------------------------------------------------------------------------
 
