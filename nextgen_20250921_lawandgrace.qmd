@@ -23,7 +23,7 @@ editor: source
 filters: 
   - timer
 ---
-## Legality and Grace: Old and New Testaments
+## Legality and Grace: Old and New Testaments {.scrollable}
 
 ###
 1. Old Testament Law: Stoning for Adultery
@@ -38,7 +38,7 @@ filters:
 
 - Why Jesus changed this?
 
-## 
+## {.scrollable}
 
 ###
 2. New Testament: Jesus and the Woman Caught in Adultery
@@ -55,7 +55,7 @@ filters:
   - Instead of enforcing execution, Jesus exposes the hypocrisy of the accusers and extends mercy to the woman. He does not excuse her sin but calls her to repentance and transformation: "Go and sin no more."
 
 
-##
+## {.scrollable}
 
 ###
 Why the Difference?
@@ -67,7 +67,7 @@ Why the Difference?
  - Jesus inaugurates the New Covenant, where holiness is established not by external laws but by internal transformation through grace (Jeremiah 31:31–34; Hebrews 8:6–13).
 
 
-##
+## {.scrollable}
 
 ### Why the Difference?
 
@@ -78,7 +78,7 @@ Why the Difference?
  - Jesus fulfills the Law (Matthew 5:17), showing God’s holiness but also offering forgiveness through His sacrifice on the cross.
 
 
-##
+## {.scrollable}
 
 
 ### Why the Difference?
@@ -88,7 +88,7 @@ Why the Difference?
  - Under the Law, justice meant punishment to preserve order.
  - In Christ, mercy triumphs over judgment (James 2:13). Jesus bore the penalty of sin Himself, allowing forgiveness instead of death.
 
-##
+## {.scrollable}
 
 
 ### Why the Difference?
@@ -97,7 +97,7 @@ Why the Difference?
 
  - In John 8, the Pharisees used the woman as a trap, not seeking justice but to test Jesus. They did not bring the man, though the Law required both. Jesus’ response turned the focus to their own sinfulness, leveling the playing field.
 
-## Message to us
+## Message to us {.scrollable}
 
   - **The Old Testament Law demanded death for adultery to protect Israel’s holiness under the covenant.**
  
