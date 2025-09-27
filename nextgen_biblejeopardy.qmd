@@ -24,8 +24,6 @@ knitr:
 editor: source
 ---
 
----
-
 ## Choose Your Difficulty {.allow-slide-skip #home} 
 
 
@@ -39,7 +37,7 @@ editor: source
 
 ## Difficulty: 200 Points {#diff-200}
 
-### Old Testament – \$200
+### Old Testament – $200
 
 **Question:** Who led the Israelites out of Egypt?
 
@@ -56,7 +54,7 @@ editor: source
 [home](#home)
 ---
 
-### New Testament – \$200
+### New Testament – $200
 
 **Question:** Who baptized Jesus?
 
@@ -73,7 +71,7 @@ editor: source
 [home](#home)
 ---
 
-### Bible Geography – \$200
+### Bible Geography – $200
 
 **Question:** What city was Jesus born in?
 
@@ -90,7 +88,7 @@ editor: source
 [home](#home)
 ---
 
-### Famous Verses – \$200
+### Famous Verses – $200
 
 **Question:** “For God so loved the world…” is from which verse?
 
@@ -107,7 +105,7 @@ editor: source
 [home](#home)
 ---
 
-### People of the Bible – \$200
+### People of the Bible – $200
 
 **Question:** Who was thrown into the lion’s den?
 
@@ -126,7 +124,7 @@ editor: source
 
 ## Difficulty: 400 Points {#diff-400}
 
-### Old Testament – \$400
+### Old Testament – $400
 
 **Question:** What was the first plague in Egypt?
 
@@ -143,7 +141,7 @@ editor: source
 [home](#home)
 ---
 
-### New Testament – \$400
+### New Testament – $400
 
 **Question:** How many disciples did Jesus have?
 
@@ -160,7 +158,7 @@ editor: source
 [home](#home)
 ---
 
-### Bible Geography – \$400
+### Bible Geography – $400
 
 **Question:** Which river did John the Baptist baptize in?
 
@@ -177,7 +175,7 @@ editor: source
 [home](#home)
 ---
 
-### Famous Verses – \$400
+### Famous Verses – $400
 
 **Question:** “The Lord is my shepherd…” is from which Psalm?
 
@@ -194,7 +192,7 @@ editor: source
 [home](#home)
 ---
 
-### People of the Bible – \$400
+### People of the Bible – $400
 
 **Question:** Who killed Goliath?
 
@@ -213,7 +211,7 @@ editor: source
 
 ## Difficulty: 600 Points {#diff-600}
 
-### Old Testament – \$600
+### Old Testament – $600
 
 **Question:** What was the sign of God’s covenant with Noah?
 
@@ -230,7 +228,7 @@ editor: source
 [home](#home)
 ---
 
-### New Testament – \$600
+### New Testament – $600
 
 **Question:** What is the first book of the New Testament?
 
@@ -247,7 +245,7 @@ editor: source
 [home](#home)
 ---
 
-### Bible Geography – \$600
+### Bible Geography – $600
 
 **Question:** On what mountain did Moses receive the Ten Commandments?
 
@@ -264,7 +262,7 @@ editor: source
 [home](#home)
 ---
 
-### Famous Verses – \$600
+### Famous Verses – $600
 
 **Question:** “I can do all things through Christ…” comes from which letter?
 
@@ -281,7 +279,7 @@ editor: source
 [home](#home)
 ---
 
-### People of the Bible – \$600
+### People of the Bible – $600
 
 **Question:** Who was the oldest person recorded in the Bible?
 
@@ -300,7 +298,7 @@ editor: source
 
 ## Difficulty: 800 Points {#diff-800}
 
-### Old Testament – \$800
+### Old Testament – $800
 
 **Question:** Which Old Testament character interpreted dreams in Egypt?
 
@@ -317,7 +315,7 @@ editor: source
 [home](#home)
 ---
 
-### New Testament – \$800
+### New Testament – $800
 
 **Question:** Who was the first Christian martyr?
 
@@ -334,7 +332,7 @@ editor: source
 [home](#home)
 ---
 
-### Bible Geography – \$800
+### Bible Geography – $800
 
 **Question:** Where did Paul experience his conversion?
 
@@ -351,7 +349,7 @@ editor: source
 [home](#home)
 ---
 
-### Famous Verses – \$800
+### Famous Verses – $800
 
 **Question:** “Be still and know that I am God…” is found in which Psalm?
 
@@ -368,7 +366,7 @@ editor: source
 [home](#home)
 ---
 
-### People of the Bible – \$800
+### People of the Bible – $800
 
 **Question:** Who replaced Judas Iscariot as a disciple?
 
@@ -387,7 +385,7 @@ editor: source
 
 ## Difficulty: 1000 Points {#diff-1000}
 
-### Old Testament – \$1000
+### Old Testament – $1000
 
 **Question:** Who was the only female judge of Israel?
 
@@ -405,7 +403,7 @@ editor: source
 
 ---
 
-### New Testament – \$1000
+### New Testament – $1000
 
 **Question:** What island was John on when he wrote Revelation?
 
@@ -422,7 +420,7 @@ editor: source
 [home](#home)
 ---
 
-### Bible Geography – \$1000
+### Bible Geography – $1000
 
 **Question:** What region is known as “the land of milk and honey”?
 
@@ -439,7 +437,7 @@ editor: source
 [home](#home)
 ---
 
-### Famous Verses – \$1000
+### Famous Verses – $1000
 
 **Question:** Finish this verse: “Your word is a lamp to my feet…”
 
@@ -456,7 +454,7 @@ editor: source
 [home](#home)
 ---
 
-### People of the Bible – \$1000
+### People of the Bible – $1000
 
 **Question:** Which apostle was a tax collector?
 

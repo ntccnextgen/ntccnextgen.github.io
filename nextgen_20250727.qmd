@@ -1,0 +1,587 @@
+---
+title: ""
+author: ""
+date: "2025-07-27"
+format:
+  revealjs:
+    css: [theme.css]
+    theme: simple
+    transition: slide
+    slide-number: c/t
+    width: 1600
+    height: 900
+    incremental: true
+    verticalAlign: top
+    footer: "<h10>NTCC NextGen 2025</h10>"
+    scroll-view: true
+    countdown: 10
+engine: knitr
+knitr:
+  opts_chunk: 
+    class-output: hscroll
+editor: source
+filters: 
+  - timer
+---
+
+# Sunday Worship {background-image="images/ales-krivec-4miBe6zg5r0-unsplash.jpg" background-size="cover" background-color="black"}
+
+\
+
+<h2>
+
+<p style="color: gray;">
+
+Monthly theme: Identity in Christ
+
+</p>
+
+</h2>
+
+\
+
+<h2>Galatians 2:20</h2>
+
+\
+\
+
+<h3>
+
+<p style="color: yellow;">
+
+***I have been crucified with Christ; it is no longer I who live, but Christ lives in me; and the life which I now live in the flesh I live by faith in the Son of God, who loved me and gave Himself for me. (NKJV)***
+
+</p>
+
+</h3>
+
+\
+
+<h4>
+
+Theme of the year:
+
+<p style="color: lightblue;">
+
+God's Masterpiece - Reflecting His Image and Living Like Jesus
+
+</p>
+
+</h4>
+
+## Theme of the month: "Identity in Christ"
+
+### Key Verse: Galatians 2:20
+
+-   **Crucified with Christ**: Identity comes from being united with Christ in death.
+-   **Christ Lives in Me**: Our new identity is rooted in Christ; He empowers our daily lives. Our true self is Christ living through us.
+-   **Living by Faith**: We live not by our own strength but daily reliance on Christ.
+-   **Loved & Given for Me**: Jesus’ love didn’t stop at mission—it’s personal and sacrificial.
+
+## Game time:
+
+
+## Reflection time: Superhero, Superme
+
+
+::: fragment
+-   Write one unique gift of yourself ("quiet listener," "sketcher," etc.).
+
+- Please think about this for 30 seconds.
+<div id=".5minWaiting"></div>
+<script src="_extensions/produnis/timer/timer.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        initializeTimer(".5minWaiting", 30, "slide"); 
+    });
+</script>
+
+-   Another: a personal aspiration or value ("kindness," etc.).
+-   Third: a moment they felt truly known/seen.
+
+:::
+------------------------------------------------------------------------
+
+## 🎵 Worship {.scrollable background-image="images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg" background-size="cover" background-color="black"}
+
+<p style="color: navy;">
+
+[Great Is Thy Faithfulness - Reawaken Hymns](https://www.youtube.com/watch?v=lbDNkwcuBus&t=8s)
+
+</p>
+
+:::: columns
+::: {.column width="60%"}
+1 Great is thy faithfulness, O God my Father; there is no shadow of turning with thee; thou changest not, thy compassions, they fail not; as thou hast been thou forever wilt be.
+
+Refrain: Great is thy faithfulness! Great is thy faithfulness! Morning by morning new mercies I see: all I have needed thy hand hath provided-- Great is thy faithfulness, Lord, unto me!
+
+\
+
+2 Summer and winter and springtime and harvest, sun, moon, and stars in their courses above join with all nature in manifold witness to thy great faithfulness, mercy, and love.
+
+Refrain: Great is thy faithfulness! Great is thy faithfulness! Morning by morning new mercies I see: all I have needed thy hand hath provided-- Great is thy faithfulness, Lord, unto me!
+
+\
+
+3 Pardon for sin and a peace that endureth, thine own dear presence to cheer and to guide, strength for today and bright hope for tomorrow, blessings all mine, with ten thousand beside!
+
+Refrain: Great is thy faithfulness! Great is thy faithfulness! Morning by morning new mercies I see: all I have needed thy hand hath provided-- Great is thy faithfulness, Lord, unto me!
+:::
+::::
+
+## 🎵 Lyric highlights {background-image="images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg" background-size="cover" background-color="black"}
+
+-   God’s Unchanging Nature: The hymn emphasizes that God “changest not” and has “no shadow of turning”
+
+-   Daily Mercies: The famous refrain declares “Morning by morning new mercies I see”
+
+-   God’s Provision: Celebrates how “All I have needed thy hand hath provided”
+
+-   Creation’s Witness: References the seasons and natural world as testimony to God’s faithfulness
+
+-   Eternal Promises: Highlights “Pardon for sin and a peace that endureth” and “Strength for today and bright hope for tomorrow”
+
+-   Author Thomas Chisholm wrote this hymp in 1923, which was inspired by simple daily experiences of God’s faithfulness rather than dramatic life events.
+
+## 🎵 Worship {.scrollable background-image="images/ryan-hutton-Jztmx9yqjBw-unsplash.jpg" background-size="cover" background-color="black"}
+
+<p style="color: navy;">
+
+[I Surrender All - Reawaken Hymns](https://www.youtube.com/watch?v=xSPcuV5Sli8)
+
+</p>
+
+:::: columns
+::: {.column width="60%"}
+1 All to Jesus I surrender, All to Him I freely give; I will ever love and trust Him, In His presence daily live.
+
+\
+
+Refrain: I surrender all, I surrender all; All to Thee, my blessed Savior, I surrender all.
+
+\
+
+2 All to Jesus I surrender, Make me, Savior, wholly Thine; Let me feel Thy Holy Spirit, Truly know that Thou art mine.
+
+\
+
+Refrain: I surrender all, I surrender all; All to Thee, my blessed Savior, I surrender all.
+
+\
+
+3 All to Jesus I surrender, Lord, I give myself to Thee; Fill me with Thy love and power, Let Thy blessing fall on me.
+
+\
+
+Refrain: I surrender all, I surrender all; All to Thee, my blessed Savior, I surrender all.
+
+\
+\
+\
+:::
+::::
+
+## 🎵 Lyric highlights {background-image="images/ryan-hutton-Jztmx9yqjBw-unsplash.jpg" background-size="cover" background-color="black"}
+
+Key Themes:
+
+-   Complete Surrender: The central message is yielding “all to Jesus” in every aspect of life
+-   Humility and Submission: Emphasizes bowing “humbly at His feet” in reverence
+-   Spiritual Transformation: Expresses the desire to be filled with the Holy Spirit
+-   Trust and Faith: Represents a deliberate choice made with love and trust
+-   Divine Blessing: Includes the prayer “Let thy blessings fall on me”
+-   Core Message: This hymn represents the profound spiritual journey of complete surrender to Christ, leading to joy, salvation, and spiritual fulfillment
+
+## 🎵 Worship {.scrollable background-image="images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg" background-size="cover" background-color="black"}
+
+<p style="color: navy;">
+
+[Tis so sweet to trust in Jesus](https://www.youtube.com/watch?v=xSPcuV5Sli8)
+
+</p>
+
+:::: columns
+::: {.column width="60%"}
+1 ’Tis so sweet to trust in Jesus, Just to take Him at His word; Just to rest upon His promise; Just to know, Thus saith the Lord.
+
+\
+
+Jesus, Jesus, how I trust Him, How I’ve proved Him o’er and o’er, Jesus, Jesus, Precious Jesus! O for grace to trust Him more.
+
+\
+
+2 O how sweet to trust in Jesus, Just to trust His cleansing blood; Just in simple faith to plunge me, ’Neath the healing, cleansing flood.
+
+\
+Jesus, Jesus, how I trust Him, How I’ve proved Him o’er and o’er, Jesus, Jesus, Precious Jesus! O for grace to trust Him more.
+
+\
+
+3 Yes, ’tis sweet to trust in Jesus, Just from sin and self to cease; Just from Jesus simply taking Life, and rest, and joy, and peace.
+
+\
+Jesus, Jesus, how I trust Him, How I’ve proved Him o’er and o’er, Jesus, Jesus, Precious Jesus! O for grace to trust Him more.
+
+\
+4 I’m so glad I learned to trust Thee, Precious Jesus, Savior, Friend; And I know that Thou art with me, Wilt be with me to the end.
+
+\
+
+Jesus, Jesus, how I trust Him, How I’ve proved Him o’er and o’er, Jesus, Jesus, Precious Jesus! O for grace to trust Him more.
+
+\
+\
+\
+:::
+::::
+
+## 🎵 Lyric highlights {background-image="images/ryan-hutton-Jztmx9yqjBw-unsplash.jpg" background-size="cover" background-color="black"}
+
+Key Themes:
+
+-   Simple Faith: Emphasizes taking Jesus “at His Word” and resting “upon His promise”
+
+-   Cleansing Power: References trusting in Jesus’ “cleansing blood” and the “healing, cleansing flood”
+
+-   Rest and Peace: Highlights finding “life and rest, and joy and peace” in Jesus
+
+-   Eternal Friendship: Celebrates Jesus as “Precious Jesus, Savior, Friend”
+
+-   Constant Presence: Affirms “I know that Thou art with me, wilt be with me to the end”
+
+-   Notable Refrain: “Jesus, Jesus, how I trust Him! How I’ve proved Him o’er and o’er”
+
+## Bible study: **Crucified – Old Self Declared Dead**
+
+**Theme Scripture:**\
+**Galatians 2:20** (NKJV)
+
+\
+
+“I have been crucified with Christ; it is no longer I who live, but Christ lives in me; and the life which I now live in the flesh I live by faith in the Son of God, who loved me and gave Himself for me.”
+
+------------------------------------------------------------------------
+
+## 🔍 Related Scriptures
+
+-   **Galatians 5:24** – “Those who belong to Christ Jesus have crucified the flesh with its passions and desires.”
+
+-   **Romans 6:4–6** – “Our old self was crucified… that we might walk in newness of life.”
+
+-   **Colossians 3:3–4** – “You have died, and your life is hidden with Christ in God.”      
+
+-   **2 Corinthians 5:15** – “…so that those who live might no longer live for themselves but for him who died and was raised.”
+
+## 📖 Bible Study: Galatians 2:20
+
+### Exposition in four points:
+
+-   **Paradox of death & life** – Though “dead” to the old self, we *live* spiritually **through** Christ\
+-   **Not I, but Christ** – Our new identity is Christ Himself living in us—He shapes our thoughts and actions.
+-   **Living by faith** – Our daily life is sustained not by law or self-effort, but by trusting Jesus.
+-   **Christ’s sacrificial love** – His death was personal and intentional: “who loved me and gave himself for me”.
+
+------------------------------------------------------------------------
+
+## 💡 Application Points
+
+1.  **Let go of past labels** — physically discard labels that no longer define you.\
+2.  **Welcome Christ’s life** — begin your day saying, “Christ lives in me.”\
+3.  **Practice daily faith** — before tasks, pause and choose to trust Christ.\
+4.  **Live out gratitude** — look for ways today to express thanks for His sacrifice.
+
+------------------------------------------------------------------------
+
+## 🗣️ Discussion Questions
+
+-   What “old labels” or habits feel like they define you?
+-   What does your life look like *after* being “crucified” with Christ?
+-   How can trusting Christ shape decisions this week?
+-   How does knowing He died specifically for **you** change your identity?
+
+------------------------------------------------------------------------
+
+
+## 🔹 Week 2 – Christ Lives in Me
+
+**Key Scripture:**  
+**Romans 8:10** (ESV)  
+> *"But if Christ is in you, although the body is dead because of sin, the Spirit is life because of righteousness."*  
+
+---
+
+### 🧠 Discussion Questions
+- What does it mean that *Christ lives in me* rather than just *I live like Christ*?
+- How does His presence shape your decisions, friendships, and emotions?
+- Can you share a moment when you sensed Jesus actively guiding or comforting you?
+
+---
+
+### 🎯 Applications
+- **Mirror Affirmation:** Write “Christ lives in me” on a mirror; declare it aloud each morning.
+- **Soul Check-Ins:** Pause 2–3 times daily to ask: “Am I living from Christ in me or from my own strength?”
+- **Prayer Prompt:** *“Jesus, help me sense Your life within me today.”*
+
+---
+
+## 🔹 Week 3 – Living by Faith in the Son of God
+
+**Key Scripture:**  
+**Galatians 3:11** (ESV)  
+> *"Now it is evident that no one is justified before God by the law, for “The righteous shall live by faith."*  
+
+---
+
+### 🧠 Discussion Questions
+- What’s the difference between living by faith vs. trying harder on your own?
+- Which areas of your life need stronger trust in Christ?
+- Why is faith in *the Son of God* different than any other kind of faith?
+
+---
+
+### 🎯 Applications
+- **Faith Journal:** Write down one area needing faith daily ("trust in exams," "friendship conflict") and note where God shows up.
+- **Accountability Pair:** Share your faith goal for the week; check in midweek.
+- **Prayer Prompt:** *“God, help me to live today by faith in Your Son, not by my own strength.”*
+
+---
+
+## 🔹 Week D – Loved & Given for Me
+
+**Key Scripture:**  
+**John 15:13** (ESV)  
+> *"Greater love has no one than this, that someone lay down his life for his friends."* 
+
+**Galatians 2:20** reminder  
+> *“…who loved me and gave himself for me.”*
+
+---
+
+### 🧠 Discussion Questions
+- What difference does it make that Jesus *personally* gave Himself for *you*?
+- Have you experienced sacrificial love that reminded you of Christ’s?
+- How can you show sacrificial love to someone this week?
+
+---
+
+### 🎯 Applications
+- **Gratitude Prayer:** Spend quiet time thanking Jesus for His love; share one personal gratitude each.
+- **Love in Action:** Commit to one sacrificial act (helping someone, encouraging, volunteering).
+- **Reflection Prompt:** *“How does knowing I’m personally loved empower me to love others?”*
+
+
+
+
+## 🙏 Prayer & Reflection
+
+-   **Quiet moment**: Sit with Galatians 2:20, asking God to reveal areas still tied to your old self.
+-   **Group prayer**: “Christ, thank You… You’ve replaced my old self with Your life. Help me walk by faith today.”
+
+
+------------------------------------------------------------------------
+
+## [Turn your eyes upon Jesus](https://www.youtube.com/watch?v=l-XpDh9ujXs) {.scrollable background-image="images/benjamin-voros-phIFdC6lA4E-unsplash.jpg" background-size="cover" background-color="black"}
+
+Verse 1
+
+O soul, are you weary and troubled?
+
+No light in the darkness you see?
+
+There’s light for a look at the Savior,
+
+And life more abundant and free.
+
+\
+\
+
+Chorus
+
+Turn your eyes upon Jesus,
+
+Look full in His wonderful face,
+
+And the things of earth will grow strangely dim,
+
+In the light of His glory and grace.
+
+\
+
+Verse 2
+
+Through death into life everlasting,
+
+He passed, and we follow Him there;
+
+O’er us sin no more hath dominion,
+
+For more than conquerors we are.
+
+\
+
+Chorus
+
+Turn your eyes upon Jesus,
+
+Look full in His wonderful face,
+
+And the things of earth will grow strangely dim,
+
+In the light of His glory and grace.
+
+## How Great Thou Art {.scrollable background-image="images/benjamin-voros-phIFdC6lA4E-unsplash.jpg" background-size="cover" background-color="black"}
+
+Verse 1
+
+O Lord my God, when I in awesome wonder
+
+Consider all the worlds Thy Hands have made;
+
+I see the stars, I hear the rolling thunder,
+
+Thy power throughout the universe displayed.
+
+\
+
+Chorus
+
+Then sings my soul, my Savior God, to Thee,
+
+How great Thou art, how great Thou art.
+
+Then sings my soul, my Savior God, to Thee,
+
+How great Thou art, how great Thou art!
+
+\
+
+Verse 2
+
+When through the woods and forest glades I wander,
+
+And hear the birds sing sweetly in the trees.
+
+When I look down from lofty mountain grandeur,
+
+And hear the brook and feel the gentle breeze.
+
+## Amazing Grace {.scrollable background-image="images/benjamin-voros-phIFdC6lA4E-unsplash.jpg" background-size="cover" background-color="black"}
+
+Verse 1
+
+Amazing grace! how sweet the sound
+
+That saved a wretch like me!
+
+I once was lost, but now am found,
+
+Was blind, but now I see.
+
+\
+
+Verse 2
+
+’Twas grace that taught my heart to fear,
+
+And grace my fears relieved;
+
+How precious did that grace appear
+
+The hour I first believed!
+
+\
+
+Verse 3
+
+The Lord hath promised good to me,
+
+His word my hope secures;
+
+He will my shield and portion be,
+
+As long as life endures.
+
+\
+
+Verse 4
+
+When we’ve been there ten thousand years,
+
+Bright shining as the sun,
+
+We’ve no less days to sing God’s praise
+
+Than when we first begun.
+
+## Amazing Grace (My Chains Are Gone) {.scrollable background-image="images/benjamin-voros-phIFdC6lA4E-unsplash.jpg" background-size="cover" background-color="black"}
+
+Verse 1
+
+Amazing grace! how sweet the sound
+
+That saved a wretch like me!
+
+I once was lost, but now am found,
+
+Was blind, but now I see.
+
+\
+
+Verse 2
+
+’Twas grace that taught my heart to fear,
+
+And grace my fears relieved;
+
+How precious did that grace appear
+
+The hour I first believed!
+
+\
+
+Chorus
+
+My chains are gone, I’ve been set free
+
+My God, my Savior has ransomed me
+
+And like a flood His mercy reigns
+
+Unending love, amazing grace
+
+\
+
+Verse 3
+
+The Lord has promised good to me
+
+His word my hope secures
+
+He will my shield and portion be
+
+As long as life endures
+
+\
+
+Verse 4
+
+The earth shall soon dissolve like snow
+
+The sun forbear to shine
+
+But God, who called me here below
+
+Will be forever mine
+
+\
+
+Chorus
+
+My chains are gone, I’ve been set free
+
+My God, my Savior has ransomed me
+
+And like a flood His mercy reigns
+
+Unending love, amazing grace

@@ -1,0 +1,1554 @@
+---
+title: "Bible Jeopardy 2025"
+subtitle: "Test Your Biblical Knowledge"
+author: ""
+date: "9-28-2025"
+format:
+  revealjs:
+    css: [theme.css]
+    theme: simple
+    transition: slide
+    slide-number: c/t
+    incremental: true
+    verticalAlign: top
+    preview-links: auto
+    embed-resources: true
+    navigation-mode: vertical
+    countdown: 10
+    footer: "<h10>NTCC NextGen 2025</h10>"
+engine: knitr
+knitr:
+  opts_chunk: 
+    class-output: hscroll
+editor: source
+---
+
+## Choose Your Difficulty {.allow-slide-skip #home} 
+* [200 points](#diff-200)
+* [400 points](#diff-400)
+* [600 points](#diff-600)
+* [800 points](#diff-800)
+* [1000 points](#diff-1000)
+
+---
+
+## Difficulty: 200 Points {#diff-200}
+
+### Old Testament – $200 {#q200-1}
+**Question:** Who led the Israelites out of Egypt?
+
+* A: Abraham
+* B: David
+* C: Moses
+* D: Joshua
+
+::: {.fragment}
+**Answer:** C: Moses (Exodus 3:10)
+:::
+[⬅ Back to 200](#diff-200) | [🏠 Home](#home)
+
+---
+
+### New Testament – $200 {#q200-2}
+**Question:** Who baptized Jesus?
+
+* A: Peter
+* B: Paul
+* C: John the Baptist
+* D: James
+
+::: {.fragment}
+**Answer:** C: John the Baptist (Matthew 3:13-17)
+:::
+[⬅ Back to 200](#diff-200) | [🏠 Home](#home)
+
+---
+
+### Bible Geography – $200 {#q200-3}
+**Question:** What city was Jesus born in?
+
+* A: Nazareth
+* B: Jerusalem
+* C: Bethlehem
+* D: Capernaum
+
+::: {.fragment}
+**Answer:** C: Bethlehem (Luke 2:4-7)
+:::
+[⬅ Back to 200](#diff-200) | [🏠 Home](#home)
+
+---
+
+### Famous Verses – $200 {#q200-4}
+**Question:** "For God so loved the world..." is from which verse?
+
+* A: John 3:16
+* B: Matthew 6:33
+* C: Psalm 23:1
+* D: Romans 8:28
+
+::: {.fragment}
+**Answer:** A: John 3:16
+:::
+[⬅ Back to 200](#diff-200) | [🏠 Home](#home)
+
+---
+
+### Biblical Characters – $200 {#q200-5}
+**Question:** How many disciples did Jesus choose?
+
+* A: 10
+* B: 12
+* C: 14
+* D: 16
+
+::: {.fragment}
+**Answer:** B: 12 (Matthew 10:1-4)
+:::
+[⬅ Back to 200](#diff-200) | [🏠 Home](#home)
+
+---
+
+### Creation Story – $200 {#q200-6}
+**Question:** On which day did God rest?
+
+* A: 6th day
+* B: 7th day
+* C: 8th day
+* D: 5th day
+
+::: {.fragment}
+**Answer:** B: 7th day (Genesis 2:2)
+:::
+[⬅ Back to 200](#diff-200) | [🏠 Home](#home)
+
+---
+
+### Noah's Ark – $200 {#q200-7}
+**Question:** How many of each clean animal did Noah take on the ark?
+
+* A: 2
+* B: 4
+* C: 7
+* D: 1
+
+::: {.fragment}
+**Answer:** C: 7 (Genesis 7:2)
+:::
+[⬅ Back to 200](#diff-200) | [🏠 Home](#home)
+
+---
+
+### Jesus' Ministry – $200 {#q200-8}
+**Question:** What was Jesus' first miracle?
+
+* A: Healing the blind
+* B: Walking on water
+* C: Turning water to wine
+* D: Feeding 5000
+
+::: {.fragment}
+**Answer:** C: Turning water to wine (John 2:1-11)
+:::
+[⬅ Back to 200](#diff-200) | [🏠 Home](#home)
+
+---
+
+### Ten Commandments – $200 {#q200-9}
+**Question:** Where did Moses receive the Ten Commandments?
+
+* A: Mount Sinai
+* B: Mount Carmel
+* C: Mount Olive
+* D: Mount Ararat
+
+::: {.fragment}
+**Answer:** A: Mount Sinai (Exodus 19:20)
+:::
+[⬅ Back to 200](#diff-200) | [🏠 Home](#home)
+
+---
+
+### David and Goliath – $200 {#q200-10}
+**Question:** What weapon did David use to defeat Goliath?
+
+* A: Sword
+* B: Spear
+* C: Sling and stone
+* D: Bow and arrow
+
+::: {.fragment}
+**Answer:** C: Sling and stone (1 Samuel 17:50)
+:::
+[⬅ Back to 200](#diff-200) | [🏠 Home](#home)
+
+---
+
+### The Garden of Eden – $200 {#q200-11}
+**Question:** What was the forbidden fruit tree called?
+
+* A: Tree of Life
+* B: Tree of Knowledge of Good and Evil
+* C: Tree of Wisdom
+* D: Tree of Truth
+
+::: {.fragment}
+**Answer:** B: Tree of Knowledge of Good and Evil (Genesis 2:17)
+:::
+[⬅ Back to 200](#diff-200) | [🏠 Home](#home)
+
+---
+
+### Jesus' Birth – $200 {#q200-12}
+**Question:** Who were Jesus' earthly parents?
+
+* A: Joseph and Rachel
+* B: Joseph and Mary
+* C: Abraham and Sarah
+* D: Zechariah and Elizabeth
+
+::: {.fragment}
+**Answer:** B: Joseph and Mary (Matthew 1:16)
+:::
+[⬅ Back to 200](#diff-200) | [🏠 Home](#home)
+
+---
+
+### The Lord's Prayer – $200 {#q200-13}
+**Question:** "Our Father who art in heaven..." begins which prayer?
+
+* A: The Lord's Prayer
+* B: The Serenity Prayer
+* C: The Prayer of Jabez
+* D: The 23rd Psalm
+
+::: {.fragment}
+**Answer:** A: The Lord's Prayer (Matthew 6:9-13)
+:::
+[⬅ Back to 200](#diff-200) | [🏠 Home](#home)
+
+---
+
+### Basic Bible Facts – $200 {#q200-14}
+**Question:** How many books are in the Bible?
+
+* A: 64
+* B: 66
+* C: 68
+* D: 70
+
+::: {.fragment}
+**Answer:** B: 66 (39 Old Testament, 27 New Testament)
+:::
+[⬅ Back to 200](#diff-200) | [🏠 Home](#home)
+
+---
+
+### Cain and Abel – $200 {#q200-15}
+**Question:** What were the occupations of Cain and Abel?
+
+* A: Shepherd and fisherman
+* B: Farmer and shepherd
+* C: Builder and hunter
+* D: Merchant and soldier
+
+::: {.fragment}
+**Answer:** B: Farmer and shepherd (Genesis 4:2)
+:::
+[⬅ Back to 200](#diff-200) | [🏠 Home](#home)
+
+---
+
+### Jesus' Death – $200 {#q200-16}
+**Question:** How did Jesus die?
+
+* A: Stoning
+* B: Crucifixion
+* C: Drowning
+* D: Poison
+
+::: {.fragment}
+**Answer:** B: Crucifixion (Matthew 27:35)
+:::
+[⬅ Back to 200](#diff-200) | [🏠 Home](#home)
+
+---
+
+### The Great Flood – $200 {#q200-17}
+**Question:** How long did it rain during Noah's flood?
+
+* A: 30 days and nights
+* B: 40 days and nights
+* C: 50 days and nights
+* D: 60 days and nights
+
+::: {.fragment}
+**Answer:** B: 40 days and nights (Genesis 7:12)
+:::
+[⬅ Back to 200](#diff-200) | [🏠 Home](#home)
+
+---
+
+### Jonah – $200 {#q200-18}
+**Question:** What swallowed Jonah?
+
+* A: A whale
+* B: A great fish
+* C: A sea monster
+* D: A shark
+
+::: {.fragment}
+**Answer:** B: A great fish (Jonah 1:17)
+:::
+[⬅ Back to 200](#diff-200) | [🏠 Home](#home)
+
+---
+
+### Christmas Story – $200 {#q200-19}
+**Question:** What guided the wise men to Jesus?
+
+* A: An angel
+* B: A star
+* C: A dream
+* D: A map
+
+::: {.fragment}
+**Answer:** B: A star (Matthew 2:2)
+:::
+[⬅ Back to 200](#diff-200) | [🏠 Home](#home)
+
+---
+
+### Moses' Helper – $200 {#q200-20}
+**Question:** Who was Moses' brother and spokesman?
+
+* A: Joshua
+* B: Caleb
+* C: Aaron
+* D: Miriam
+
+::: {.fragment}
+**Answer:** C: Aaron (Exodus 4:14-16)
+:::
+[⬅ Back to 200](#diff-200) | [🏠 Home](#home)
+
+---
+
+## Difficulty: 400 Points {#diff-400}
+
+### Old Testament Stories – $400 {#q400-1}
+**Question:** What was Matthew's occupation before following Jesus?
+
+* A: Fisherman
+* B: Tax collector
+* C: Carpenter
+* D: Tentmaker
+
+::: {.fragment}
+**Answer:** B: Tax collector (Matthew 9:9)
+:::
+[⬅ Back to 400](#diff-400) | [🏠 Home](#home)
+
+---
+
+### Biblical Numbers – $400 {#q400-2}
+**Question:** How many plagues did God send on Egypt?
+
+* A: 8
+* B: 9
+* C: 10
+* D: 12
+
+::: {.fragment}
+**Answer:** C: 10 (Exodus 7-12)
+:::
+[⬅ Back to 400](#diff-400) | [🏠 Home](#home)
+
+---
+
+### Bible Geography – $400 {#q400-3}
+**Question:** What river did Jesus get baptized in?
+
+* A: Nile River
+* B: Jordan River
+* C: Euphrates River
+* D: Red Sea
+
+::: {.fragment}
+**Answer:** B: Jordan River (Matthew 3:13)
+:::
+[⬅ Back to 400](#diff-400) | [🏠 Home](#home)
+
+---
+
+### Parables – $400 {#q400-4}
+**Question:** In the parable of the Good Samaritan, who helped the injured man?
+
+* A: A priest
+* B: A Levite
+* C: A Samaritan
+* D: A Roman soldier
+
+::: {.fragment}
+**Answer:** C: A Samaritan (Luke 10:25-37)
+:::
+[⬅ Back to 400](#diff-400) | [🏠 Home](#home)
+
+---
+
+### Kings of Israel – $400 {#q400-5}
+**Question:** Who was the first king of Israel?
+
+* A: David
+* B: Solomon
+* C: Saul
+* D: Samuel
+
+::: {.fragment}
+**Answer:** C: Saul (1 Samuel 10:1)
+:::
+[⬅ Back to 400](#diff-400) | [🏠 Home](#home)
+
+---
+
+### Daniel – $400 {#q400-6}
+**Question:** What did King Nebuchadnezzar see in his dream that Daniel interpreted?
+
+* A: A great tree
+* B: A statue with different metals
+* C: Four beasts
+* D: A burning furnace
+
+::: {.fragment}
+**Answer:** B: A statue with different metals (Daniel 2:31-35)
+:::
+[⬅ Back to 400](#diff-400) | [🏠 Home](#home)
+
+---
+
+### Ruth – $400 {#q400-7}
+**Question:** Ruth was the great-grandmother of which king?
+
+* A: Saul
+* B: David
+* C: Solomon
+* D: Hezekiah
+
+::: {.fragment}
+**Answer:** B: David (Ruth 4:17)
+:::
+[⬅ Back to 400](#diff-400) | [🏠 Home](#home)
+
+---
+
+### Paul's Journeys – $400 {#q400-8}
+**Question:** What was Paul's name before he became a Christian?
+
+* A: Simon
+* B: Saul
+* C: Stephen
+* D: Silas
+
+::: {.fragment}
+**Answer:** B: Saul (Acts 9:1-4)
+:::
+[⬅ Back to 400](#diff-400) | [🏠 Home](#home)
+
+---
+
+### Esther – $400 {#q400-9}
+**Question:** What was Queen Esther's Hebrew name?
+
+* A: Ruth
+* B: Naomi
+* C: Hadassah
+* D: Miriam
+
+::: {.fragment}
+**Answer:** C: Hadassah (Esther 2:7)
+:::
+[⬅ Back to 400](#diff-400) | [🏠 Home](#home)
+
+---
+
+### Jesus' Miracles – $400 {#q400-10}
+**Question:** How many loaves and fishes did Jesus use to feed the 5000?
+
+* A: 3 loaves, 4 fishes
+* B: 5 loaves, 2 fishes
+* C: 7 loaves, 3 fishes
+* D: 4 loaves, 5 fishes
+
+::: {.fragment}
+**Answer:** B: 5 loaves, 2 fishes (Matthew 14:17)
+:::
+[⬅ Back to 400](#diff-400) | [🏠 Home](#home)
+
+---
+
+### Abraham – $400 {#q400-11}
+**Question:** What was Abraham's name before God changed it?
+
+* A: Abram
+* B: Abel
+* C: Adam
+* D: Aaron
+
+::: {.fragment}
+**Answer:** A: Abram (Genesis 17:5)
+:::
+[⬅ Back to 400](#diff-400) | [🏠 Home](#home)
+
+---
+
+### Samson – $400 {#q400-12}
+**Question:** What was the source of Samson's strength?
+
+* A: His muscles
+* B: His hair
+* C: His faith
+* D: His diet
+
+::: {.fragment}
+**Answer:** B: His hair (Judges 16:17)
+:::
+[⬅ Back to 400](#diff-400) | [🏠 Home](#home)
+
+---
+
+### Pentecost – $400 {#q400-13}
+**Question:** What appeared above the disciples' heads at Pentecost?
+
+* A: Doves
+* B: Tongues of fire
+* C: Angels
+* D: Clouds
+
+::: {.fragment}
+**Answer:** B: Tongues of fire (Acts 2:3)
+:::
+[⬅ Back to 400](#diff-400) | [🏠 Home](#home)
+
+---
+
+### Moses and Pharaoh – $400 {#q400-14}
+**Question:** What was the final plague that convinced Pharaoh to let the Israelites go?
+
+* A: Locusts
+* B: Darkness
+* C: Death of firstborn
+* D: Hail
+
+::: {.fragment}
+**Answer:** C: Death of firstborn (Exodus 12:29-32)
+:::
+[⬅ Back to 400](#diff-400) | [🏠 Home](#home)
+
+---
+
+### Gideon – $400 {#q400-15}
+**Question:** How many men did Gideon have in his final army against the Midianites?
+
+* A: 100
+* B: 200
+* C: 300
+* D: 400
+
+::: {.fragment}
+**Answer:** C: 300 (Judges 7:7)
+:::
+[⬅ Back to 400](#diff-400) | [🏠 Home](#home)
+
+---
+
+### Solomon – $400 {#q400-16}
+**Question:** What did Solomon ask God for when he became king?
+
+* A: Riches
+* B: Long life
+* C: Wisdom
+* D: Power
+
+::: {.fragment}
+**Answer:** C: Wisdom (1 Kings 3:9)
+:::
+[⬅ Back to 400](#diff-400) | [🏠 Home](#home)
+
+---
+
+### The Last Supper – $400 {#q400-17}
+**Question:** Which disciple betrayed Jesus?
+
+* A: Peter
+* B: Judas Iscariot
+* C: Thomas
+* D: Matthew
+
+::: {.fragment}
+**Answer:** B: Judas Iscariot (Matthew 26:14-16)
+:::
+[⬅ Back to 400](#diff-400) | [🏠 Home](#home)
+
+---
+
+### Joshua – $400 {#q400-18}
+**Question:** What city's walls fell down when Joshua and the Israelites marched around it?
+
+* A: Jerusalem
+* B: Jericho
+* C: Ai
+* D: Hebron
+
+::: {.fragment}
+**Answer:** B: Jericho (Joshua 6:20)
+:::
+[⬅ Back to 400](#diff-400) | [🏠 Home](#home)
+
+---
+
+### Mary and Martha – $400 {#q400-19}
+**Question:** Who was Mary and Martha's brother that Jesus raised from the dead?
+
+* A: Lazarus
+* B: John
+* C: James
+* D: Andrew
+
+::: {.fragment}
+**Answer:** A: Lazarus (John 11:43-44)
+:::
+[⬅ Back to 400](#diff-400) | [🏠 Home](#home)
+
+---
+
+### Elijah – $400 {#q400-20}
+**Question:** On Mount Carmel, what did Elijah's sacrifice consume that proved God's power?
+
+* A: Water and stones
+* B: Wood and altar
+* C: Bull, wood, stones, and water
+* D: Only the bull
+
+::: {.fragment}
+**Answer:** C: Bull, wood, stones, and water (1 Kings 18:38)
+:::
+[⬅ Back to 400](#diff-400) | [🏠 Home](#home)
+
+---
+
+## Difficulty: 600 Points {#diff-600}
+
+### Abraham's Family – $600 {#q600-1}
+**Question:** What was the name of Abraham's servant who found Isaac a wife?
+
+* A: Eliezer
+* B: Melchizedek
+* C: Abimelech
+* D: Lot
+
+::: {.fragment}
+**Answer:** A: Eliezer (Genesis 24:2)
+:::
+[⬅ Back to 600](#diff-600) | [🏠 Home](#home)
+
+---
+
+### Genealogies – $600 {#q600-2}
+**Question:** Who was the father of King David?
+
+* A: Saul
+* B: Jesse
+* C: Samuel
+* D: Jonathan
+
+::: {.fragment}
+**Answer:** B: Jesse (1 Samuel 16:13)
+:::
+[⬅ Back to 600](#diff-600) | [🏠 Home](#home)
+
+---
+
+### Prophets – $600 {#q600-3}
+**Question:** Which prophet was taken up to heaven in a whirlwind?
+
+* A: Elijah
+* B: Elisha
+* C: Enoch
+* D: Ezekiel
+
+::: {.fragment}
+**Answer:** A: Elijah (2 Kings 2:11)
+:::
+[⬅ Back to 600](#diff-600) | [🏠 Home](#home)
+
+---
+
+### Book of Revelation – $600 {#q600-4}
+**Question:** How many churches did John write letters to in Revelation?
+
+* A: 5
+* B: 6
+* C: 7
+* D: 8
+
+::: {.fragment}
+**Answer:** C: 7 (Revelation 1:11)
+:::
+[⬅ Back to 600](#diff-600) | [🏠 Home](#home)
+
+---
+
+### Jacob's Sons – $600 {#q600-5}
+**Question:** Which of Jacob's sons was sold into slavery in Egypt?
+
+* A: Judah
+* B: Benjamin
+* C: Joseph
+* D: Levi
+
+::: {.fragment}
+**Answer:** C: Joseph (Genesis 37:28)
+:::
+[⬅ Back to 600](#diff-600) | [🏠 Home](#home)
+
+---
+
+### Nehemiah – $600 {#q600-6}
+**Question:** What did Nehemiah rebuild in Jerusalem?
+
+* A: The temple
+* B: The walls
+* C: The palace
+* D: The altar
+
+::: {.fragment}
+**Answer:** B: The walls (Nehemiah 2:17)
+:::
+[⬅ Back to 600](#diff-600) | [🏠 Home](#home)
+
+---
+
+### High Priests – $600 {#q600-7}
+**Question:** Who was the high priest when Jesus was crucified?
+
+* A: Annas
+* B: Caiaphas
+* C: Zechariah
+* D: Eli
+
+::: {.fragment}
+**Answer:** B: Caiaphas (Matthew 26:57)
+:::
+[⬅ Back to 600](#diff-600) | [🏠 Home](#home)
+
+---
+
+### Balaam – $600 {#q600-8}
+**Question:** What animal spoke to Balaam?
+
+* A: A serpent
+* B: A donkey
+* C: A raven
+* D: A dove
+
+::: {.fragment}
+**Answer:** B: A donkey (Numbers 22:28)
+:::
+[⬅ Back to 600](#diff-600) | [🏠 Home](#home)
+
+---
+
+### Timothy – $600 {#q600-9}
+**Question:** Who was Timothy's grandmother?
+
+* A: Eunice
+* B: Lois
+* C: Priscilla
+* D: Lydia
+
+::: {.fragment}
+**Answer:** B: Lois (2 Timothy 1:5)
+:::
+[⬅ Back to 600](#diff-600) | [🏠 Home](#home)
+
+---
+
+### Levitical Law – $600 {#q600-10}
+**Question:** How many cities of refuge were established in Israel?
+
+* A: 4
+* B: 6
+* C: 8
+* D: 12
+
+::: {.fragment}
+**Answer:** B: 6 (Numbers 35:13)
+:::
+[⬅ Back to 600](#diff-600) | [🏠 Home](#home)
+
+---
+
+### Judges – $600 {#q600-11}
+**Question:** Who was the only female judge of Israel?
+
+* A: Miriam
+* B: Deborah
+* C: Esther
+* D: Ruth
+
+::: {.fragment}
+**Answer:** B: Deborah (Judges 4:4)
+:::
+[⬅ Back to 600](#diff-600) | [🏠 Home](#home)
+
+---
+
+### Temple Measurements – $600 {#q600-12}
+**Question:** How long did it take Solomon to build the temple?
+
+* A: 5 years
+* B: 7 years
+* C: 10 years
+* D: 12 years
+
+::: {.fragment}
+**Answer:** B: 7 years (1 Kings 6:38)
+:::
+[⬅ Back to 600](#diff-600) | [🏠 Home](#home)
+
+---
+
+### Ezra and Scripture – $600 {#q600-13}
+**Question:** What did Ezra read to the people when they returned from exile?
+
+* A: The Psalms
+* B: The Law of Moses
+* C: The Prophets
+* D: The Proverbs
+
+::: {.fragment}
+**Answer:** B: The Law of Moses (Nehemiah 8:1)
+:::
+[⬅ Back to 600](#diff-600) | [🏠 Home](#home)
+
+---
+
+### Hezekiah – $600 {#q600-14}
+**Question:** How many years was added to King Hezekiah's life?
+
+* A: 10 years
+* B: 15 years
+* C: 20 years
+* D: 25 years
+
+::: {.fragment}
+**Answer:** B: 15 years (2 Kings 20:6)
+:::
+[⬅ Back to 600](#diff-600) | [🏠 Home](#home)
+
+---
+
+### Philip – $600 {#q600-15}
+**Question:** Who did Philip baptize on the road to Gaza?
+
+* A: A Roman centurion
+* B: An Ethiopian eunuch
+* C: A Samaritan woman
+* D: A Greek philosopher
+
+::: {.fragment}
+**Answer:** B: An Ethiopian eunuch (Acts 8:27-38)
+:::
+[⬅ Back to 600](#diff-600) | [🏠 Home](#home)
+
+---
+
+### Naaman – $600 {#q600-16}
+**Question:** How many times did Naaman dip in the Jordan River to be healed?
+
+* A: 3 times
+* B: 5 times
+* C: 7 times
+* D: 10 times
+
+::: {.fragment}
+**Answer:** C: 7 times (2 Kings 5:14)
+:::
+[⬅ Back to 600](#diff-600) | [🏠 Home](#home)
+
+---
+
+### Barnabas – $600 {#q600-17}
+**Question:** What was Barnabas's real name?
+
+* A: Joseph
+* B: John
+* C: Judas
+* D: James
+
+::: {.fragment}
+**Answer:** A: Joseph (Acts 4:36)
+:::
+[⬅ Back to 600](#diff-600) | [🏠 Home](#home)
+
+---
+
+### Isaiah's Vision – $600 {#q600-18}
+**Question:** How many wings did the seraphim have in Isaiah's vision?
+
+* A: 2
+* B: 4
+* C: 6
+* D: 8
+
+::: {.fragment}
+**Answer:** C: 6 (Isaiah 6:2)
+:::
+[⬅ Back to 600](#diff-600) | [🏠 Home](#home)
+
+---
+
+### Boaz – $600 {#q600-19}
+**Question:** In what field did Ruth glean grain?
+
+* A: Boaz's field
+* B: Naomi's field
+* C: The king's field
+* D: The priest's field
+
+::: {.fragment}
+**Answer:** A: Boaz's field (Ruth 2:3)
+:::
+[⬅ Back to 600](#diff-600) | [🏠 Home](#home)
+
+---
+
+### Hosea – $600 {#q600-20}
+**Question:** What was the name of Hosea's unfaithful wife?
+
+* A: Gomer
+* B: Bathsheba
+* C: Tamar
+* D: Abigail
+
+::: {.fragment}
+**Answer:** A: Gomer (Hosea 1:3)
+:::
+[⬅ Back to 600](#diff-600) | [🏠 Home](#home)
+
+---
+
+## Difficulty: 800 Points {#diff-800}
+
+### Genealogies – $800 {#q800-1}
+**Question:** Which book contains the genealogy from Adam to Noah?
+
+* A: Genesis
+* B: 1 Chronicles
+* C: Luke
+* D: Matthew
+
+::: {.fragment}
+**Answer:** A: Genesis (Genesis 5)
+:::
+[⬅ Back to 800](#diff-800) | [🏠 Home](#home)
+
+---
+
+### Priestly Duties – $800 {#q800-2}
+**Question:** What were the Urim and Thummim used for?
+
+* A: Temple decoration
+* B: Seeking God's will
+* C: Measuring grain
+* D: Counting money
+
+::: {.fragment}
+**Answer:** B: Seeking God's will (Exodus 28:30)
+:::
+[⬅ Back to 800](#diff-800) | [🏠 Home](#home)
+
+---
+
+### Ezekiel's Visions – $800 {#q800-3}
+**Question:** In Ezekiel's vision, how many faces did each cherubim have?
+
+* A: 2
+* B: 3
+* C: 4
+* D: 6
+
+::: {.fragment}
+**Answer:** C: 4 (Ezekiel 1:6)
+:::
+[⬅ Back to 800](#diff-800) | [🏠 Home](#home)
+
+---
+
+### Paul's Letters – $800 {#q800-4}
+**Question:** To which church did Paul write about the "armor of God"?
+
+* A: Corinthians
+* B: Ephesians
+* C: Philippians
+* D: Colossians
+
+::: {.fragment}
+**Answer:** B: Ephesians (Ephesians 6:11-17)
+:::
+[⬅ Back to 800](#diff-800) | [🏠 Home](#home)
+
+---
+
+### Jeremiah – $800 {#q800-5}
+**Question:** What object did God tell Jeremiah to hide by the Euphrates River?
+
+* A: A scroll
+* B: A linen belt
+* C: A clay jar
+* D: A wooden yoke
+
+::: {.fragment}
+**Answer:** B: A linen belt (Jeremiah 13:1-7)
+:::
+[⬅ Back to 800](#diff-800) | [🏠 Home](#home)
+
+---
+
+### Tabernacle – $800 {#q800-6}
+**Question:** What covered the Ark of the Covenant?
+
+* A: The mercy seat
+* B: A golden crown
+* C: A purple cloth
+* D: Cedar wood
+
+::: {.fragment}
+**Answer:** A: The mercy seat (Exodus 25:17)
+:::
+[⬅ Back to 800](#diff-800) | [🏠 Home](#home)
+
+---
+
+### Levites – $800 {#q800-7}
+**Question:** At what age did Levites begin their service in the tabernacle?
+
+* A: 20 years old
+* B: 25 years old
+* C: 30 years old
+* D: 35 years old
+
+::: {.fragment}
+**Answer:** B: 25 years old (Numbers 8:24)
+:::
+[⬅ Back to 800](#diff-800) | [🏠 Home](#home)
+
+---
+
+### Zechariah's Vision – $800 {#q800-8}
+**Question:** How many horns and craftsmen did Zechariah see in his vision?
+
+* A: 3 each
+* B: 4 each
+* C: 7 each
+* D: 12 each
+
+::: {.fragment}
+**Answer:** B: 4 each (Zechariah 1:18-21)
+:::
+[⬅ Back to 800](#diff-800) | [🏠 Home](#home)
+
+---
+
+### Job's Friends – $800 {#q800-9}
+**Question:** How many days did Job's friends sit with him in silence?
+
+* A: 3 days
+* B: 7 days
+* C: 10 days
+* D: 14 days
+
+::: {.fragment}
+**Answer:** B: 7 days (Job 2:13)
+:::
+[⬅ Back to 800](#diff-800) | [🏠 Home](#home)
+
+---
+
+### Melchizedek – $800 {#q800-10}
+**Question:** Melchizedek was king of which city?
+
+* A: Jerusalem
+* B: Salem
+* C: Hebron
+* D: Bethel
+
+::: {.fragment}
+**Answer:** B: Salem (Genesis 14:18)
+:::
+[⬅ Back to 800](#diff-800) | [🏠 Home](#home)
+
+---
+
+### Acts of the Apostles – $800 {#q800-11}
+**Question:** Who replaced Judas Iscariot as the twelfth apostle?
+
+* A: Matthias
+* B: Barnabas
+* C: Silas
+* D: Timothy
+
+::: {.fragment}
+**Answer:** A: Matthias (Acts 1:26)
+:::
+[⬅ Back to 800](#diff-800) | [🏠 Home](#home)
+
+---
+
+### Amos – $800 {#q800-12}
+**Question:** What was Amos' occupation before he became a prophet?
+
+* A: Priest
+* B: Shepherd and fig grower
+* C: Scribe
+* D: Soldier
+
+::: {.fragment}
+**Answer:** B: Shepherd and fig grower (Amos 7:14)
+:::
+[⬅ Back to 800](#diff-800) | [🏠 Home](#home)
+
+---
+
+### Philemon – $800 {#q800-13}
+**Question:** What was the name of Philemon's runaway slave?
+
+* A: Onesimus
+* B: Demas
+* C: Tychicus
+* D: Epaphras
+
+::: {.fragment}
+**Answer:** A: Onesimus (Philemon 1:10)
+:::
+[⬅ Back to 800](#diff-800) | [🏠 Home](#home)
+
+---
+
+### Daniel's Friends – $800 {#q800-14}
+**Question:** What were the Babylonian names given to Daniel's three friends?
+
+* A: Shadrach, Meshach, Abednego
+* B: Hananiah, Mishael, Azariah
+* C: Belteshazzar, Shadrach, Meshach
+* D: Daniel, Michael, Gabriel
+
+::: {.fragment}
+**Answer:** A: Shadrach, Meshach, Abednego (Daniel 1:7)
+:::
+[⬅ Back to 800](#diff-800) | [🏠 Home](#home)
+
+---
+
+### Jude – $800 {#q800-15}
+**Question:** In his epistle, Jude mentions a dispute over whose body?
+
+* A: Adam's
+* B: Moses'
+* C: Abraham's
+* D: Enoch's
+
+::: {.fragment}
+**Answer:** B: Moses' (Jude 1:9)
+:::
+[⬅ Back to 800](#diff-800) | [🏠 Home](#home)
+
+---
+
+### Elisha – $800 {#q800-16}
+**Question:** How many bears came out of the woods when Elisha was mocked?
+
+* A: 1
+* B: 2
+* C: 3
+* D: 4
+
+::: {.fragment}
+**Answer:** B: 2 (2 Kings 2:24)
+:::
+[⬅ Back to 800](#diff-800) | [🏠 Home](#home)
+
+---
+
+### Galatians – $800 {#q800-17}
+**Question:** Paul said he went to Arabia after his conversion. How long was he there?
+
+* A: 1 year
+* B: 2 years
+* C: 3 years
+* D: The Bible doesn't specify
+
+::: {.fragment}
+**Answer:** D: The Bible doesn't specify (Galatians 1:17)
+:::
+[⬅ Back to 800](#diff-800) | [🏠 Home](#home)
+
+---
+
+### Habakkuk – $800 {#q800-18}
+**Question:** Habakkuk complained about God using which nation to judge Israel?
+
+* A: Assyria
+* B: Babylon
+* C: Egypt
+* D: Persia
+
+::: {.fragment}
+**Answer:** B: Babylon (Habakkuk 1:6)
+:::
+[⬅ Back to 800](#diff-800) | [🏠 Home](#home)
+
+---
+
+### Rahab – $800 {#q800-19}
+**Question:** What did Rahab hang from her window as a sign?
+
+* A: A white cloth
+* B: A red cord
+* C: A blue ribbon
+* D: A golden thread
+
+::: {.fragment}
+**Answer:** B: A red cord (Joshua 2:18)
+:::
+[⬅ Back to 800](#diff-800) | [🏠 Home](#home)
+
+---
+
+### Colossians – $800 {#q800-20}
+**Question:** Who delivered Paul's letter to the Colossians?
+
+* A: Timothy
+* B: Tychicus
+* C: Epaphras
+* D: Luke
+
+::: {.fragment}
+**Answer:** B: Tychicus (Colossians 4:7)
+:::
+[⬅ Back to 800](#diff-800) | [🏠 Home](#home)
+
+---
+
+## Difficulty: 1000 Points {#diff-1000}
+
+### Hebrew/Aramaic Terms – $1000 {#q1000-1}
+**Question:** What does the Aramaic word "Maranatha" mean?
+
+* A: God is with us
+* B: Our Lord, come!
+* C: Peace be with you
+* D: Blessed be the Name
+
+::: {.fragment}
+**Answer:** B: Our Lord, come! (1 Corinthians 16:22)
+:::
+[⬅ Back to 1000](#diff-1000) | [🏠 Home](#home)
+
+---
+
+### Biblical Chronology – $1000 {#q1000-2}
+**Question:** How old was Methuselah when he died?
+
+* A: 950 years
+* B: 962 years
+* C: 969 years
+* D: 972 years
+
+::: {.fragment}
+**Answer:** C: 969 years (Genesis 5:27)
+:::
+[⬅ Back to 1000](#diff-1000) | [🏠 Home](#home)
+
+---
+
+### Obscure Characters – $1000 {#q1000-3}
+**Question:** Who was the king of Gerar who took Sarah?
+
+* A: Abimelech
+* B: Melchizedek
+* C: Og
+* D: Sihon
+
+::: {.fragment}
+**Answer:** A: Abimelech (Genesis 20:2)
+:::
+[⬅ Back to 1000](#diff-1000) | [🏠 Home](#home)
+
+---
+
+### Priestly Orders – $1000 {#q1000-4}
+**Question:** How many priestly divisions did David establish?
+
+* A: 12
+* B: 24
+* C: 36
+* D: 48
+
+::: {.fragment}
+**Answer:** B: 24 (1 Chronicles 24:1-19)
+:::
+[⬅ Back to 1000](#diff-1000) | [🏠 Home](#home)
+
+---
+
+### Detailed Geography – $1000 {#q1000-5}
+**Question:** What was the original name of Bethel?
+
+* A: Luz
+* B: Peniel
+* C: Mahanaim
+* D: Beersheba
+
+::: {.fragment}
+**Answer:** A: Luz (Genesis 28:19)
+:::
+[⬅ Back to 1000](#diff-1000) | [🏠 Home](#home)
+
+---
+
+### Levitical Measurements – $1000 {#q1000-6}
+**Question:** How many cubits long was Noah's ark?
+
+* A: 250 cubits
+* B: 300 cubits
+* C: 350 cubits
+* D: 400 cubits
+
+::: {.fragment}
+**Answer:** B: 300 cubits (Genesis 6:15)
+:::
+[⬅ Back to 1000](#diff-1000) | [🏠 Home](#home)
+
+---
+
+### Genealogical Details – $1000 {#q1000-7}
+**Question:** Who was the mother of King Abijah of Judah?
+
+* A: Maacah
+* B: Naamah
+* C: Bathsheba
+* D: Abigail
+
+::: {.fragment}
+**Answer:** A: Maacah (1 Kings 15:2)
+:::
+[⬅ Back to 1000](#diff-1000) | [🏠 Home](#home)
+
+---
+
+### Complex Theology – $1000 {#q1000-8}
+**Question:** In Ezekiel's temple vision, how many chambers were for the priests?
+
+* A: 12
+* B: 24
+* C: 30
+* D: 36
+
+::: {.fragment}
+**Answer:** C: 30 (Ezekiel 42:4)
+:::
+[⬅ Back to 1000](#diff-1000) | [🏠 Home](#home)
+
+---
+
+### Rare Biblical Terms – $1000 {#q1000-9}
+**Question:** What does "Ichabod" mean?
+
+* A: God is great
+* B: The glory has departed
+* C: God remembers
+* D: Peace of God
+
+::: {.fragment}
+**Answer:** B: The glory has departed (1 Samuel 4:21)
+:::
+[⬅ Back to 1000](#diff-1000) | [🏠 Home](#home)
+
+---
+
+### Detailed Prophecy – $1000 {#q1000-10}
+**Question:** In Daniel's 70 weeks prophecy, how many weeks until Messiah?
+
+* A: 62 weeks
+* B: 69 weeks
+* C: 70 weeks
+* D: 77 weeks
+
+::: {.fragment}
+**Answer:** B: 69 weeks (Daniel 9:25-26)
+:::
+[⬅ Back to 1000](#diff-1000) | [🏠 Home](#home)
+
+---
+
+### Obscure Laws – $1000 {#q1000-11}
+**Question:** How many cities were given to the Levites total?
+
+* A: 42
+* B: 48
+* C: 52
+* D: 60
+
+::: {.fragment}
+**Answer:** B: 48 (Numbers 35:7)
+:::
+[⬅ Back to 1000](#diff-1000) | [🏠 Home](#home)
+
+---
+
+### Minor Prophets – $1000 {#q1000-12}
+**Question:** Obadiah's prophecy was primarily against which nation?
+
+* A: Moab
+* B: Edom
+* C: Ammon
+* D: Philistia
+
+::: {.fragment}
+**Answer:** B: Edom (Obadiah 1:1)
+:::
+[⬅ Back to 1000](#diff-1000) | [🏠 Home](#home)
+
+---
+
+### Detailed Numbers – $1000 {#q1000-13}
+**Question:** How many men did David number in his census of Israel?
+
+* A: 800,000
+* B: 1,100,000
+* C: 1,300,000
+* D: 1,570,000
+
+::: {.fragment}
+**Answer:** C: 1,300,000 (2 Samuel 24:9)
+:::
+[⬅ Back to 1000](#diff-1000) | [🏠 Home](#home)
+
+---
+
+### Greek Terms – $1000 {#q1000-14}
+**Question:** What does "Golgotha" mean in Aramaic?
+
+* A: Place of the skull
+* B: Hill of death
+* C: Mount of sorrow
+* D: Valley of bones
+
+::: {.fragment}
+**Answer:** A: Place of the skull (Matthew 27:33)
+:::
+[⬅ Back to 1000](#diff-1000) | [🏠 Home](#home)
+
+---
+
+### Chronological Details – $1000 {#q1000-15}
+**Question:** In what year of Nebuchadnezzar's reign was Jerusalem destroyed?
+
+* A: 18th year
+* B: 19th year
+* C: 20th year
+* D: 21st year
+
+::: {.fragment}
+**Answer:** B: 19th year (2 Kings 25:8)
+:::
+[⬅ Back to 1000](#diff-1000) | [🏠 Home](#home)
+
+---
+
+### Detailed Measurements – $1000 {#q1000-16}
+**Question:** How many talents of gold did the Queen of Sheba give Solomon?
+
+* A: 100 talents
+* B: 120 talents
+* C: 150 talents
+* D: 200 talents
+
+::: {.fragment}
+**Answer:** B: 120 talents (1 Kings 10:10)
+:::
+[⬅ Back to 1000](#diff-1000) | [🏠 Home](#home)
+
+---
+
+### Obscure Genealogy – $1000 {#q1000-17}
+**Question:** Who was Bezalel's grandfather?
+
+* A: Hur
+* B: Caleb
+* C: Judah
+* D: Hezron
+
+::: {.fragment}
+**Answer:** A: Hur (Exodus 31:2; 1 Chronicles 2:20)
+:::
+[⬅ Back to 1000](#diff-1000) | [🏠 Home](#home)
+
+---
+
+### Advanced Theology – $1000 {#q1000-18}
+**Question:** What was the name of the place where Jacob wrestled with the angel?
+
+* A: Peniel
+* B: Bethel
+* C: Mahanaim
+* D: Jabbok
+
+::: {.fragment}
+**Answer:** A: Peniel (Genesis 32:30)
+:::
+[⬅ Back to 1000](#diff-1000) | [🏠 Home](#home)
+
+---
+
+### Rare Characters – $1000 {#q1000-19}
+**Question:** Who was the father of Heman the singer?
+
+* A: Joel
+* B: Samuel
+* C: Elkanah
+* D: Korah
+
+::: {.fragment}
+**Answer:** A: Joel (1 Chronicles 6:33)
+:::
+[⬅ Back to 1000](#diff-1000) | [🏠 Home](#home)
+
+---
+
+### Complex Prophecy – $1000 {#q1000-20}
+**Question:** In Revelation, what was the name of the angel of the bottomless pit?
+
+* A: Apollyon
+* B: Michael
+* C: Gabriel
+* D: Lucifer
+
+::: {.fragment}
+**Answer:** A: Apollyon (Revelation 9:11)
+:::
+[⬅ Back to 1000](#diff-1000) | [🏠 Home](#home)
+
+---
+
+## Game Complete! {#final-slide}
+
+### Congratulations! 🎉
+
+Thank you for playing Bible Jeopardy!
+
+**"Your word is a lamp to my feet and a light to my path."**
+*- Psalm 119:105*
+
+[🏠 Play Again](#home)

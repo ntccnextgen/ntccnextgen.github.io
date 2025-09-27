@@ -1,0 +1,106 @@
+---
+title: ""
+author: ""
+date: ""
+format:
+  revealjs:
+    css: [theme.css]
+    theme: simple
+    transition: slide
+    slide-number: c/t
+    width: 1600
+    height: 900
+    incremental: true
+    verticalAlign: top
+    footer: "<h10>NTCC NextGen 2025</h10>"
+    scroll-view: true
+    countdown: 30
+engine: knitr
+knitr:
+  opts_chunk: 
+    class-output: hscroll
+editor: source
+filters: 
+  - timer
+---
+## Legality and Grace: Old and New Testaments
+
+###
+1. Old Testament Law: Stoning for Adultery
+ - Leviticus 20:10
+
+  - "If a man commits adultery with another man’s wife—with the wife of his neighbor—both the adulterer and the adulteress are to be put to death."
+ - Deuteronomy 22:22–24
+
+  - "If a man is found lying with the wife of another man, both of them shall die, the man who lay with the woman, and the woman… you shall purge the evil from Israel."
+
+- These laws were part of Israel’s covenant under Moses, designed to protect the holiness of the community, the sanctity of marriage, and covenant faithfulness. Adultery was considered not only a personal sin but also a violation of God’s covenant and a social crime threatening the whole nation.
+
+- Why Jesus changed this?
+
+## 
+
+###
+2. New Testament: Jesus and the Woman Caught in Adultery
+
+ - John 8:3–11
+
+  - The scribes and Pharisees brought a woman caught in adultery, made her stand before them, and asked Jesus, "Now in the Law Moses commanded us to stone such women. So what do you say?" 
+  - Clearly, these "law-abiding" people use this to challenge Jesus!
+  - Natural response should be "Go ahead and exercise your law under the system for centuries".
+  - Jesus bent down and wrote with His finger on the ground. Then He said, "Let him who is without sin among you be the first to throw a stone at her." 
+  - One by one, they went away. 
+  - Note: Jesus said to the woman, "Neither do I condemn you; go, and from now on sin no more."
+
+  - Instead of enforcing execution, Jesus exposes the hypocrisy of the accusers and extends mercy to the woman. He does not excuse her sin but calls her to repentance and transformation: "Go and sin no more."
+
+
+##
+
+###
+Why the Difference?
+
+1.	Covenant Context
+
+ - The Mosaic Law was a covenant between God and Israel, emphasizing holiness through strict laws and punishments. The community’s purity was preserved by removing sin through capital punishment for certain offenses.
+
+ - Jesus inaugurates the New Covenant, where holiness is established not by external laws but by internal transformation through grace (Jeremiah 31:31–34; Hebrews 8:6–13).
+
+
+##
+
+### Why the Difference?
+
+2.	Purpose of the Law vs. Fulfillment in Christ
+
+ - The Law served as a "guardian" (Galatians 3:24), showing the seriousness of sin and humanity’s inability to fully obey.
+
+ - Jesus fulfills the Law (Matthew 5:17), showing God’s holiness but also offering forgiveness through His sacrifice on the cross.
+
+
+##
+
+
+### Why the Difference?
+
+3.	Judgment vs. Mercy
+
+ - Under the Law, justice meant punishment to preserve order.
+ - In Christ, mercy triumphs over judgment (James 2:13). Jesus bore the penalty of sin Himself, allowing forgiveness instead of death.
+
+##
+
+
+### Why the Difference?
+
+4.	Exposing Hypocrisy
+
+ - In John 8, the Pharisees used the woman as a trap, not seeking justice but to test Jesus. They did not bring the man, though the Law required both. Jesus’ response turned the focus to their own sinfulness, leveling the playing field.
+
+## Message to us
+
+  - **The Old Testament Law demanded death for adultery to protect Israel’s holiness under the covenant.**
+ 
+  - Jesus, the fulfillment of the Law, reveals God’s heart of mercy, offering restoration instead of execution.
+  
+  - The shift is not God "changing His mind" but God completing His plan: judgment under the old covenant, grace and truth through Christ in the new.

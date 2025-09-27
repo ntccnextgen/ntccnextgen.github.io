@@ -1,0 +1,85 @@
+---
+title: "Bible Pictionary"
+format:
+  revealjs:
+    slide-number: true
+    countdown: 10
+    inscremental: true
+engine: knitr
+knitr:
+  opts_chunk: 
+    class-output: hscroll
+editor: source
+filters: 
+  - timer
+---
+
+# 🎨 Category: Bible Characters
+
+## 
+
+<div id=".5minWaiting"></div>
+<script src="_extensions/produnis/timer/timer.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        initializeTimer(".5minWaiting", 30, "slide"); 
+    });
+</script>
+
+::: fragment
+- **Moses** 
+:::
+::: fragment
+- **Esther**
+:::
+::: fragment
+- **Paul**  
+:::
+
+---
+
+# 🎨 Category: Books of the Bible
+
+## **Genesis**  
+## **Psalms**  
+## **Revelation**  
+
+
+---
+
+# 🎨 Category: Jesus’ Miracles
+
+ **Feeding of the 5,000**  
+ **Walking on Water**  
+ **Raising Lazarus**  
+
+
+---
+
+# 🎨 Category: Biblical Objects (Bonus)
+
+## **Ark of the Covenant**  
+## **Manna**  
+## **Scroll**  
+
+
+---
+
+# 🎨 Category: Parables & Events (Bonus)
+
+## **The Prodigal Son**  
+## **Tower of Babel**  
+## **Jonah and the Whale**  
+
+
+---
+
+
+
+## 🌟 After Game
+
+- **Bible Characters**: Who among these has influenced your life or whose story inspires you?
+- **Books of the Bible**: What do you know about the themes or authors of Genesis, Psalms, and Revelation?
+- **Jesus’ Miracles**: Which miracle above speaks most powerfully to you—and why?
+- **Bonus Categories**: Invite quick sharing—how does that parable or object represent God's heart?
+

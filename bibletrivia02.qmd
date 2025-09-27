@@ -1,0 +1,326 @@
+---
+title: "Bible Trivia"
+subtitle: "Food • Music • Colors • Numbers • Weapons"
+format: 
+  revealjs:
+    theme: simple
+    slide-number: c/t
+---
+
+# Categories
+
+- [Food in Bible](#food-in-the-bible)
+- [Music & Instruments in Bible](#music-and-instruments)
+- [Colors in Bible](#colors-in-the-bible)
+- [Numbers in Bible](#numbers-in-the-bible)
+- [Weapons in Bible](#weapons-in-the-bible)
+
+---
+
+# Food in the Bible
+
+## Q1
+What food did God provide daily for the Israelites in the wilderness?
+
+---
+
+## A1
+<span style="color:red;">Manna</span> (Exodus 16:31)
+
+---
+
+## Q2
+What fruit did Eve eat in the Garden of Eden?
+
+---
+
+## A2
+The Bible only says <span style="color:red;">“fruit”</span> (Genesis 3:6) — not specifically an apple!
+
+---
+
+## Q3
+What prophet was fed by ravens during a drought?
+
+---
+
+## A3
+<span style="color:red;">Elijah</span> (1 Kings 17:6)
+
+---
+
+## Q4
+In John 6, Jesus fed 5,000 people with how many loaves and fish?
+
+---
+
+## A4
+<span style="color:red;">5 loaves and 2 fish</span> (John 6:9–13)
+
+---
+
+## Q5
+What food did John the Baptist eat in the wilderness?
+
+---
+
+## A5
+<span style="color:red;">Locusts and wild honey</span> (Mark 1:6)
+
+---
+
+## Q6
+What food did Esau sell his birthright for?
+
+---
+
+## A6
+<span style="color:red;">A bowl of stew (lentil soup)</span> (Genesis 25:34)
+
+---
+
+## Q7
+What kind of tree did Zacchaeus climb to see Jesus?
+
+---
+
+## A7
+<span style="color:red;">A sycamore fig tree</span> (Luke 19:4)
+
+---
+
+## Q8
+At the Last Supper, what two items did Jesus use to symbolize His body and blood?
+
+---
+
+## A8
+<span style="color:red;">Bread and wine</span> (Luke 22:19–20)
+
+---
+
+## Q9
+When Jesus turned water into wine, what kind of containers did He use?
+
+---
+
+## A9
+<span style="color:red;">Stone jars</span> (John 2:6–9)
+
+---
+
+## Q10
+In the Lord’s Prayer, what daily food are we told to ask for?
+
+---
+
+## A10
+<span style="color:red;">Daily bread</span> (Matthew 6:11)
+
+---
+
+# Music and Instruments
+
+## Q1
+What instrument did David play for King Saul to calm him?
+
+---
+
+## A1
+<span style="color:red;">Harp/Lyre</span> (1 Samuel 16:23)
+
+---
+
+## Q2
+What instrument was blown to make the walls of Jericho fall?
+
+---
+
+## A2
+<span style="color:red;">Trumpets</span> (Joshua 6:20)
+
+---
+
+## Q3
+Psalm 150 mentions praising God with many instruments. Name three.
+
+---
+
+## A3
+<span style="color:red;">Trumpet, harp, cymbals</span> (Psalm 150:3–5)
+
+---
+
+## Q4
+In Daniel 3, music signaled worship of the golden image. Name one instrument.
+
+---
+
+## A4
+<span style="color:red;">Horn, flute, zither, lyre, harp, or pipes</span> (Daniel 3:5)
+
+---
+
+## Q5
+What woman sang with a tambourine after crossing the Red Sea?
+
+---
+
+## A5
+<span style="color:red;">Miriam</span> (Exodus 15:20–21)
+
+---
+
+# Colors in the Bible
+
+## Q1
+What color was the robe placed on Jesus during His trial?
+
+---
+
+## A1
+<span style="color:red;">Purple/Scarlet</span> (Matthew 27:28; John 19:2)
+
+---
+
+## Q2
+In Revelation, what color is the horse that represents death?
+
+---
+
+## A2
+<span style="color:red;">Pale</span> (Revelation 6:8)
+
+---
+
+## Q3
+The Tabernacle curtains were woven with what three colors?
+
+---
+
+## A3
+<span style="color:red;">Blue, purple, and scarlet</span> (Exodus 26:1)
+
+---
+
+## Q4
+What color were the cords Rahab used to mark her house?
+
+---
+
+## A4
+<span style="color:red;">Scarlet</span> (Joshua 2:18)
+
+---
+
+## Q5
+In Isaiah 1:18, sins are compared to what color before being washed white as snow?
+
+---
+
+## A5
+<span style="color:red;">Scarlet and crimson</span> (Isaiah 1:18)
+
+---
+
+# Numbers in the Bible
+
+## Q1
+How many days did God take to create the world?
+
+---
+
+## A1
+<span style="color:red;">6 days, rested on the 7th</span> (Genesis 1–2)
+
+---
+
+## Q2
+How many disciples did Jesus choose?
+
+---
+
+## A2
+<span style="color:red;">12</span> (Matthew 10:1–2)
+
+---
+
+## Q3
+How many days and nights did it rain during Noah’s flood?
+
+---
+
+## A3
+<span style="color:red;">40</span> (Genesis 7:12)
+
+---
+
+## Q4
+How many books are in the Bible?
+
+---
+
+## A4
+<span style="color:red;">66 total</span> (39 OT, 27 NT)
+
+---
+
+## Q5
+How many times did Peter deny Jesus?
+
+---
+
+## A5
+<span style="color:red;">3 times</span> (Luke 22:61)
+
+---
+
+# Weapons in the Bible
+
+## Q1
+What young shepherd killed Goliath with a sling and stone?
+
+---
+
+## A1
+<span style="color:red;">David</span> (1 Samuel 17:49)
+
+---
+
+## Q2
+In Ephesians 6, the Word of God is compared to what weapon?
+
+---
+
+## A2
+<span style="color:red;">Sword of the Spirit</span> (Ephesians 6:17)
+
+---
+
+## Q3
+Who used the jawbone of a donkey to defeat 1,000 Philistines?
+
+---
+
+## A3
+<span style="color:red;">Samson</span> (Judges 15:15)
+
+---
+
+## Q4
+What weapon did Peter use in the Garden of Gethsemane?
+
+---
+
+## A4
+<span style="color:red;">A sword</span> (John 18:10)
+
+---
+
+## Q5
+What did the people carry in one hand while rebuilding Jerusalem’s wall under Nehemiah?
+
+---
+
+## A5
+<span style="color:red;">Weapons</span> (Nehemiah 4:17)

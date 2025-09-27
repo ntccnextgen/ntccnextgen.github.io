@@ -1,0 +1,833 @@
+---
+title: ""
+author: ""
+date: "2025-09-28"
+format:
+  revealjs:
+    css: [theme.css]
+    theme: simple
+    transition: slide
+    slide-number: c/t
+    width: 1600
+    height: 900
+    incremental: true
+    verticalAlign: top
+    footer: "<h10>NTCC NextGen 2025</h10>"
+    scroll-view: true
+    countdown: 30
+engine: knitr
+knitr:
+  opts_chunk: 
+    class-output: hscroll
+editor: source
+filters: 
+  - timer
+---
+
+# [Sunday Worship]{style="color:yellow;"} {background-image="/images/fall/johannes-plenio-RwHv7LgeC7s-unsplash.jpg" background-size="cover" background-color="black"}
+
+\
+\
+\
+\
+
+<h2>[Monthly theme: Authentic Relationships]{style="color:yellow;"}</h2>
+
+<h2>John 13:34-35</h2>
+
+<h3>[***"34So now I am giving you a new commandment: Love each other. Just as I have loved you, you should love each other. 35Your love for one another will prove to the world that you are my disciples." (NLT)***]{style="color:yellow;"}</h3>
+
+\
+
+<h4>
+
+Theme of the year:
+
+<p style="color: lightblue;">
+
+God's Masterpiece - Reflecting His Image and Living Like Jesus
+
+</p>
+
+</h4>
+
+## Theme of the month: "Authentic Relationships"
+
+### Key Verse: John 13:34-35
+
+***"34So now I am giving you a new commandment: Love each other. Just as I have loved you, you should love each other. 35Your love for one another will prove to the world that you are my disciples." (NLT)***
+
+## Bible study: **Authentic Relationships: Encourage One Another** {.scrollable}
+
+:::{.fragment}
+**Theme Scripture for today: Encourage One Another**\
+**1 Thessalonians 5:11**
+:::
+
+\
+
+:::{.fragment}
+*"So encourage each other and build each other up, just as you are already doing." (NLT)*
+:::
+
+:::{.fragment}
+-   Encouragement is more than compliments.
+-   Encouragement strengthens the weak.
+-   Encouragement builds up the whole body.
+:::
+
+## Bible study: **Encourage One Another (continued)** {.scrollable}
+
+:::{.fragment}
+1. Encouragement is more than compliments.
+ - Compliments usually focus on surface things: “Nice shoes,” “Good game,” “You look great today.”
+ - But biblical encouragement goes deeper. It points people back to God’s truth, promises, and hope.
+ - It’s not just about making someone “feel good,” but helping them stand firm in their faith.
+ - Example: Paul didn’t just say “You’re awesome, church!” He reminded believers of God’s faithfulness, their identity in Christ, and their eternal hope.
+
+- Illustration: Compliments are like a sugar rush—they give a quick boost but fade fast. Encouragement from God’s Word is like a balanced meal—it gives lasting strength.
+
+- Real-Life Story: A young missionary overseas once received letters from his home church filled with Bible verses, prayers, and reminders that God was with him. Those notes kept him going through discouragement. He later said, “Those letters were better than money. They reminded me I wasn’t alone.”
+
+## Bible study: **Encourage One Another (continued)** {.scrollable}
+
+:::{.fragment}
+2. Encouragement strengthens the weak.
+ - Proverbs 12:25: “Anxiety weighs down the heart, but a kind word cheers it up.”
+ - Life is full of pressures: school stress, family struggles, peer pressure. Encouragement helps lift those heavy loads.
+ - Even small words can bring life-changing impact.
+
+Illustration: Imagine carrying a heavy backpack full of rocks labeled “fear,” “stress,” “failure.” Encouragement is like a friend taking out those rocks one by one.
+
+Real-Life Story: Olympic runner Derek Redmond tore his hamstring in the 1992 Barcelona games. As he limped toward the finish line, his father ran onto the track, put his arm around him, and helped him cross. The crowd cheered—not because Derek won, but because his father’s encouragement carried him to the end.
+:::
+
+## Bible study: **Encourage One Another (continued)** {.scrollable}
+
+:::::::: columns
+:::: {.column width="50%"}
+:::{.fragment}
+3. Encouragement builds up the whole body.
+
+ - Paul uses the image of a body (1 Corinthians 12). Each part needs the others to function well.
+ - Encouragement is like mortar between bricks—it holds the wall together.
+ - When one person is lifted up, the entire community grows stronger.
+
+- Illustration: Think of a soccer team. If one player feels useless, the team suffers. But when the coach and teammates encourage them—“We need you, keep going!”—the whole team plays better.
+
+Real-Life Story: Barnabas in Acts lived this out. He encouraged Paul when others doubted him, and later stood by John Mark after he failed. Because Barnabas believed in them, Paul and Mark went on to change the world. His encouragement built the early church.
+:::
+::::
+
+::::: {.column width="50%"}
+:::{.fragment}
+
+
+:::
+
+:::{.fragment}
+{{< video https://www.youtube.com/watch?v=rYy3rl1Ca3k width="600" height="400">}}
+:::
+:::::
+::::::::
+
+
+## Bible study: **Forgive One Another: Discussion** {.scrollable}
+
+Discussion Questions
+
+::: {.fragment}
+1.	Why is forgiveness so hard?
+2.	How does remembering God’s forgiveness of us change how we forgive others?
+3.	What relationship in your life needs forgiveness right now?
+:::
+
+
+
+------------------------------------------------------------------------
+
+## Worship: [By Our Love - For King + Country](https://open.spotify.com/track/5VcKkupvL3WIgjk4bQbvt1?si=cfaf32d8ba0a41f1)   {.scrollable background-image="/images/ryan-hutton-Jztmx9yqjBw-unsplash.jpg" background-size="cover" background-color="black"}
+
+We are one in the spirit
+
+We are one in the Lord
+
+We are one in the spirit
+
+We are one in the Lord
+
+And we pray that all unity may one day be restored
+
+And they'll know we are Christians by our love, by our love
+
+Yes, they'll know we are Christians by our love
+
+\
+
+We will walk with each other
+
+We will walk hand in hand
+
+We will walk with each other
+
+We will walk hand in hand
+
+And together we'll spread the news that God is in our land
+
+\
+
+And they'll know we are Christians by our love, by our love
+
+Yes, they'll know we are Christians by our love
+
+They'll know us by our love (love, love), our love (love, love)
+
+Our love (love, love), our love
+
+They'll know us by our love (love, love), our love (love, love)
+
+Our love (love, love), our love
+
+\
+
+We will work with each other
+
+We will work side by side
+
+We will work with each other
+
+We will work side by side
+
+\
+
+And we'll guard each other's dignity and save each other's pride
+
+And they'll know we are Christians by our love, by our love
+
+Yes, they'll know we are Christians by our love, by our love
+
+Yes, they'll know we are Christians by our love, by our love
+
+Yes, they'll know we are Christians by our love (love, love, oh)
+
+\
+
+They'll know us by our love (love, love), our love (love, love)
+
+Our love (love, love), our love
+
+They'll know us by our love (love, love), our love (love, love)
+
+Our love (love, love), our love
+
+They will know we are Christians by our love, by our love
+
+Yes, they'll know we are Christians by our love
+
+ 
+
+## Worship: [Heart of Worship](https://open.spotify.com/track/5N23UhzMfAuCYjwhSbTQwH?si=32d5c7ad00a64af9)   {.scrollable background-image="images/benjamin-voros-phIFdC6lA4E-unsplash.jpg" background-size="cover" background-color="black"}
+
+\[Verse 1\] When the music fades
+
+All is stripped away
+
+And I simply come
+
+Longing just to bring
+
+Something that's of worth
+
+That will bless Your heart
+
+\
+
+\[Pre-Chorus\] I'll bring You more than a song
+
+For a song in itself
+
+Is not what You have required
+
+You search much deeper within
+
+Through the way things appear
+
+You're looking into my heart
+
+\
+
+\[Chorus\] I'm coming back to the heart of worship
+
+And it's all about You, it's all about You, Jesus
+
+I'm sorry, Lord, for the thing I've made it
+
+When it's all about You, it's all about You, Jesus
+
+\
+
+\[Verse 2\] King of endless worth
+
+No one could express
+
+How much you deserve
+
+Though I'm weak and poor
+
+All I have is Yours
+
+Every single breath!
+
+\
+
+\[Pre-Chorus\] I'll bring You more than a song
+
+For a song in itself
+
+Is not what You have required
+
+You search much deeper within
+
+Through the way things appear
+
+You're looking into my heart
+
+\
+
+\[Chorus\]
+
+I'm coming back to the heart of worship
+
+And it's all about You, it's all about You, Jesus
+
+I'm sorry, Lord, for the thing I've made it
+
+When it's all about You, it's all about You, Jesus
+
+I'm coming back to the heart of worship
+
+And it's all about You, it's all about You, Jesus
+
+I'm sorry, Lord, for the thing I've made it
+
+When it's all about You, it's all about You, Jesus
+
+\
+
+\[Outro\]
+
+All about you
+
+I'll bring you more than a song
+
+I'll bring you more than a song
+
+More than a song
+
+I'll bring you more than a song
+
+I'll bring you more than a song (than a song)
+
+You're looking into my heart, looking into my heart
+
+You're looking into my heart
+
+I'll bring You more than a song
+
+I'll bring You more than a song
+
+I'll bring You more than a song
+
+I'll bring You more than a song
+
+## Worship: [Change my heart o God](https://www.youtube.com/watch?v=IlSmG-_eJTU&t=34s)   {.scrollable background-image="images/benjamin-voros-phIFdC6lA4E-unsplash.jpg" background-size="cover" background-color="black"}
+
+Verse 1
+
+Change my heart, O God,
+
+Make it ever true;
+
+Change my heart, O God,
+
+May I be like you.
+
+\
+
+Chorus
+
+You are the Potter,
+
+I am the clay;
+
+Mold me and make me,
+
+This is what I pray.
+
+\
+
+Verse 2
+
+Change my heart, O God,
+
+Make it ever true;
+
+Change my heart O God,
+
+may I be like you.
+
+\
+
+Verse 3
+
+Change my heart, O God,
+
+Make it ever true;
+
+Change my heart, O God,
+
+May I be like you.
+
+\
+
+Chorus
+
+You are the Potter,
+
+I am the clay;
+
+Mold me and make me,
+
+This is what I pray.
+
+\
+
+Verse 4
+
+Change my heart, O God,
+
+Make it ever true;
+
+Change my heart O God,
+
+May I be like you.
+
+## 🎵 Lyric highlights {background-image="images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg" background-size="cover" background-color="black"}
+
+-   "Change my heart o God" is written by Eddie Espinosa in 1982, this worship classic emerged not in a studio, but from a moment of heartfelt prayer.
+-   The inspiration struck while Espinosa was stuck in traffic near Disneyland, praying for God to transform his heart. He began to sing the lyrics spontaneously, as if receiving divine dictation. At the next light, he grabbed scrap paper to jot down the words, preserving the song that would soon resonate worldwide.
+-   The lyrics “Change my heart, O God… may I be like You” express raw humility and sincere surrender. It’s a proactive, personal prayer to become more like Jesus.
+    -   Teaching the story behind the song—written in a traffic jam—helps youth see that God inspires worship even in everyday moments.
+
+## 🎵 Worship {.scrollable background-image="images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg" background-size="cover" background-color="black"}
+
+<p style="color: navy;">
+
+[Great Is Thy Faithfulness - Reawaken Hymns](https://www.youtube.com/watch?v=lbDNkwcuBus&t=8s)
+
+</p>
+
+:::: columns
+::: {.column width="60%"}
+1 Great is thy faithfulness, O God my Father; there is no shadow of turning with thee; thou changest not, thy compassions, they fail not; as thou hast been thou forever wilt be.
+
+Refrain: Great is thy faithfulness! Great is thy faithfulness! Morning by morning new mercies I see: all I have needed thy hand hath provided-- Great is thy faithfulness, Lord, unto me!
+
+\
+
+2 Summer and winter and springtime and harvest, sun, moon, and stars in their courses above join with all nature in manifold witness to thy great faithfulness, mercy, and love.
+
+Refrain: Great is thy faithfulness! Great is thy faithfulness! Morning by morning new mercies I see: all I have needed thy hand hath provided-- Great is thy faithfulness, Lord, unto me!
+
+\
+
+3 Pardon for sin and a peace that endureth, thine own dear presence to cheer and to guide, strength for today and bright hope for tomorrow, blessings all mine, with ten thousand beside!
+
+Refrain: Great is thy faithfulness! Great is thy faithfulness! Morning by morning new mercies I see: all I have needed thy hand hath provided-- Great is thy faithfulness, Lord, unto me!
+:::
+::::
+
+## 🎵 Lyric highlights {background-image="images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg" background-size="cover" background-color="black"}
+
+-   God’s Unchanging Nature: The hymn emphasizes that God “changest not” and has “no shadow of turning”
+
+-   Daily Mercies: The famous refrain declares “Morning by morning new mercies I see”
+
+-   God’s Provision: Celebrates how “All I have needed thy hand hath provided”
+
+-   Creation’s Witness: References the seasons and natural world as testimony to God’s faithfulness
+
+-   Eternal Promises: Highlights “Pardon for sin and a peace that endureth” and “Strength for today and bright hope for tomorrow”
+
+-   Author Thomas Chisholm wrote this hymp in 1923, which was inspired by simple daily experiences of God’s faithfulness rather than dramatic life events.
+
+## 🎵 Worship {.scrollable background-image="images/ryan-hutton-Jztmx9yqjBw-unsplash.jpg" background-size="cover" background-color="black"}
+
+<p style="color: navy;">
+
+[I Surrender All - Reawaken Hymns](https://www.youtube.com/watch?v=xSPcuV5Sli8)
+
+</p>
+
+:::: columns
+::: {.column width="60%"}
+1 All to Jesus I surrender, All to Him I freely give; I will ever love and trust Him, In His presence daily live.
+
+\
+
+Refrain: I surrender all, I surrender all; All to Thee, my blessed Savior, I surrender all.
+
+\
+
+2 All to Jesus I surrender, Make me, Savior, wholly Thine; Let me feel Thy Holy Spirit, Truly know that Thou art mine.
+
+\
+
+Refrain: I surrender all, I surrender all; All to Thee, my blessed Savior, I surrender all.
+
+\
+
+3 All to Jesus I surrender, Lord, I give myself to Thee; Fill me with Thy love and power, Let Thy blessing fall on me.
+
+\
+
+Refrain: I surrender all, I surrender all; All to Thee, my blessed Savior, I surrender all.
+
+\
+\
+\
+:::
+::::
+
+## 🎵 Lyric highlights {background-image="images/ryan-hutton-Jztmx9yqjBw-unsplash.jpg" background-size="cover" background-color="black"}
+
+Key Themes:
+
+-   Complete Surrender: The central message is yielding “all to Jesus” in every aspect of life
+-   Humility and Submission: Emphasizes bowing “humbly at His feet” in reverence
+-   Spiritual Transformation: Expresses the desire to be filled with the Holy Spirit
+-   Trust and Faith: Represents a deliberate choice made with love and trust
+-   Divine Blessing: Includes the prayer “Let thy blessings fall on me”
+-   Core Message: This hymn represents the profound spiritual journey of complete surrender to Christ, leading to joy, salvation, and spiritual fulfillment
+
+## 🎵 Worship {.scrollable background-image="images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg" background-size="cover" background-color="black"}
+
+<p style="color: navy;">
+
+[Tis so sweet to trust in Jesus](https://www.youtube.com/watch?v=xSPcuV5Sli8)
+
+</p>
+
+:::: columns
+::: {.column width="60%"}
+1 ’Tis so sweet to trust in Jesus, Just to take Him at His word; Just to rest upon His promise; Just to know, Thus saith the Lord.
+
+\
+
+Jesus, Jesus, how I trust Him, How I’ve proved Him o’er and o’er, Jesus, Jesus, Precious Jesus! O for grace to trust Him more.
+
+\
+
+2 O how sweet to trust in Jesus, Just to trust His cleansing blood; Just in simple faith to plunge me, ’Neath the healing, cleansing flood.
+
+\
+Jesus, Jesus, how I trust Him, How I’ve proved Him o’er and o’er, Jesus, Jesus, Precious Jesus! O for grace to trust Him more.
+
+\
+
+3 Yes, ’tis sweet to trust in Jesus, Just from sin and self to cease; Just from Jesus simply taking Life, and rest, and joy, and peace.
+
+\
+Jesus, Jesus, how I trust Him, How I’ve proved Him o’er and o’er, Jesus, Jesus, Precious Jesus! O for grace to trust Him more.
+
+\
+4 I’m so glad I learned to trust Thee, Precious Jesus, Savior, Friend; And I know that Thou art with me, Wilt be with me to the end.
+
+\
+
+Jesus, Jesus, how I trust Him, How I’ve proved Him o’er and o’er, Jesus, Jesus, Precious Jesus! O for grace to trust Him more.
+
+\
+\
+\
+:::
+::::
+
+## 🎵 Lyric highlights {background-image="images/ryan-hutton-Jztmx9yqjBw-unsplash.jpg" background-size="cover" background-color="black"}
+
+Key Themes:
+
+-   Simple Faith: Emphasizes taking Jesus “at His Word” and resting “upon His promise”
+
+-   Cleansing Power: References trusting in Jesus’ “cleansing blood” and the “healing, cleansing flood”
+
+-   Rest and Peace: Highlights finding “life and rest, and joy and peace” in Jesus
+
+-   Eternal Friendship: Celebrates Jesus as “Precious Jesus, Savior, Friend”
+
+-   Constant Presence: Affirms “I know that Thou art with me, wilt be with me to the end”
+
+-   Notable Refrain: “Jesus, Jesus, how I trust Him! How I’ve proved Him o’er and o’er”
+
+## [Turn your eyes upon Jesus](https://www.youtube.com/watch?v=l-XpDh9ujXs) {.scrollable background-image="images/benjamin-voros-phIFdC6lA4E-unsplash.jpg" background-size="cover" background-color="black"}
+
+Verse 1
+
+O soul, are you weary and troubled?
+
+No light in the darkness you see?
+
+There’s light for a look at the Savior,
+
+And life more abundant and free.
+
+\
+\
+
+Chorus
+
+Turn your eyes upon Jesus,
+
+Look full in His wonderful face,
+
+And the things of earth will grow strangely dim,
+
+In the light of His glory and grace.
+
+\
+
+Verse 2
+
+Through death into life everlasting,
+
+He passed, and we follow Him there;
+
+O’er us sin no more hath dominion,
+
+For more than conquerors we are.
+
+\
+
+Chorus
+
+Turn your eyes upon Jesus,
+
+Look full in His wonderful face,
+
+And the things of earth will grow strangely dim,
+
+In the light of His glory and grace.
+
+## How Great Thou Art {.scrollable background-image="images/benjamin-voros-phIFdC6lA4E-unsplash.jpg" background-size="cover" background-color="black"}
+
+Verse 1
+
+O Lord my God, when I in awesome wonder
+
+Consider all the worlds Thy Hands have made;
+
+I see the stars, I hear the rolling thunder,
+
+Thy power throughout the universe displayed.
+
+\
+
+Chorus
+
+Then sings my soul, my Savior God, to Thee,
+
+How great Thou art, how great Thou art.
+
+Then sings my soul, my Savior God, to Thee,
+
+How great Thou art, how great Thou art!
+
+\
+
+Verse 2
+
+When through the woods and forest glades I wander,
+
+And hear the birds sing sweetly in the trees.
+
+When I look down from lofty mountain grandeur,
+
+And hear the brook and feel the gentle breeze.
+
+## Amazing Grace {.scrollable background-image="images/benjamin-voros-phIFdC6lA4E-unsplash.jpg" background-size="cover" background-color="black"}
+
+Verse 1
+
+Amazing grace! how sweet the sound
+
+That saved a wretch like me!
+
+I once was lost, but now am found,
+
+Was blind, but now I see.
+
+\
+
+Verse 2
+
+’Twas grace that taught my heart to fear,
+
+And grace my fears relieved;
+
+How precious did that grace appear
+
+The hour I first believed!
+
+\
+
+Verse 3
+
+The Lord hath promised good to me,
+
+His word my hope secures;
+
+He will my shield and portion be,
+
+As long as life endures.
+
+\
+
+Verse 4
+
+When we’ve been there ten thousand years,
+
+Bright shining as the sun,
+
+We’ve no less days to sing God’s praise
+
+Than when we first begun.
+
+## Amazing Grace (My Chains Are Gone) {.scrollable background-image="images/benjamin-voros-phIFdC6lA4E-unsplash.jpg" background-size="cover" background-color="black"}
+
+Verse 1
+
+Amazing grace! how sweet the sound
+
+That saved a wretch like me!
+
+I once was lost, but now am found,
+
+Was blind, but now I see.
+
+\
+
+Verse 2
+
+’Twas grace that taught my heart to fear,
+
+And grace my fears relieved;
+
+How precious did that grace appear
+
+The hour I first believed!
+
+\
+
+Chorus
+
+My chains are gone, I’ve been set free
+
+My God, my Savior has ransomed me
+
+And like a flood His mercy reigns
+
+Unending love, amazing grace
+
+\
+
+Verse 3
+
+The Lord has promised good to me
+
+His word my hope secures
+
+He will my shield and portion be
+
+As long as life endures
+
+\
+
+Verse 4
+
+The earth shall soon dissolve like snow
+
+The sun forbear to shine
+
+But God, who called me here below
+
+Will be forever mine
+
+\
+
+Chorus
+
+My chains are gone, I’ve been set free
+
+My God, my Savior has ransomed me
+
+And like a flood His mercy reigns
+
+Unending love, amazing grace
+
+## I Stand in Awe of You {.scrollable background-image="images/benjamin-voros-phIFdC6lA4E-unsplash.jpg" background-size="cover" background-color="black"}
+
+::: {style="font-size: 1.5em;"}
+You are beautiful beyond description
+
+Too marvelous for words
+
+Too wonderful for comprehension
+
+Like nothing ever seen or heard
+
+\
+
+Who can grasp Your infinite wisdom?
+
+Who can fathom the depth of Your love?
+
+You are beautiful beyond description
+
+Majesty, enthroned above
+
+\
+
+And I stand, I stand in awe of You
+
+I stand, I stand in awe of You
+
+Holy God, to whom all praise is due I stand in awe of You
+
+\
+
+You are beautiful beyond description
+
+Yet God crushed You for my sin
+
+In agony and deep affliction
+
+Cut off that I might enter in
+
+\
+
+Who can grasp such tender compassion?
+
+Who can fathom this mercy so free?
+
+You are beautiful beyond description
+
+Lamb of God who died for me
+
+\
+
+And I stand, I stand in awe of You
+
+I stand, I stand in awe of You
+
+Holy God, to whom all praise is due I stand in awe of You
+:::

@@ -1,0 +1,992 @@
+---
+title: ""
+author: ""
+date: "2025-08-31"
+format:
+  revealjs:
+    css: [theme.css]
+    theme: simple
+    transition: slide
+    slide-number: c/t
+    width: 1600
+    height: 900
+    incremental: true
+    verticalAlign: top
+    footer: "<h10>NTCC NextGen 2025</h10>"
+    scroll-view: true
+    countdown: 30
+engine: knitr
+knitr:
+  opts_chunk: 
+    class-output: hscroll
+editor: source
+filters: 
+  - timer
+---
+
+# <span style="color:white;">Sunday Worship</span> {background-image="/images/sunrises/dawid-zawila--G3rw6Y02D0-unsplash.jpg" background-size="cover" background-color="black"}
+
+\
+\
+\
+\
+<h2>
+
+<p style="color: gray;">
+
+Monthly theme: Equipped for Good Works
+
+</p>
+
+</h2>
+
+
+
+<h2>Ephesians 2:10</h2>
+
+<h3>
+
+<p style="color: yellow;">
+
+***10 For we are God’s masterpiece. He has created us anew in Christ Jesus, so we can do the good things he planned for us long ago. (NLT)***
+
+</p>
+
+</h3>
+
+\
+
+<h4>
+
+Theme of the year:
+
+<p style="color: lightblue;">
+
+God's Masterpiece - Reflecting His Image and Living Like Jesus
+
+</p>
+
+</h4>
+
+## Theme of the month: "Equipped for Good Works"
+
+### Key Verse: Ephesians 2:10
+
+**"For we are God’s masterpiece. He has created us anew in Christ Jesus, so we can do the good things he planned for us long ago." (NLT)**
+
+## Icebreaker: Biblical animals
+\
+\
+\
+\
+
+
+- Break into two teams.
+- Take turns to send one person to the front
+- This person will be given the animal name but needs to stay mum.
+- Team can ask three yes/no questions to guess the animal.
+
+## Biblical animal {.center}
+
+::: {style="margin-top: 200px; font-size: 3em; color: red; text-align: center;"}
+_ _ O _
+:::
+
+
+
+## Biblical animal {.center}
+
+::: {style="margin-top: 200px; font-size: 3em; color: red; text-align: center;"}
+_ A _ _
+:::
+
+
+## Biblical animal {.center}
+
+::: {style="margin-top: 200px; font-size: 3em; color: red; text-align: center;"}
+_ _ M _ _
+:::
+## Biblical animal {.center}
+
+::: {style="margin-top: 200px; font-size: 3em; color: red; text-align: center;"}
+_ _ N _ _ _
+:::
+## Biblical animal {.center}
+
+::: {style="margin-top: 200px; font-size: 3em; color: red; text-align: center;"}
+_ _ _ _ _ K
+:::
+## Biblical animal {.center}
+
+::: {style="margin-top: 200px; font-size: 3em; color: red; text-align: center;"}
+_ _ _ X
+:::
+## Biblical animal {.center}
+
+::: {style="margin-top: 200px; font-size: 3em; color: red; text-align: center;"}
+U _ _ _ _ _ _
+:::
+## Biblical animal {.center}
+
+::: {style="margin-top: 200px; font-size: 3em; color: red; text-align: center;"}
+_ O _ _
+:::
+
+## Biblical animal {.center}
+
+::: {style="margin-top: 200px; font-size: 3em; color: red; text-align: center;"}
+R _ _ _ _ 
+:::
+
+## Biblical animal {.center}
+
+::: {style="margin-top: 200px; font-size: 3em; color: red; text-align: center;"}
+_ _ R _ _ _ _ 
+:::
+
+## Biblical animal {.center}
+
+::: {style="margin-top: 200px; font-size: 3em; color: red; text-align: center;"}
+_ _ _ _ L _ _ _ 
+:::
+
+## Biblical animal trivia{.center}
+
+
+::: {style="margin-top: 200px; font-size: 2em; color: black; text-align: center;"}
+What is the most famous animal in the Bible?
+:::
+
+\
+
+## Biblical animal trivia{.center}
+
+::: {style="margin-top: 200px; font-size: 2em; color: black; text-align: center;"}
+What is the most famous animal in the Bible?
+:::
+
+\
+
+::: {style="font-size: 2em; color: red; text-align: center;"}
+Answer is: Balaam’s talking donkey [(Numbers 22)](https://www.bible.com/bible/1/NUM.22.KJV)
+:::
+
+## Biblical animal trivia{.center}
+
+::: {style="margin-top: 200px; font-size: 2em; color: black; text-align: center;"}
+What is the most famous animal in the Bible?
+:::
+
+\
+
+::: {style="font-size: 2em; color: red; text-align: center;"}
+Answer is: Raven and dove [(Genesis 8:6-12)](https://www.bible.com/bible/1/GEN.8.KJV)
+:::
+
+## Biblical animal trivia {.center}
+
+::: {style="margin-top: 200px; font-size: 2em; color: black; text-align: center;"}
+What is the most famous animal in the Bible?
+:::
+
+\
+
+::: {style="font-size: 2em; color: red; text-align: center;"}
+Answer is: Talking serpent [(Genesis 3:1-5)](https://www.bible.com/bible/1/GEN.3.KJV)
+:::
+
+
+## Biblical animal trivia {.center}
+
+::: {style="margin-top: 200px; font-size: 2em; color: black; text-align: center;"}
+What is the Most Mentioned Animal in the Bible?
+:::
+
+## Biblical animal trivia {.center}
+
+\
+\
+\
+
+::: {style="font-size: 2em; color: red; text-align: center;"}
+Answer is: Sheep are the most frequently mentioned animal in Scripture, appearing more than 500 times. (Sheep: 189 mentions,Lambs: 175 mentions)
+:::
+
+## Biblical animal trivia {.center}
+
+::: {style="margin-top: 200px; font-size: 2em; color: black; text-align: center;"}
+What is the clean animal in the Bible (OT)?
+:::
+
+## Biblical animal trivia {.center}
+
+
+::: {style="font-size: 2em; color: red; text-align: center;"}
+Answer is: 
+:::
+
+::: {.fragment}
+- Land [Leviticus 11](https://www.bible.com/bible/1/LEV.11.KJV)
+  - Chewed the cud and
+  - Had a completely split (cloven) hoof (e.g., sheep, cattle, goats)
+- Sea
+  - Clean: Those with both fins and scales 
+  - Unclean: Shellfish, catfish, crustaceans, etc.
+- Birds
+  - Clean: Most birds of prey are unclean; clean birds include chickens, doves, and quail.
+- Insects
+  - Clean: Locusts, crickets, and grasshoppers
+  - Unclean: All other insects  
+:::
+
+
+## Biblical animal trivia {.center}
+
+::: {.fragment}
+- New Testament: A Shift in Perspective
+  - Peter’s Vision (Acts 10):
+  In a pivotal vision, Peter sees a sheet lowered from heaven containing “all kinds of animals,” including unclean ones. A voice says: “What God has made clean, do not call profane.”   - This is generally understood to symbolize:
+	  1.	No longer distinguishing between Jews and Gentiles in early Christianity.
+	  2.	A shift in food laws—implying that all foods are clean for believers.
+- Jesus’ Teaching (Matthew 15:11):
+
+  - “It is not what goes into the mouth that defiles a person, but what comes out of the mouth”; emphasizing moral purity over dietary regulations
+
+:::
+## Bible study: **Equipped for Good Works: Walking in Good Works** {.scrollable}
+
+::: {.fragment}
+**Theme Scripture for today**\
+**James 2:14–18** 
+:::
+\
+
+::: {.fragment}
+
+_"14What good is it, my brothers, if someone says he has faith but does not have works? Can that faith save him? 15If a brother or sister is poorly clothed and lacking in daily food, 16and one of you says to them, 'Go in peace, be warmed and filled,' without giving them the things needed for the body, what good is that? 17So also faith by itself, if it does not have works, is dead.
+18But someone will say, 'You have faith and I have works.' Show me your faith apart from your works, and I will show you my faith by my works."_
+:::
+
+::: {.fragment}
+
+  -  Dead Faith vs. Living Faith
+  -  True Faith Produces Action
+  -  Skepticism Addressed
+:::
+
+## Bible study: **Walking in Good Works (continued)** {.scrollable}
+
+::: {.fragment}
+
+- Dead Faith vs. Living Faith
+  - Dead faith is like saying “Happy birthday” without a card, effort, or invitation—meaningless without action. Faith must be alive and expressed through deeds.
+  
+  - Living faith combines belief with action, authentically reflecting Christ’s love.
+  
+- *Illustration*: A tree that never bears fruit is just a decoration. But a fruit-bearing tree shows it’s alive and thriving.
+-  “Faith that doesn’t work is as useless as a car that cannot drive, a plane that lacks the ability to fly, or a ship that cannot sail.”
+:::
+
+## Bible study: **Walking in Good Works (continued)** {.scrollable}
+
+::: {.fragment}
+- True Faith Produces Action
+
+  - James emphasizes that authentic faith naturally leads to good works. Deeds don’t earn salvation, but they’re the evidence of genuine faith.
+  - This aligns with Ephesians 2:10: we are created in Christ to walk in good works—not to become God’s handiwork—but because we already are.
+
+- *Illustration*: A lamp plugged in but not turned on is useless. Faith must be “switched on” through loving actions.
+- "A train’s engine (faith) must pull cars (works) to fulfill its purpose—both are essential.  "
+
+:::
+
+## Bible study: **Walking in Good Works (continued)** {.scrollable}
+:::: {.columns}
+
+::: {.column width="60%"}
+::: {.fragment}
+
+- Skepticism Addressed
+  - Some argue, “Faith alone saves, not works.” James isn’t denying that; he’s arguing that true faith—saving faith—never stands alone. If there’s no fruit, something is missing.
+  - Practical faith energizes worship, service, compassion, and acts of love.
+- *Illustration*: A doctor’s prescription is useless if the patient never takes the medicine. Faith must be “taken” through action to be effective.
+
+:::
+:::
+::: {.column width="40%"}
+
+::: {.fragment}
+- "Missionaries Robert and Mary Moffat labored faithfully in Botswana for a decade without converts, yet their steadfast faith became the channel for profound impact when the first converts came. "
+:::
+::: {.fragment}
+
+[![](https://upload.wikimedia.org/wikipedia/commons/c/c3/Robert_%26_Mary_Moffat.jpg){fig-align="center" width=350}](https://www.youtube.com/watch?v=5AVQu3PGfg8)
+
+:::
+:::
+::::
+
+## Bible study: **Walking in Good Works: Discussion** {.scrollable}
+
+Discussion Questions
+
+::: {.fragment}
+
+ 1.	How do good works reveal genuine faith—what are everyday examples where this is seen?
+
+ 2.	What’s the difference between serving to “look good” and serving because of Jesus? How do motivations shape outcomes?
+	
+3.	Faith without action is like a body without life—why is that?
+	
+4.	What “good work” might God be preparing for you to walk in this season?
+	
+5.	How can our service make faith real to others?
+:::	
+
+## Bible study: **Real life story** {.scrollable}
+:::: {.columns}
+
+::: {.column width="60%"}
+::: {.fragment}
+
+Amy Carmichael
+
+- Irish missionary who spent 55 years in India rescuing temple children, founding an orphanage, and writing 35 books. Her life was the product of faith demonstrated by unwavering works.
+-   Born in 1867 in Ireland, Carmichael felt called to missionary work early on.
+-   In 1895, she went to India, where she was horrified by the practice of temple prostitution.
+-   She opened an orphanage, rescuing over 1,000 children from exploitation.
+-   Carmichael’s faith was evident in her tireless service, often working in dangerous conditions without pay.
+
+:::
+:::
+::: {.column width="40%"}
+
+[![](https://www.bu.edu/missiology/files/2013/04/Amy-Carmichael-from-wiki.jpg){fig-align="center" width=250}](https://www.bu.edu/missiology/missionary-biography/c-d/carmichael-amy-beatrice-1867-1951/)
+
+::: {.fragment}
+-   She famously said, “You may be sure that God will never ask you to do anything without giving you the grace to do it.”
+-   Her life exemplifies James 2:14-18—faith that works through love and action.
+:::
+
+:::
+::::
+---
+
+
+
+## Worship: [Heart of Worship](https://open.spotify.com/track/5N23UhzMfAuCYjwhSbTQwH?si=32d5c7ad00a64af9) \ {.scrollable background-image="images/benjamin-voros-phIFdC6lA4E-unsplash.jpg" background-size="cover" background-color="black"}
+
+
+[Verse 1]
+When the music fades
+
+All is stripped away
+
+And I simply come
+
+Longing just to bring
+
+Something that's of worth
+
+That will bless Your heart
+
+\
+
+[Pre-Chorus]
+I'll bring You more than a song
+
+For a song in itself
+
+Is not what You have required
+
+You search much deeper within
+
+Through the way things appear
+
+You're looking into my heart
+
+\
+
+[Chorus]
+I'm coming back to the heart of worship
+
+And it's all about You, it's all about You, Jesus
+
+I'm sorry, Lord, for the thing I've made it
+
+When it's all about You, it's all about You, Jesus
+
+\
+
+[Verse 2]
+King of endless worth
+
+No one could express
+
+How much you deserve
+
+Though I'm weak and poor
+
+All I have is Yours
+
+Every single breath!
+
+\
+
+[Pre-Chorus]
+I'll bring You more than a song
+
+For a song in itself
+
+Is not what You have required
+
+You search much deeper within
+
+Through the way things appear
+
+You're looking into my heart 
+
+\
+
+[Chorus]
+
+I'm coming back to the heart of worship
+
+And it's all about You, it's all about You, Jesus
+
+I'm sorry, Lord, for the thing I've made it
+
+When it's all about You, it's all about You, Jesus
+
+I'm coming back to the heart of worship
+
+And it's all about You, it's all about You, Jesus
+
+I'm sorry, Lord, for the thing I've made it
+
+When it's all about You, it's all about You, Jesus
+
+\
+
+[Outro]
+
+All about you
+
+I'll bring you more than a song
+
+I'll bring you more than a song
+
+More than a song
+
+I'll bring you more than a song
+
+I'll bring you more than a song
+(than a song)
+
+You're looking into my heart, looking into my heart
+
+You're looking into my heart
+
+I'll bring You more than a song
+
+I'll bring You more than a song
+
+I'll bring You more than a song
+
+I'll bring You more than a song
+
+
+## Worship: [Change my heart o God](https://www.youtube.com/watch?v=IlSmG-_eJTU&t=34s) \ {.scrollable background-image="images/benjamin-voros-phIFdC6lA4E-unsplash.jpg" background-size="cover" background-color="black"}
+
+Verse 1
+
+Change my heart, O God,
+
+Make it ever true;
+
+Change my heart, O God,
+
+May I be like you.
+
+\
+
+Chorus
+
+You are the Potter,
+
+I am the clay;
+
+Mold me and make me,
+
+This is what I pray.
+
+\
+
+Verse 2
+
+Change my heart, O God,
+
+Make it ever true;
+
+Change my heart O God,
+
+may I be like you.
+
+\
+
+Verse 3
+
+Change my heart, O God,
+
+Make it ever true;
+
+Change my heart, O God,
+
+May I be like you.
+
+\
+
+Chorus
+
+You are the Potter,
+
+I am the clay;
+
+Mold me and make me,
+
+This is what I pray.
+
+\
+
+Verse 4
+
+Change my heart, O God,
+
+Make it ever true;
+
+Change my heart O God,
+
+May I be like you.
+
+## 🎵 Lyric highlights {background-image="images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg" background-size="cover" background-color="black"}
+
+  - "Change my heart o God" is written by Eddie Espinosa in 1982, this worship classic emerged not in a studio, but from a moment of heartfelt prayer.
+  -	The inspiration struck while Espinosa was stuck in traffic near Disneyland, praying for God to transform his heart. He began to sing the lyrics spontaneously, as if receiving divine dictation. At the next light, he grabbed scrap paper to jot down the words, preserving the song that would soon resonate worldwide. 
+  -	The lyrics “Change my heart, O God… may I be like You” express raw humility and sincere surrender. It’s a proactive, personal prayer to become more like Jesus.
+	- Teaching the story behind the song—written in a traffic jam—helps youth see that God inspires worship even in everyday moments.
+	
+
+## 🎵 Worship {.scrollable background-image="images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg" background-size="cover" background-color="black"}
+
+<p style="color: navy;">
+
+[Great Is Thy Faithfulness - Reawaken Hymns](https://www.youtube.com/watch?v=lbDNkwcuBus&t=8s)
+
+</p>
+
+:::: columns
+::: {.column width="60%"}
+1 Great is thy faithfulness, O God my Father; there is no shadow of turning with thee; thou changest not, thy compassions, they fail not; as thou hast been thou forever wilt be.
+
+Refrain: Great is thy faithfulness! Great is thy faithfulness! Morning by morning new mercies I see: all I have needed thy hand hath provided-- Great is thy faithfulness, Lord, unto me!
+
+\
+
+2 Summer and winter and springtime and harvest, sun, moon, and stars in their courses above join with all nature in manifold witness to thy great faithfulness, mercy, and love.
+
+Refrain: Great is thy faithfulness! Great is thy faithfulness! Morning by morning new mercies I see: all I have needed thy hand hath provided-- Great is thy faithfulness, Lord, unto me!
+
+\
+
+3 Pardon for sin and a peace that endureth, thine own dear presence to cheer and to guide, strength for today and bright hope for tomorrow, blessings all mine, with ten thousand beside!
+
+Refrain: Great is thy faithfulness! Great is thy faithfulness! Morning by morning new mercies I see: all I have needed thy hand hath provided-- Great is thy faithfulness, Lord, unto me!
+:::
+::::
+
+## 🎵 Lyric highlights {background-image="images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg" background-size="cover" background-color="black"}
+
+-   God’s Unchanging Nature: The hymn emphasizes that God “changest not” and has “no shadow of turning”
+
+-   Daily Mercies: The famous refrain declares “Morning by morning new mercies I see”
+
+-   God’s Provision: Celebrates how “All I have needed thy hand hath provided”
+
+-   Creation’s Witness: References the seasons and natural world as testimony to God’s faithfulness
+
+-   Eternal Promises: Highlights “Pardon for sin and a peace that endureth” and “Strength for today and bright hope for tomorrow”
+
+-   Author Thomas Chisholm wrote this hymp in 1923, which was inspired by simple daily experiences of God’s faithfulness rather than dramatic life events.
+
+## 🎵 Worship {.scrollable background-image="images/ryan-hutton-Jztmx9yqjBw-unsplash.jpg" background-size="cover" background-color="black"}
+
+<p style="color: navy;">
+
+[I Surrender All - Reawaken Hymns](https://www.youtube.com/watch?v=xSPcuV5Sli8)
+
+</p>
+
+:::: columns
+::: {.column width="60%"}
+1 All to Jesus I surrender, All to Him I freely give; I will ever love and trust Him, In His presence daily live.
+
+\
+
+Refrain: I surrender all, I surrender all; All to Thee, my blessed Savior, I surrender all.
+
+\
+
+2 All to Jesus I surrender, Make me, Savior, wholly Thine; Let me feel Thy Holy Spirit, Truly know that Thou art mine.
+
+\
+
+Refrain: I surrender all, I surrender all; All to Thee, my blessed Savior, I surrender all.
+
+\
+
+3 All to Jesus I surrender, Lord, I give myself to Thee; Fill me with Thy love and power, Let Thy blessing fall on me.
+
+\
+
+Refrain: I surrender all, I surrender all; All to Thee, my blessed Savior, I surrender all.
+
+\
+\
+\
+:::
+::::
+
+## 🎵 Lyric highlights {background-image="images/ryan-hutton-Jztmx9yqjBw-unsplash.jpg" background-size="cover" background-color="black"}
+
+Key Themes:
+
+-   Complete Surrender: The central message is yielding “all to Jesus” in every aspect of life
+-   Humility and Submission: Emphasizes bowing “humbly at His feet” in reverence
+-   Spiritual Transformation: Expresses the desire to be filled with the Holy Spirit
+-   Trust and Faith: Represents a deliberate choice made with love and trust
+-   Divine Blessing: Includes the prayer “Let thy blessings fall on me”
+-   Core Message: This hymn represents the profound spiritual journey of complete surrender to Christ, leading to joy, salvation, and spiritual fulfillment
+
+## 🎵 Worship {.scrollable background-image="images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg" background-size="cover" background-color="black"}
+
+<p style="color: navy;">
+
+[Tis so sweet to trust in Jesus](https://www.youtube.com/watch?v=xSPcuV5Sli8)
+
+</p>
+
+:::: columns
+::: {.column width="60%"}
+1 ’Tis so sweet to trust in Jesus, Just to take Him at His word; Just to rest upon His promise; Just to know, Thus saith the Lord.
+
+\
+
+Jesus, Jesus, how I trust Him, How I’ve proved Him o’er and o’er, Jesus, Jesus, Precious Jesus! O for grace to trust Him more.
+
+\
+
+2 O how sweet to trust in Jesus, Just to trust His cleansing blood; Just in simple faith to plunge me, ’Neath the healing, cleansing flood.
+
+\
+Jesus, Jesus, how I trust Him, How I’ve proved Him o’er and o’er, Jesus, Jesus, Precious Jesus! O for grace to trust Him more.
+
+\
+
+3 Yes, ’tis sweet to trust in Jesus, Just from sin and self to cease; Just from Jesus simply taking Life, and rest, and joy, and peace.
+
+\
+Jesus, Jesus, how I trust Him, How I’ve proved Him o’er and o’er, Jesus, Jesus, Precious Jesus! O for grace to trust Him more.
+
+\
+4 I’m so glad I learned to trust Thee, Precious Jesus, Savior, Friend; And I know that Thou art with me, Wilt be with me to the end.
+
+\
+
+Jesus, Jesus, how I trust Him, How I’ve proved Him o’er and o’er, Jesus, Jesus, Precious Jesus! O for grace to trust Him more.
+
+\
+\
+\
+:::
+::::
+
+## 🎵 Lyric highlights {background-image="images/ryan-hutton-Jztmx9yqjBw-unsplash.jpg" background-size="cover" background-color="black"}
+
+Key Themes:
+
+-   Simple Faith: Emphasizes taking Jesus “at His Word” and resting “upon His promise”
+
+-   Cleansing Power: References trusting in Jesus’ “cleansing blood” and the “healing, cleansing flood”
+
+-   Rest and Peace: Highlights finding “life and rest, and joy and peace” in Jesus
+
+-   Eternal Friendship: Celebrates Jesus as “Precious Jesus, Savior, Friend”
+
+-   Constant Presence: Affirms “I know that Thou art with me, wilt be with me to the end”
+
+-   Notable Refrain: “Jesus, Jesus, how I trust Him! How I’ve proved Him o’er and o’er”
+
+
+## [Turn your eyes upon Jesus](https://www.youtube.com/watch?v=l-XpDh9ujXs) {.scrollable background-image="images/benjamin-voros-phIFdC6lA4E-unsplash.jpg" background-size="cover" background-color="black"}
+
+Verse 1
+
+O soul, are you weary and troubled?
+
+No light in the darkness you see?
+
+There’s light for a look at the Savior,
+
+And life more abundant and free.
+
+\
+\
+
+Chorus
+
+Turn your eyes upon Jesus,
+
+Look full in His wonderful face,
+
+And the things of earth will grow strangely dim,
+
+In the light of His glory and grace.
+
+\
+
+Verse 2
+
+Through death into life everlasting,
+
+He passed, and we follow Him there;
+
+O’er us sin no more hath dominion,
+
+For more than conquerors we are.
+
+\
+
+Chorus
+
+Turn your eyes upon Jesus,
+
+Look full in His wonderful face,
+
+And the things of earth will grow strangely dim,
+
+In the light of His glory and grace.
+
+## How Great Thou Art {.scrollable background-image="images/benjamin-voros-phIFdC6lA4E-unsplash.jpg" background-size="cover" background-color="black"}
+
+Verse 1
+
+O Lord my God, when I in awesome wonder
+
+Consider all the worlds Thy Hands have made;
+
+I see the stars, I hear the rolling thunder,
+
+Thy power throughout the universe displayed.
+
+\
+
+Chorus
+
+Then sings my soul, my Savior God, to Thee,
+
+How great Thou art, how great Thou art.
+
+Then sings my soul, my Savior God, to Thee,
+
+How great Thou art, how great Thou art!
+
+\
+
+Verse 2
+
+When through the woods and forest glades I wander,
+
+And hear the birds sing sweetly in the trees.
+
+When I look down from lofty mountain grandeur,
+
+And hear the brook and feel the gentle breeze.
+
+## Amazing Grace {.scrollable background-image="images/benjamin-voros-phIFdC6lA4E-unsplash.jpg" background-size="cover" background-color="black"}
+
+Verse 1
+
+Amazing grace! how sweet the sound
+
+That saved a wretch like me!
+
+I once was lost, but now am found,
+
+Was blind, but now I see.
+
+\
+
+Verse 2
+
+’Twas grace that taught my heart to fear,
+
+And grace my fears relieved;
+
+How precious did that grace appear
+
+The hour I first believed!
+
+\
+
+Verse 3
+
+The Lord hath promised good to me,
+
+His word my hope secures;
+
+He will my shield and portion be,
+
+As long as life endures.
+
+\
+
+Verse 4
+
+When we’ve been there ten thousand years,
+
+Bright shining as the sun,
+
+We’ve no less days to sing God’s praise
+
+Than when we first begun.
+
+## Amazing Grace (My Chains Are Gone) {.scrollable background-image="images/benjamin-voros-phIFdC6lA4E-unsplash.jpg" background-size="cover" background-color="black"}
+
+Verse 1
+
+Amazing grace! how sweet the sound
+
+That saved a wretch like me!
+
+I once was lost, but now am found,
+
+Was blind, but now I see.
+
+\
+
+Verse 2
+
+’Twas grace that taught my heart to fear,
+
+And grace my fears relieved;
+
+How precious did that grace appear
+
+The hour I first believed!
+
+\
+
+Chorus
+
+My chains are gone, I’ve been set free
+
+My God, my Savior has ransomed me
+
+And like a flood His mercy reigns
+
+Unending love, amazing grace
+
+\
+
+Verse 3
+
+The Lord has promised good to me
+
+His word my hope secures
+
+He will my shield and portion be
+
+As long as life endures
+
+\
+
+Verse 4
+
+The earth shall soon dissolve like snow
+
+The sun forbear to shine
+
+But God, who called me here below
+
+Will be forever mine
+
+\
+
+Chorus
+
+My chains are gone, I’ve been set free
+
+My God, my Savior has ransomed me
+
+And like a flood His mercy reigns
+
+Unending love, amazing grace
+
+## I Stand in Awe of You {.scrollable background-image="images/benjamin-voros-phIFdC6lA4E-unsplash.jpg" background-size="cover" background-color="black"}
+
+::: {style="font-size: 1.5em;"}
+You are beautiful beyond description 
+
+Too marvelous for words 
+
+Too wonderful for comprehension 
+
+Like nothing ever seen or heard 
+
+\
+
+Who can grasp Your infinite wisdom? 
+
+Who can fathom the depth of Your love? 
+
+You are beautiful beyond description 
+
+Majesty, enthroned above
+
+\
+
+And I stand, I stand in awe of You 
+
+I stand, I stand in awe of You 
+
+Holy God, to whom all praise is due I stand in awe of You
+
+\
+
+You are beautiful beyond description 
+
+Yet God crushed You for my sin 
+
+In agony and deep affliction 
+
+Cut off that I might enter in 
+
+\
+
+Who can grasp such tender compassion? 
+
+Who can fathom this mercy so free? 
+
+You are beautiful beyond description 
+
+Lamb of God who died for me
+
+
+\
+
+And I stand, I stand in awe of You 
+
+I stand, I stand in awe of You 
+
+Holy God, to whom all praise is due I stand in awe of You 
+:::
