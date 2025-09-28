@@ -25,16 +25,16 @@ filters:
   - timer
 ---
 
-# [Sunday Worship]{style="color:yellow;"} {background-image="/images/fall/johannes-plenio-RwHv7LgeC7s-unsplash.jpg" background-size="cover" background-color="black"}
+# [Sunday Worship]{style="color:forestgreen;"} {background-image="/images/fall/johannes-plenio-RwHv7LgeC7s-unsplash.jpg" background-size="cover" background-color="black"}
 
-\
-\
 \
 \
 
 <h2>[Monthly theme: Authentic Relationships]{style="color:yellow;"}</h2>
 
 <h2>John 13:34-35</h2>
+
+\
 
 <h3>[***"34So now I am giving you a new commandment: Love each other. Just as I have loved you, you should love each other. 35Your love for one another will prove to the world that you are my disciples." (NLT)***]{style="color:yellow;"}</h3>
 
