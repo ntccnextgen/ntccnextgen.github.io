@@ -6,6 +6,7 @@ format:
   revealjs:
     css: [theme.css]
     theme: simple
+    logo: "images/ntcclogo.png"
     transition: slide
     slide-number: c/t
     width: 1600
@@ -53,9 +54,14 @@ God's Masterpiece - Reflecting His Image and Living Like Jesus
 
 ## Theme of the month: "Authentic Relationships"
 
+\
+
 ### Key Verse: John 13:34-35
 
+\
+
 ***"34So now I am giving you a new commandment: Love each other. Just as I have loved you, you should love each other. 35Your love for one another will prove to the world that you are my disciples." (NLT)***
+
 
 ## Bible study: **Authentic Relationships: Encourage One Another** {.scrollable}
 
@@ -80,26 +86,25 @@ God's Masterpiece - Reflecting His Image and Living Like Jesus
 
 :::{.fragment}
 1. Encouragement is more than compliments.
- - Compliments usually focus on surface things: “Nice shoes,” “Good game,” “You look great today.”
+ - Compliments usually focus on surface things: "Nice shoes," "Good game," "You look great today."
  - But biblical encouragement goes deeper. It points people back to God’s truth, promises, and hope.
- - It’s not just about making someone “feel good,” but helping them stand firm in their faith.
- - Example: Paul didn’t just say “You’re awesome, church!” He reminded believers of God’s faithfulness, their identity in Christ, and their eternal hope.
+ - It’s not just about making someone "feel good," but helping them stand firm in their faith.
+ - Example: Paul didn’t just say "You’re awesome, church!" He reminded believers of God’s faithfulness, their identity in Christ, and their eternal hope.
 
 - Illustration: Compliments are like a sugar rush—they give a quick boost but fade fast. Encouragement from God’s Word is like a balanced meal—it gives lasting strength.
-
-- Real-Life Story: A young missionary overseas once received letters from his home church filled with Bible verses, prayers, and reminders that God was with him. Those notes kept him going through discouragement. He later said, “Those letters were better than money. They reminded me I wasn’t alone.”
 
 ## Bible study: **Encourage One Another (continued)** {.scrollable}
 
 :::{.fragment}
 2. Encouragement strengthens the weak.
- - Proverbs 12:25: “Anxiety weighs down the heart, but a kind word cheers it up.”
+
+ - Proverbs 12:25: "Anxiety weighs down the heart, but a kind word cheers it up."
+ - Proverbs 25:11  "Timely advice is lovely, like golden apples in a silver basket."
  - Life is full of pressures: school stress, family struggles, peer pressure. Encouragement helps lift those heavy loads.
  - Even small words can bring life-changing impact.
 
-Illustration: Imagine carrying a heavy backpack full of rocks labeled “fear,” “stress,” “failure.” Encouragement is like a friend taking out those rocks one by one.
+- Illustration: Imagine carrying a heavy backpack full of rocks labeled "fear," "stress," "failure." Encouragement is like a friend taking out those rocks one by one.
 
-Real-Life Story: Olympic runner Derek Redmond tore his hamstring in the 1992 Barcelona games. As he limped toward the finish line, his father ran onto the track, put his arm around him, and helped him cross. The crowd cheered—not because Derek won, but because his father’s encouragement carried him to the end.
 :::
 
 ## Bible study: **Encourage One Another (continued)** {.scrollable}
@@ -113,33 +118,34 @@ Real-Life Story: Olympic runner Derek Redmond tore his hamstring in the 1992 Bar
  - Encouragement is like mortar between bricks—it holds the wall together.
  - When one person is lifted up, the entire community grows stronger.
 
-- Illustration: Think of a soccer team. If one player feels useless, the team suffers. But when the coach and teammates encourage them—“We need you, keep going!”—the whole team plays better.
 
-Real-Life Story: Barnabas in Acts lived this out. He encouraged Paul when others doubted him, and later stood by John Mark after he failed. Because Barnabas believed in them, Paul and Mark went on to change the world. His encouragement built the early church.
 :::
 ::::
 
 ::::: {.column width="50%"}
 :::{.fragment}
 
-
+- Illustration: Olympic runner Derek Redmond tore his hamstring in the 1992 Barcelona games. As he limped toward the finish line, his father ran onto the track, put his arm around him, and helped him cross. The crowd cheered—not because Derek won, but because his father’s encouragement carried him to the end.
 :::
 
 :::{.fragment}
-{{< video https://www.youtube.com/watch?v=rYy3rl1Ca3k width="600" height="400">}}
+{{< video https://www.youtube.com/watch?v=Gb9TzfLuUtQ width="600" height="400">}}
 :::
 :::::
 ::::::::
 
 
-## Bible study: **Forgive One Another: Discussion** {.scrollable}
+## Bible study: **Encourage One Another: Discussion** {.scrollable}
 
 Discussion Questions
 
 ::: {.fragment}
-1.	Why is forgiveness so hard?
-2.	How does remembering God’s forgiveness of us change how we forgive others?
-3.	What relationship in your life needs forgiveness right now?
+1.	Name a time when a discouraging word or action impacted you even that was unintentional.
+2.	Someone is struggling. How would you think of a creative way to encourage him or her?
+3.	What in the following can instill positive energy in your friends group?
+    -   good jokes
+    -   smiling face
+    -   treats
 :::
 
 
@@ -416,7 +422,7 @@ May I be like you.
 
 -   "Change my heart o God" is written by Eddie Espinosa in 1982, this worship classic emerged not in a studio, but from a moment of heartfelt prayer.
 -   The inspiration struck while Espinosa was stuck in traffic near Disneyland, praying for God to transform his heart. He began to sing the lyrics spontaneously, as if receiving divine dictation. At the next light, he grabbed scrap paper to jot down the words, preserving the song that would soon resonate worldwide.
--   The lyrics “Change my heart, O God… may I be like You” express raw humility and sincere surrender. It’s a proactive, personal prayer to become more like Jesus.
+-   The lyrics "Change my heart, O God… may I be like You" express raw humility and sincere surrender. It’s a proactive, personal prayer to become more like Jesus.
     -   Teaching the story behind the song—written in a traffic jam—helps youth see that God inspires worship even in everyday moments.
 
 ## 🎵 Worship {.scrollable background-image="images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg" background-size="cover" background-color="black"}
@@ -449,15 +455,15 @@ Refrain: Great is thy faithfulness! Great is thy faithfulness! Morning by mornin
 
 ## 🎵 Lyric highlights {background-image="images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg" background-size="cover" background-color="black"}
 
--   God’s Unchanging Nature: The hymn emphasizes that God “changest not” and has “no shadow of turning”
+-   God’s Unchanging Nature: The hymn emphasizes that God "changest not" and has "no shadow of turning"
 
--   Daily Mercies: The famous refrain declares “Morning by morning new mercies I see”
+-   Daily Mercies: The famous refrain declares "Morning by morning new mercies I see"
 
--   God’s Provision: Celebrates how “All I have needed thy hand hath provided”
+-   God’s Provision: Celebrates how "All I have needed thy hand hath provided"
 
 -   Creation’s Witness: References the seasons and natural world as testimony to God’s faithfulness
 
--   Eternal Promises: Highlights “Pardon for sin and a peace that endureth” and “Strength for today and bright hope for tomorrow”
+-   Eternal Promises: Highlights "Pardon for sin and a peace that endureth" and "Strength for today and bright hope for tomorrow"
 
 -   Author Thomas Chisholm wrote this hymp in 1923, which was inspired by simple daily experiences of God’s faithfulness rather than dramatic life events.
 
@@ -503,11 +509,11 @@ Refrain: I surrender all, I surrender all; All to Thee, my blessed Savior, I sur
 
 Key Themes:
 
--   Complete Surrender: The central message is yielding “all to Jesus” in every aspect of life
--   Humility and Submission: Emphasizes bowing “humbly at His feet” in reverence
+-   Complete Surrender: The central message is yielding "all to Jesus" in every aspect of life
+-   Humility and Submission: Emphasizes bowing "humbly at His feet" in reverence
 -   Spiritual Transformation: Expresses the desire to be filled with the Holy Spirit
 -   Trust and Faith: Represents a deliberate choice made with love and trust
--   Divine Blessing: Includes the prayer “Let thy blessings fall on me”
+-   Divine Blessing: Includes the prayer "Let thy blessings fall on me"
 -   Core Message: This hymn represents the profound spiritual journey of complete surrender to Christ, leading to joy, salvation, and spiritual fulfillment
 
 ## 🎵 Worship {.scrollable background-image="images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg" background-size="cover" background-color="black"}
@@ -557,17 +563,17 @@ Jesus, Jesus, how I trust Him, How I’ve proved Him o’er and o’er, Jesus, J
 
 Key Themes:
 
--   Simple Faith: Emphasizes taking Jesus “at His Word” and resting “upon His promise”
+-   Simple Faith: Emphasizes taking Jesus "at His Word" and resting "upon His promise"
 
--   Cleansing Power: References trusting in Jesus’ “cleansing blood” and the “healing, cleansing flood”
+-   Cleansing Power: References trusting in Jesus’ "cleansing blood" and the "healing, cleansing flood"
 
--   Rest and Peace: Highlights finding “life and rest, and joy and peace” in Jesus
+-   Rest and Peace: Highlights finding "life and rest, and joy and peace" in Jesus
 
--   Eternal Friendship: Celebrates Jesus as “Precious Jesus, Savior, Friend”
+-   Eternal Friendship: Celebrates Jesus as "Precious Jesus, Savior, Friend"
 
--   Constant Presence: Affirms “I know that Thou art with me, wilt be with me to the end”
+-   Constant Presence: Affirms "I know that Thou art with me, wilt be with me to the end"
 
--   Notable Refrain: “Jesus, Jesus, how I trust Him! How I’ve proved Him o’er and o’er”
+-   Notable Refrain: "Jesus, Jesus, how I trust Him! How I’ve proved Him o’er and o’er"
 
 ## [Turn your eyes upon Jesus](https://www.youtube.com/watch?v=l-XpDh9ujXs) {.scrollable background-image="images/benjamin-voros-phIFdC6lA4E-unsplash.jpg" background-size="cover" background-color="black"}
 

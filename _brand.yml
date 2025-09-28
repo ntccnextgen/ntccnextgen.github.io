@@ -6,12 +6,9 @@ color:
   foreground: dark-grey
   primary: navy
 
-logo: 
-  medium: /Users/karlho/Dropbox/____kho/___ntcc/nextgen/images/ntcclogo.png
-
 typography:
   fonts:
-    - family: Palantino
+    - family: Palatino
       source: google
-  base: Palantino
-  headings: Palantino
+  base: Palatino
+  headings: Palatino
