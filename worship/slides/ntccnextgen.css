@@ -1,0 +1,44 @@
+.reveal .slides > section > section { 
+  text-align:left; 
+}
+.reveal .slide {
+  font-family: $font-family-sans-serif;
+  color: $body-color;
+  background-color: $body-bg;
+}
+.reveal .slide h1 {
+  color: gray;
+}
+.reveal .slide h6 {
+  font-family: "Palatino", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.reveal .slide h6 {
+  font-family: "Helvetica", Helvetica, Arial, sans-serif;
+  color: $body-color;
+  background-color: $body-bg;
+  font-size: .4em;
+}
+.reveal ol {
+  margin: 0 0 0 1.5em; 
+}
+// Font Sizes
+$presentation-font-size-root: 24px !default;  // Adjust base font size
+$presentation-h1-font-size: 2.0em !default;
+$presentation-h2-font-size: 1.4em !default;
+$presentation-h3-font-size: 1.2em !default;
+$presentation-h4-font-size: 1.0em !default;
+$presentation-h5-font-size: 0.8em !default;
+$presentation-h6-font-size: 0.2em !default;
+<style>
+        .center-xy {
+          margin: 0;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -ms-transform: translateY(-50%), translateX(-50%);
+          transform: translateY(-50%), translateX(-50%);
+        }
+        .center-text {
+  text-align: center;
+}
+        </style>

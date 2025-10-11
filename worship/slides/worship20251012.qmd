@@ -1,0 +1,406 @@
+---
+title: ""
+author: ""
+date: "2025-10-12"
+format:
+  revealjs:
+    css: [ntccnextgen.css]
+    theme: simple
+    logo: ""
+    transition: slide
+    slide-number: c/t
+    width: 1600
+    height: 900
+    incremental: true
+    verticalAlign: top
+    footer: "<h10>NTCC NextGen 2025</h10>"
+    scroll-view: true
+    countdown: 30
+engine: knitr
+knitr:
+  opts_chunk: 
+    class-output: hscroll
+editor: source
+filters: 
+  - timer
+---
+
+
+## [Heart of Worship](https://www.youtube.com/watch?v=0XsB0ltXmRs) {.scrollable  .center-text background-image="bkgd/218646_small.mp4" background-size="cover" background-color="black"} 
+
+\
+\
+
+\[Verse 1\] When the music fades
+
+All is stripped away 
+
+And I simply come
+
+Longing just to bring
+
+Something that's of worth
+
+That will bless Your heart
+
+\
+
+\[Pre-Chorus\] I'll bring You more than a song
+
+For a song in itself
+
+Is not what You have required
+
+You search much deeper within
+
+Through the way things appear
+
+You're looking into my heart
+
+\
+
+\[Chorus\] I'm coming back to the heart of worship
+
+And it's all about You, it's all about You, Jesus
+
+I'm sorry, Lord, for the thing I've made it
+
+When it's all about You, it's all about You, Jesus
+
+\
+
+\[Verse 2\] King of endless worth
+
+No one could express
+
+How much you deserve
+
+Though I'm weak and poor
+
+All I have is Yours
+
+Every single breath!
+
+\
+
+\[Pre-Chorus\] I'll bring You more than a song
+
+For a song in itself
+
+Is not what You have required
+
+You search much deeper within
+
+Through the way things appear
+
+You're looking into my heart
+
+\
+
+\[Chorus\]
+
+I'm coming back to the heart of worship
+
+And it's all about You, it's all about You, Jesus
+
+I'm sorry, Lord, for the thing I've made it
+
+When it's all about You, it's all about You, Jesus
+
+I'm coming back to the heart of worship
+
+And it's all about You, it's all about You, Jesus
+
+I'm sorry, Lord, for the thing I've made it
+
+When it's all about You, it's all about You, Jesus
+
+\
+
+\[Outro\]
+
+All about you
+
+I'll bring you more than a song
+
+I'll bring you more than a song
+
+More than a song
+
+I'll bring you more than a song
+
+I'll bring you more than a song (than a song)
+
+You're looking into my heart, looking into my heart
+
+You're looking into my heart
+
+I'll bring You more than a song
+
+I'll bring You more than a song
+
+I'll bring You more than a song
+
+I'll bring You more than a song
+
+
+## [Goodness of God](https://www.youtube.com/watch?v=-f4MUUMWMV4&list=RD-f4MUUMWMV4&start_radio=1) {.scrollable .center-text background-image="bkgd/170480-843367912_small.mp4" background-size="cover" background-color="black"}
+
+\
+[Verse 1]
+
+I love You Lord
+
+Oh Your mercy never fails me
+
+All my days
+
+I’ve been held in Your hands
+
+From the moment that I wake up
+
+Until I lay my head
+
+I will sing of the goodness of God
+
+\
+
+[Chorus]
+
+All my life You have been faithful
+
+All my life You have been so, so good
+
+With every breath that I am able
+
+I will sing of the goodness of God
+
+\
+
+[Verse 2]
+
+I love Your voice
+
+You have led me through the fire
+
+In darkest nights
+
+You are close like no other
+
+I’ve known You as a father
+
+I’ve known You as a friend
+
+I have lived in the goodness of God
+
+\
+
+[Bridge]
+
+Your goodness is running after, it’s running after me
+
+Your goodness is running after, it’s running after me
+
+With my life laid down, I’m surrendered now, I give You everything
+
+Your goodness is running after, it’s running after me
+
+\
+
+<h6>© 2018 Bethel Music Publishing (ASCAP) / Fellow Ships Music (SESAC) / So Essential Tunes (SESAC) (admin. at EssentialMusicPublishing.com) / Alletrop Music (BMI) / SHOUT! Music Publishing (APRA) (adm. in the US and Canada at CapitolCMGPublishing.com). All Rights Reserved. Used by Permission.</h6>
+
+## [Living Hope](https://www.youtube.com/watch?v=ifFovH-dhHw&list=RDifFovH-dhHw&start_radio=0) {.scrollable .center-text background-image="bkgd/170480-843367912_small.mp4" background-size="cover" background-color="black"}
+
+\
+
+How great the chasm that lay between us
+
+How high the mountain I could not climb
+
+In desperation, I turned to heaven
+
+And spoke Your name into the night
+
+Then through the darkness, Your loving kindness
+
+Tore through the shadows of my soul
+
+The work is finished, the end is written
+
+Jesus Christ, my living hope
+
+\
+
+
+Who could imagine so great a mercy?
+
+What heart could fathom such boundless grace?
+
+The God of ages stepped down from glory
+
+To wear my sin and bear my shame
+
+The cross has spoken, I am forgiven
+
+The King of kings calls me His own
+
+Beautiful Savior, I'm Yours forever
+
+Jesus Christ, my living hope
+
+\
+
+
+Hallelujah, praise the One who set me free
+
+Hallelujah, death has lost its grip on me
+
+You have broken every chain
+
+There's salvation in Your name
+
+Jesus Christ, my living hope
+
+Hallelujah, praise the One who set me free
+
+Hallelujah, death has lost its grip on me
+
+You have broken every chain
+
+There's salvation in Your name
+
+Jesus Christ, my living hope
+
+\
+
+
+Then came the morning that sealed the promise
+
+Your buried body began to breathe
+
+Out of the silence, the Roaring Lion
+
+Declared the grave has no claim on me
+
+Then came the morning that sealed the promise
+
+Your buried body began to breathe
+
+Out of the silence, the Roaring Lion
+
+Declared the grave has no claim on me
+
+Jesus, Yours is the victory, whoa!
+
+Hallelujah, praise the One who set me free
+
+Hallelujah, death has lost its grip on me
+
+You have broken every chain
+
+There's salvation in Your name
+
+Jesus Christ, my living hope
+
+Hallelujah, praise the One who set me free
+
+Hallelujah, death has lost its grip on me
+
+You have broken every chain
+
+There's salvation in Your name
+
+Jesus Christ, my living hope
+
+Jesus Christ, my living hope
+
+Oh God, You are my living hope
+
+<h6>© 2017 Bethel Music Publishing (ASCAP) / Phil Wickham Music (BMI) / Simply Global Songs (BMI) / Sing My Songs (BMI) (admin. at EssentialMusicPublishing.com). All Rights Reserved. Used by Permission.</h6>
+
+
+## [You are my all in all](https://www.youtube.com/watch?v=dPqu8lD8LB0) {.scrollable .center-text background-image="bkgd/170480-843367912_small.mp4" background-size="cover" background-color="black"}
+
+\
+
+You are my strength when I am weak
+
+You are the treasure that I seek
+
+You are my all in all
+
+I'm seeking You like a precious jewel
+
+Lord, to give up I'd be a fool
+
+You are my all in all
+
+\
+
+Jesus, Lamb of God
+
+Holy is Your name
+
+Jesus, Lamb of God
+
+Holy is Your name
+
+\
+
+Taking my cross my sin my shame
+
+Raising again I praise Your name
+
+You are my all in all
+
+When I fall down You pick me up
+
+When I run dry You fill my cup
+
+You are my all in all
+
+\
+
+Jesus, Lamb of God
+
+Holy is Your name
+
+Jesus, Lamb of God
+
+Holy is Your name
+
+\
+
+Jesus, Lamb of God
+
+Holy is Your name
+
+Jesus, Lamb of God
+
+Holy is Your name
+
+\
+
+You are my strength when I am weak
+
+You are the treasure that I seek
+
+You are my all in all
+
+When I fall down You pick me up
+
+When I run dry You fill my cup
+
+You are my all in all
+
+\
+
+Jesus, Lamb of God
+
+Holy is Your name
+
+Jesus, Lamb of God
+
+Holy is Your name
+
+<h6>© 1991 Shepherd's Heart Music, Inc. (Admin. by PraiseCharts Publishing, Inc.)</h6>
