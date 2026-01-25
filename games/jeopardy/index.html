@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bible Jeopardy - Youth Edition</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 1.1em;
+        }
+
+        /* HOME SCREEN */
+        .home-screen {
+            display: none;
+        }
+
+        .home-screen.active {
+            display: block;
+        }
+
+        .section-group {
+            margin-bottom: 40px;
+        }
+
+        .section-title {
+            font-size: 1.3em;
+            color: #764ba2;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .team-selection {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .team-button {
+            padding: 20px;
+            border: 3px solid #ddd;
+            border-radius: 10px;
+            background: #f9f9f9;
+            cursor: pointer;
+            font-size: 1.1em;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .team-button:hover {
+            border-color: #667eea;
+            background: #f0f4ff;
+            transform: translateY(-2px);
+        }
+
+        .team-button.active {
+            border-color: #667eea;
+            background: #667eea;
+            color: white;
+        }
+
+        .point-selection {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .point-button {
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            background: white;
+            cursor: pointer;
+            font-size: 0.95em;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .point-button:hover {
+            border-color: #667eea;
+            background: #f0f4ff;
+        }
+
+        .point-button.active {
+            border-color: #667eea;
+            background: #667eea;
+            color: white;
+        }
+
+        .start-button {
+            width: 100%;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.2em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .start-button:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .start-button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        /* GAME SCREEN */
+        .game-screen {
+            display: none;
+        }
+
+        .game-screen.active {
+            display: block;
+        }
+
+        .score-board {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 30px;
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .team-score {
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .team-score.team-1 {
+            border-left: 5px solid #667eea;
+        }
+
+        .team-score.team-2 {
+            border-left: 5px solid #764ba2;
+        }
+
+        .team-score h3 {
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .team-score .score {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .team-score.team-2 .score {
+            color: #764ba2;
+        }
+
+        .game-board {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+
+        .category-header {
+            text-align: center;
+            padding: 10px;
+            background: #667eea;
+            color: white;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+
+        .question-card {
+            aspect-ratio: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1.3em;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .question-card:hover:not(:disabled) {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .question-card:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            opacity: 0.6;
+        }
+
+        /* MODAL */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+        }
+
+        .modal.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-content {
+            background-color: white;
+            padding: 40px;
+            border-radius: 15px;
+            max-width: 700px;
+            width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        .modal-question {
+            font-size: 1.4em;
+            color: #333;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .question-amount {
+            text-align: center;
+            color: #667eea;
+            font-size: 1.3em;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .answer-options {
+            display: grid;
+            gap: 12px;
+            margin-bottom: 30px;
+        }
+
+        .answer-option {
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            background: white;
+            cursor: pointer;
+            font-size: 1em;
+            transition: all 0.3s ease;
+            text-align: left;
+        }
+
+        .answer-option:hover {
+            border-color: #667eea;
+            background: #f0f4ff;
+        }
+
+        .answer-option input[type="radio"] {
+            margin-right: 10px;
+        }
+
+        .submit-answer {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .submit-answer:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .result-message {
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            font-size: 1.1em;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .result-message.correct {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .result-message.incorrect {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .home-button {
+            width: 100%;
+            padding: 12px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 15px;
+            transition: all 0.3s ease;
+        }
+
+        .home-button:hover {
+            background: #764ba2;
+        }
+
+        .game-over {
+            text-align: center;
+            padding: 30px;
+        }
+
+        .game-over h2 {
+            font-size: 2em;
+            color: #667eea;
+            margin-bottom: 20px;
+        }
+
+        .winner {
+            font-size: 1.5em;
+            color: #764ba2;
+            margin-bottom: 30px;
+        }
+
+        @media (max-width: 768px) {
+            .game-board {
+                grid-template-columns: repeat(4, 1fr);
+            }
+            
+            .point-selection {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📖 Bible Jeopardy</h1>
+        <p class="subtitle">Youth Edition - Grades 6-College</p>
+
+        <!-- HOME SCREEN -->
+        <div class="home-screen active" id="homeScreen">
+            <div class="section-group">
+                <div class="section-title">Select Your Team</div>
+                <div class="team-selection">
+                    <button class="team-button" data-team="1">🔵 Team 1</button>
+                    <button class="team-button" data-team="2">🟣 Team 2</button>
+                </div>
+            </div>
+
+            <div class="section-group">
+                <div class="section-title">Starting Question Value</div>
+                <div class="point-selection">
+                    <button class="point-button" data-points="200">$200</button>
+                    <button class="point-button" data-points="400">$400</button>
+                    <button class="point-button" data-points="600">$600</button>
+                    <button class="point-button" data-points="800">$800</button>
+                    <button class="point-button" data-points="1000">$1000</button>
+                </div>
+            </div>
+
+            <button class="start-button" id="startBtn" disabled>Start Game</button>
+        </div>
+
+        <!-- GAME SCREEN -->
+        <div class="game-screen" id="gameScreen">
+            <div class="score-board">
+                <div class="team-score team-1">
+                    <h3>Team 1</h3>
+                    <div class="score" id="team1Score">$0</div>
+                </div>
+                <div class="team-score team-2">
+                    <h3>Team 2</h3>
+                    <div class="score" id="team2Score">$0</div>
+                </div>
+            </div>
+
+            <div class="game-board" id="gameBoard"></div>
+            <button class="home-button" onclick="goHome()">Return to Home</button>
+        </div>
+
+        <!-- QUESTION MODAL -->
+        <div class="modal" id="questionModal">
+            <div class="modal-content">
+                <div class="question-amount" id="questionAmount"></div>
+                <div class="modal-question" id="questionText"></div>
+                <div class="answer-options" id="answerOptions"></div>
+                <button class="submit-answer" id="submitBtn">Submit Answer</button>
+                <div id="resultDisplay"></div>
+                <button class="home-button" id="nextBtn" style="display:none;" onclick="closeQuestion()">Next Question</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // QUESTIONS DATABASE
+        const questions = {
+            'Old Testament': [
+                { q: 'Who is the first person mentioned in the Bible?', a: 'Adam', mc: ['Adam', 'Moses', 'Noah', 'Abraham'] },
+                { q: 'How many days did it take God to create the world?', a: 'Six (6) days', mc: ['Five days', 'Six (6) days', 'Seven days', 'Ten days'] },
+                { q: 'What was the name of Noah\'s ark\'s first landing place?', a: 'Mount Ararat', mc: ['Mount Sinai', 'Mount Ararat', 'Mount Zion', 'Mount Carmel'] },
+                { q: 'How many sons did Abraham have?', a: 'Two (Ishmael and Isaac)', mc: ['One', 'Two (Ishmael and Isaac)', 'Three', 'Four'] },
+                { q: 'What book tells the story of Job?', a: 'Job', mc: ['Exodus', 'Job', 'Psalms', 'Proverbs'] },
+                { q: 'How many plagues did God send on Egypt?', a: 'Ten (10)', mc: ['Five', 'Seven', 'Ten (10)', 'Twelve'] },
+                { q: 'Who led the Israelites out of Egypt?', a: 'Moses', mc: ['Joshua', 'Moses', 'David', 'Solomon'] },
+                { q: 'On what day did God rest after creation?', a: 'The Seventh Day', mc: ['The Fifth Day', 'The Sixth Day', 'The Seventh Day', 'The Eighth Day'] },
+                { q: 'How many commandments did God give Moses?', a: 'Ten (10)', mc: ['Five', 'Seven', 'Ten (10)', 'Twelve'] },
+                { q: 'Who was sold into slavery by his brothers?', a: 'Joseph', mc: ['Benjamin', 'Joseph', 'Reuben', 'Judah'] },
+                { q: 'What did God promise Abraham?', a: 'A son and countless descendants', mc: ['Land and peace', 'A son and countless descendants', 'Gold and silver', 'A kingdom'] },
+                { q: 'How old was Noah when the flood came?', a: '600 years old', mc: ['400 years old', '500 years old', '600 years old', '700 years old'] },
+                { q: 'Who was the wisest king of Israel?', a: 'Solomon', mc: ['David', 'Solomon', 'Saul', 'Josiah'] },
+                { q: 'What was Jacob\'s new name after wrestling with God?', a: 'Israel', mc: ['Israel', 'Benjamin', 'Judah', 'Joseph'] },
+                { q: 'Who built the first temple in Jerusalem?', a: 'Solomon', mc: ['David', 'Solomon', 'Nehemiah', 'Zerubbabel'] },
+                { q: 'What book contains Psalms?', a: 'Psalms', mc: ['Proverbs', 'Psalms', 'Job', 'Ecclesiastes'] },
+                { q: 'Who was swallowed by a great fish?', a: 'Jonah', mc: ['Moses', 'Jonah', 'David', 'Elijah'] },
+                { q: 'How many books are in the Old Testament?', a: 'Thirty-nine (39)', mc: ['Twenty-two', 'Thirty-nine (39)', 'Forty-two', 'Sixty-six'] },
+                { q: 'Who heard God\'s voice in a burning bush?', a: 'Moses', mc: ['Abraham', 'Moses', 'Joshua', 'Gideon'] },
+                { q: 'What is the first book of the Bible?', a: 'Genesis', mc: ['Exodus', 'Genesis', 'Leviticus', 'Numbers'] }
+            ],
+            'New Testament': [
+                { q: 'Who baptized Jesus Christ?', a: 'John the Baptist', mc: ['John the Baptist', 'Peter', 'Andrew', 'James'] },
+                { q: 'How many disciples did Jesus choose?', a: 'Twelve (12)', mc: ['Seven', 'Twelve (12)', 'Seventy', 'Thirty'] },
+                { q: 'What is the first Gospel in the New Testament?', a: 'Matthew', mc: ['Mark', 'Matthew', 'Luke', 'John'] },
+                { q: 'What city was Jesus born in?', a: 'Bethlehem', mc: ['Jerusalem', 'Bethlehem', 'Nazareth', 'Capernaum'] },
+                { q: 'Who denied Jesus three times?', a: 'Peter', mc: ['Judas', 'Thomas', 'Peter', 'John'] },
+                { q: 'How many times did Jesus rise from the dead?', a: 'Once', mc: ['Never', 'Once', 'Twice', 'Three times'] },
+                { q: 'What is the last book of the New Testament?', a: 'Revelation', mc: ['3 John', 'Revelation', 'Jude', '2 Timothy'] },
+                { q: 'Who wrote the most Epistles (letters)?', a: 'Paul (Saul)', mc: ['Peter', 'Paul (Saul)', 'John', 'James'] },
+                { q: 'How many books are in the New Testament?', a: 'Twenty-seven (27)', mc: ['Twenty-one', 'Twenty-seven (27)', 'Thirty-three', 'Forty'] },
+                { q: 'What was Judas paid to betray Jesus?', a: 'Thirty silver coins', mc: ['Ten coins', 'Twenty coins', 'Thirty silver coins', 'Forty coins'] },
+                { q: 'On what day did Jesus rise from the dead?', a: 'The third day', mc: ['The first day', 'The second day', 'The third day', 'The fourth day'] },
+                { q: 'What was Jesus\'s first miracle?', a: 'Turning water into wine', mc: ['Healing a blind man', 'Turning water into wine', 'Walking on water', 'Feeding the 5000'] },
+                { q: 'How many Gospels are in the New Testament?', a: 'Four (4)', mc: ['Two', 'Three', 'Four (4)', 'Five'] },
+                { q: 'Who was Jesus\'s earthly father?', a: 'Joseph', mc: ['Zechariah', 'Joseph', 'Cleopas', 'Simon'] },
+                { q: 'What mountain did the Transfiguration occur on?', a: 'Mount of Transfiguration (unnamed)', mc: ['Mount Sinai', 'Mount Ararat', 'Mount of Transfiguration', 'Mount Olives'] },
+                { q: 'Who was the first Christian martyr?', a: 'Stephen', mc: ['Peter', 'Stephen', 'James', 'Paul'] },
+                { q: 'What is the Sermon on the Mount?', a: 'Jesus\'s teaching about the kingdom of heaven', mc: ['A prophecy about Jerusalem', 'Jesus\'s teaching about the kingdom of heaven', 'A historical account', 'A list of laws'] },
+                { q: 'Which disciple doubted Jesus\'s resurrection?', a: 'Thomas', mc: ['Peter', 'Thomas', 'John', 'James'] },
+                { q: 'What did Jesus say to do to our enemies?', a: 'Love them', mc: ['Ignore them', 'Avoid them', 'Love them', 'Punish them'] },
+                { q: 'How did Paul die?', a: 'He was executed', mc: ['He was crucified', 'He was executed', 'He died naturally', 'He was stoned'] }
+            ],
+            'History': [
+                { q: 'In what year was the King James Bible published?', a: '1611', mc: ['1500', '1611', '1700', '1800'] },
+                { q: 'Which empire destroyed the Temple in Jerusalem?', a: 'Roman', mc: ['Greek', 'Roman', 'Persian', 'Babylonian'] },
+                { q: 'What was the Exodus?', a: 'The departure of Israelites from Egypt', mc: ['A rebellion', 'The departure of Israelites from Egypt', 'A plague', 'A war'] },
+                { q: 'Who was the first Pope?', a: 'Peter', mc: ['Paul', 'Peter', 'James', 'John'] },
+                { q: 'In what century was the Reformation?', a: '16th Century', mc: ['14th Century', '15th Century', '16th Century', '17th Century'] },
+                { q: 'Which king translated the Bible into English?', a: 'King James I', mc: ['King Henry VIII', 'King James I', 'King Charles I', 'King George III'] },
+                { q: 'What event is commemorated on Easter?', a: 'Jesus\'s Resurrection', mc: ['Jesus\'s birth', 'Jesus\'s Resurrection', 'Pentecost', 'The Ascension'] },
+                { q: 'What event is commemorated on Christmas?', a: 'Jesus\'s birth', mc: ['Jesus\'s baptism', 'Jesus\'s birth', 'Jesus\'s death', 'Jesus\'s resurrection'] },
+                { q: 'When was the Dead Sea Scrolls discovered?', a: '1947', mc: ['1920', '1947', '1960', '1975'] },
+                { q: 'What is the Western Wall?', a: 'A remaining wall of the Second Temple', mc: ['A city wall', 'A remaining wall of the Second Temple', 'A fortress wall', 'A dividing wall'] },
+                { q: 'Who was John Wycliffe?', a: 'An early Bible translator', mc: ['A pope', 'An early Bible translator', 'A disciple', 'A prophet'] },
+                { q: 'What was the Babylonian captivity?', a: 'When Judeans were exiled to Babylon', mc: ['A battle', 'When Judeans were exiled to Babylon', 'A plague', 'A famine'] },
+                { q: 'Which Christians faced persecution in Rome?', a: 'Early Christians', mc: ['Medieval Christians', 'Early Christians', 'Modern Christians', 'Reformed Christians'] },
+                { q: 'What council established the Christian canon?', a: 'Council of Nicaea', mc: ['Council of Jerusalem', 'Council of Nicaea', 'Council of Trent', 'Council of Constantinople'] },
+                { q: 'What language was the Old Testament primarily written in?', a: 'Hebrew', mc: ['Greek', 'Hebrew', 'Aramaic', 'Latin'] },
+                { q: 'What is the Septuagint?', a: 'Greek translation of the Old Testament', mc: ['A Roman law', 'Greek translation of the Old Testament', 'A Hebrew prayer', 'A prophetic book'] },
+                { q: 'When was the New Testament written?', a: '1st Century AD', mc: ['1st Century AD', '2nd Century AD', '3rd Century AD', '4th Century AD'] },
+                { q: 'What empire ruled Jerusalem when Jesus was born?', a: 'Roman', mc: ['Greek', 'Persian', 'Roman', 'Egyptian'] },
+                { q: 'Who wrote most of the Gospels?', a: 'Matthew, Mark, Luke, and John', mc: ['Peter and Paul', 'Matthew, Mark, Luke, and John', 'Only John', 'Only Luke'] },
+                { q: 'What was Pentecost?', a: 'The descent of the Holy Spirit on the disciples', mc: ['A Jewish festival', 'The descent of the Holy Spirit on the disciples', 'A plague in Egypt', 'A law given by Moses'] }
+            ],
+            'Statistics & Numbers': [
+                { q: 'How many books are in the Bible total?', a: 'Sixty-six (66)', mc: ['Sixty (60)', 'Sixty-six (66)', 'Seventy (70)', 'Seventy-three (73)'] },
+                { q: 'How many chapters are in the Bible (approximately)?', a: '1,189', mc: ['1,000', '1,189', '1,500', '2,000'] },
+                { q: 'How many verses are in the Bible (approximately)?', a: '31,000+', mc: ['20,000', '25,000', '31,000+', '40,000'] },
+                { q: 'What is the longest book of the Bible?', a: 'Psalms', mc: ['Isaiah', 'Psalms', 'Jeremiah', 'Matthew'] },
+                { q: 'How many times is the word "God" mentioned in the Bible?', a: 'Over 4,000 times', mc: ['Over 2,000 times', 'Over 4,000 times', 'Over 6,000 times', 'Over 8,000 times'] },
+                { q: 'What is the shortest book of the Bible?', a: '2 John or 3 John', mc: ['Obadiah', '2 John or 3 John', 'Philemon', 'Jude'] },
+                { q: 'How many chapters does Genesis have?', a: 'Fifty (50)', mc: ['Forty (40)', 'Fifty (50)', 'Sixty (60)', 'Seventy (70)'] },
+                { q: 'How many chapters does Psalms have?', a: 'One hundred fifty (150)', mc: ['One hundred (100)', 'One hundred twenty (120)', 'One hundred fifty (150)', 'One hundred eighty (180)'] },
+                { q: 'How many people were on Noah\'s ark?', a: 'Eight (8)', mc: ['Two (2)', 'Four (4)', 'Eight (8)', 'Twelve (12)'] },
+                { q: 'How many languages existed at the Tower of Babel?', a: 'Many (number varies)', mc: ['Twelve (12)', 'Seventy (70)', 'Many (number varies)', 'A hundred (100)'] },
+                { q: 'How many tribes of Israel were there?', a: 'Twelve (12)', mc: ['Ten (10)', 'Twelve (12)', 'Fourteen (14)', 'Sixteen (16)'] },
+                { q: 'How many years was Jesus in the wilderness?', a: 'Forty (40) days', mc: ['Twenty (20) days', 'Forty (40) days', 'Sixty (60) days', 'Eighty (80) days'] },
+                { q: 'How many appeared at the Transfiguration with Jesus?', a: 'Three (Moses, Elijah, Jesus)', mc: ['Two', 'Three (Moses, Elijah, Jesus)', 'Four', 'Five'] },
+                { q: 'How many days was Jesus in the tomb?', a: 'Three (3)', mc: ['One', 'Two', 'Three (3)', 'Four'] },
+                { q: 'How many times did Peter deny Jesus?', a: 'Three (3)', mc: ['Two', 'Three (3)', 'Four', 'Five'] },
+                { q: 'How many people did Jesus feed at the miracle of the loaves?', a: 'Five thousand (5,000)', mc: ['Three thousand', 'Five thousand (5,000)', 'Eight thousand', 'Ten thousand'] },
+                { q: 'How old was Jesus when He began His ministry?', a: 'Approximately 30 years old', mc: ['20 years old', 'Approximately 30 years old', '40 years old', '50 years old'] },
+                { q: 'How many gold gifts did the Magi bring?', a: 'Three (3) - gold, frankincense, myrrh', mc: ['Two', 'Three (3) - gold, frankincense, myrrh', 'Four', 'Five'] },
+                { q: 'How many faithful persons entered the ark?', a: 'Eight (8)', mc: ['Four (4)', 'Six (6)', 'Eight (8)', 'Ten (10)'] },
+                { q: 'How many loaves and fishes did the boy provide?', a: 'Five loaves and two fishes', mc: ['Three loaves and one fish', 'Five loaves and two fishes', 'Seven loaves and three fishes', 'Nine loaves and four fishes'] }
+            ],
+            'Who, What, When, Why - OT': [
+                { q: 'Who was the father of the Hebrews?', a: 'Abraham', mc: ['Isaac', 'Abraham', 'Jacob', 'Moses'] },
+                { q: 'What happened at the Red Sea?', a: 'The waters parted for the Israelites', mc: ['A great battle occurred', 'The waters parted for the Israelites', 'The Israelites drowned', 'Moses died'] },
+                { q: 'When did God create light?', a: 'On the first day', mc: ['On the second day', 'On the first day', 'On the third day', 'On the fourth day'] },
+                { q: 'Why did Cain kill Abel?', a: 'Out of jealousy', mc: ['For money', 'Out of jealousy', 'Over a woman', 'For land'] },
+                { q: 'Who was the mother of all living?', a: 'Eve', mc: ['Sarah', 'Eve', 'Leah', 'Rachel'] },
+                { q: 'What did Eve do that caused the fall of man?', a: 'She ate the forbidden fruit', mc: ['She disobeyed God', 'She ate the forbidden fruit', 'She lied to Adam', 'She worshipped idols'] },
+                { q: 'When did Noah\'s flood last?', a: 'Forty days and nights', mc: ['Ten days', 'Forty days and nights', 'Seventy days', 'A hundred days'] },
+                { q: 'Why did God call Abraham?', a: 'To make him father of a great nation', mc: ['To punish him', 'To make him father of a great nation', 'To test him', 'To teach him'] },
+                { q: 'Who was Isaac\'s wife?', a: 'Rebekah', mc: ['Sarah', 'Rebekah', 'Leah', 'Rachel'] },
+                { q: 'What did Jacob see in his dream?', a: 'A ladder to heaven', mc: ['Angels fighting', 'A ladder to heaven', 'God\'s face', 'The future'] },
+                { q: 'When did Job lose everything?', a: 'In one day', mc: ['Over time', 'In one day', 'In a month', 'Gradually'] },
+                { q: 'Why did Job suffer?', a: 'To test his faith', mc: ['He was being punished', 'To test his faith', 'He sinned greatly', 'God forgot about him'] },
+                { q: 'Who was the only righteous man in Sodom?', a: 'Lot', mc: ['Abraham', 'Lot', 'Melchizedek', 'Enoch'] },
+                { q: 'What was the purpose of the Ten Commandments?', a: 'To guide God\'s people in living', mc: ['To punish people', 'To guide God\'s people in living', 'To test them', 'To bore them'] },
+                { q: 'When did David become king?', a: 'After Saul\'s death', mc: ['As a child', 'After Saul\'s death', 'As the youngest', 'Never officially'] },
+                { q: 'Why did God choose David?', a: 'He looked upon the heart', mc: ['He was the tallest', 'He looked upon the heart', 'He was the oldest', 'He had the most gold'] },
+                { q: 'Who was Samson betrayed by?', a: 'Delilah', mc: ['His brother', 'Delilah', 'The Philistines', 'His own people'] },
+                { q: 'What did Esther risk to save her people?', a: 'Her life', mc: ['Her wealth', 'Her life', 'Her throne', 'Her family'] },
+                { q: 'Why did Daniel refuse the king\'s food?', a: 'It violated God\'s laws', mc: ['It tasted bad', 'It violated God\'s laws', 'He wasn\'t hungry', 'He was being respectful'] },
+                { q: 'When did the Jews return from captivity?', a: 'After seventy years', mc: ['After ten years', 'After forty years', 'After seventy years', 'Never'] }
+            ],
+            'Who, What, When, Why - NT': [
+                { q: 'Who is the Son of God in the New Testament?', a: 'Jesus Christ', mc: ['Peter', 'Jesus Christ', 'Paul', 'John'] },
+                { q: 'What is grace?', a: 'God\'s unmerited favor', mc: ['Blessing in prayer', 'God\'s unmerited favor', 'Elegance', 'A prayer before meals'] },
+                { q: 'When did Jesus return to heaven?', a: 'Forty days after resurrection', mc: ['Three days after resurrection', 'Forty days after resurrection', 'Fifty days after resurrection', 'One hundred days after resurrection'] },
+                { q: 'Why was Jesus called the Lamb of God?', a: 'He was sacrificed for humanity\'s sins', mc: ['He was gentle', 'He was sacrificed for humanity\'s sins', 'He herded sheep', 'He was born in Bethlehem'] },
+                { q: 'Who was Nicodemus?', a: 'A Pharisee who came to Jesus by night', mc: ['A disciple', 'A Pharisee who came to Jesus by night', 'A Roman guard', 'A tax collector'] },
+                { q: 'What did Jesus say about loving enemies?', a: 'Love them and pray for them', mc: ['Ignore them', 'Love them and pray for them', 'Avoid them', 'Defeat them'] },
+                { q: 'When was the Church born?', a: 'On the day of Pentecost', mc: ['On Good Friday', 'On the day of Pentecost', 'On Easter Sunday', 'Forty days after Easter'] },
+                { q: 'Why did Zacchaeus climb the sycamore tree?', a: 'To see Jesus', mc: ['He was hiding', 'To see Jesus', 'He was playing', 'He was picking fruit'] },
+                { q: 'Who was Paul before his conversion?', a: 'Saul, a persecutor of Christians', mc: ['A fisherman', 'Saul, a persecutor of Christians', 'A tax collector', 'A Pharisee'] },
+                { q: 'What is faith?', a: 'Belief in God\'s promises', mc: ['Hope', 'Belief in God\'s promises', 'Knowledge', 'Certainty'] },
+                { q: 'When was Paul arrested in Jerusalem?', a: 'During his third missionary journey', mc: ['During his first journey', 'During his second journey', 'During his third missionary journey', 'Never'] },
+                { q: 'Why did Jesus wash the disciples\' feet?', a: 'To teach them humility and service', mc: ['They were dirty', 'To teach them humility and service', 'It was a custom', 'To test them'] },
+                { q: 'Who was the mother of Jesus?', a: 'Mary (Virgin Mary)', mc: ['Elizabeth', 'Mary (Virgin Mary)', 'Martha', 'Mary Magdalene'] },
+                { q: 'What is salvation?', a: 'Redemption through Christ', mc: ['Physical healing', 'Redemption through Christ', 'Prosperity', 'Peace of mind'] },
+                { q: 'When did the disciples receive the Holy Spirit?', a: 'On the day of Pentecost', mc: ['At Jesus\'s baptism', 'On the day of Pentecost', 'At the Transfiguration', 'After the resurrection'] },
+                { q: 'Why did Jesus choose fishermen as disciples?', a: 'They would become fishers of men', mc: ['They were wealthy', 'They would become fishers of men', 'They lived near Jerusalem', 'They were educated'] },
+                { q: 'Who witnessed the empty tomb first?', a: 'Mary Magdalene (women)', mc: ['Peter', 'Mary Magdalene (women)', 'John', 'Thomas'] },
+                { q: 'What did Jesus command His disciples before ascending?', a: 'Go and make disciples of all nations', mc: ['Stay in Jerusalem', 'Go and make disciples of all nations', 'Wait for the Spirit', 'Write His words'] },
+                { q: 'When did Stephen become a martyr?', a: 'Early in the church\'s history', mc: ['Before the resurrection', 'Early in the church\'s history', 'After Paul\'s conversion', 'Near the end of Acts'] },
+                { q: 'Why is Jesus called the good Shepherd?', a: 'He cares for and protects His people', mc: ['He herded sheep', 'He cares for and protects His people', 'He lived in Bethlehem', 'He taught about sheep'] }
+            ],
+            'Mystery': [
+                { q: 'What is the greatest commandment?', a: 'Love God with all your heart and love your neighbor', mc: ['Don\'t steal', 'Love God with all your heart and love your neighbor', 'Keep the Sabbath', 'Follow the law'] },
+                { q: 'What is the kingdom of heaven compared to?', a: 'Many things (parables)', mc: ['A city', 'Many things (parables)', 'A king', 'A mountain'] },
+                { q: 'Who is the Holy Spirit?', a: 'The third person of the Trinity', mc: ['An angel', 'The third person of the Trinity', 'A messenger', 'A prophet'] },
+                { q: 'What does "born again" mean?', a: 'Spiritual rebirth through Christ', mc: ['Reincarnation', 'Spiritual rebirth through Christ', 'Physical birth', 'Growing older'] },
+                { q: 'What was the significance of Jesus\'s baptism?', a: 'His public announcement as the Messiah', mc: ['His death was predicted', 'His public announcement as the Messiah', 'His forgiveness of sins', 'His rejection by John'] },
+                { q: 'What is the Rapture?', a: 'The belief that Christians will be caught up to meet Jesus', mc: ['A music genre', 'The belief that Christians will be caught up to meet Jesus', 'A storm', 'An ancient prophecy'] },
+                { q: 'What does "redemption" mean?', a: 'Being saved from sin', mc: ['Recycling', 'Being saved from sin', 'Earning money', 'Making deals'] },
+                { q: 'Who were the Magi?', a: 'Wise men from the East', mc: ['Kings of Israel', 'Wise men from the East', 'Merchants', 'Shepherds'] },
+                { q: 'What is the "mark of the beast"?', a: 'A symbol in Revelation (interpretation varies)', mc: ['A brand', 'A symbol in Revelation (interpretation varies)', 'Satan\'s name', 'A disease'] },
+                { q: 'What did Jesus mean by "You must be born again"?', a: 'Spiritual transformation is necessary', mc: ['Physical rebirth', 'Spiritual transformation is necessary', 'Returning to childhood', 'Religious education'] },
+                { q: 'What is the Trinity?', a: 'God the Father, Son, and Holy Spirit', mc: ['Three gods', 'God the Father, Son, and Holy Spirit', 'Three churches', 'Three prophets'] },
+                { q: 'What is the purpose of the Parable of the Sower?', a: 'To teach about receiving God\'s word', mc: ['To teach farming', 'To teach about receiving God\'s word', 'To entertain', 'To confuse people'] },
+                { q: 'What does "sanctuary" mean in biblical context?', a: 'A holy place', mc: ['A hiding place', 'A holy place', 'A church building', 'A safe refuge'] },
+                { q: 'What is "eternal life"?', a: 'Everlasting life with God', mc: ['Living forever', 'Everlasting life with God', 'Never dying', 'Being preserved'] },
+                { q: 'What is the significance of the Last Supper?', a: 'The Covenant of His body and blood', mc: ['A farewell meal', 'The Covenant of His body and blood', 'A celebration', 'A Passover meal only'] },
+                { q: 'What is the Millennium?', a: 'A thousand-year period mentioned in Revelation', mc: ['The year 2000', 'A thousand-year period mentioned in Revelation', 'The end of the world', 'A biblical book'] },
+                { q: 'What does "justify" mean theologically?', a: 'To declare righteous through Christ', mc: ['To make excuses', 'To declare righteous through Christ', 'To align text', 'To prove innocent'] },
+                { q: 'What is the "Gospel"?', a: 'The good news of Jesus Christ', mc: ['A music genre', 'The good news of Jesus Christ', 'A church service', 'A prayer'] },
+                { q: 'What is the purpose of parables?', a: 'To teach spiritual truths through stories', mc: ['To entertain', 'To teach spiritual truths through stories', 'To confuse', 'To test knowledge'] },
+                { q: 'What is "Sheol" or "Hades"?', a: 'The place of the dead (interpretation varies)', mc: ['Heaven', 'The place of the dead (interpretation varies)', 'Earth', 'A city'] }
+            ]
+        };
+
+        // GAME STATE
+        let gameState = {
+            selectedTeam: null,
+            startingPoints: null,
+            team1Score: 0,
+            team2Score: 0,
+            currentQuestion: null,
+            usedQuestions: new Set(),
+            totalQuestions: 0
+        };
+
+        // INITIALIZE GAME
+        document.querySelectorAll('.team-button').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.team-button').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                gameState.selectedTeam = this.dataset.team;
+                checkStartButton();
+            });
+        });
+
+        document.querySelectorAll('.point-button').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.point-button').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                gameState.startingPoints = parseInt(this.dataset.points);
+                checkStartButton();
+            });
+        });
+
+        function checkStartButton() {
+            const startBtn = document.getElementById('startBtn');
+            if (gameState.selectedTeam && gameState.startingPoints) {
+                startBtn.disabled = false;
+            }
+        }
+
+        document.getElementById('startBtn').addEventListener('click', startGame);
+
+        function startGame() {
+            document.getElementById('homeScreen').classList.remove('active');
+            document.getElementById('gameScreen').classList.add('active');
+            buildGameBoard();
+        }
+
+        function buildGameBoard() {
+            const gameBoard = document.getElementById('gameBoard');
+            gameBoard.innerHTML = '';
+            gameState.usedQuestions.clear();
+            gameState.totalQuestions = 0;
+
+            const categories = Object.keys(questions);
+            const values = [200, 400, 600, 800, 1000];
+
+            categories.forEach(category => {
+                const header = document.createElement('div');
+                header.className = 'category-header';
+                header.textContent = category;
+                gameBoard.appendChild(header);
+            });
+
+            values.forEach(value => {
+                categories.forEach((category, index) => {
+                    const btn = document.createElement('button');
+                    btn.className = 'question-card';
+                    btn.textContent = `$${value}`;
+                    btn.dataset.category = category;
+                    btn.dataset.value = value;
+                    btn.dataset.index = index;
+
+                    btn.addEventListener('click', function() {
+                        if (!this.disabled) {
+                            showQuestion(category, value);
+                            this.disabled = true;
+                        }
+                    });
+
+                    gameBoard.appendChild(btn);
+                    gameState.totalQuestions++;
+                });
+            });
+        }
+
+        function showQuestion(category, value) {
+            const categoryQuestions = questions[category];
+            const randomIndex = Math.floor(Math.random() * categoryQuestions.length);
+            const questionObj = categoryQuestions[randomIndex];
+
+            document.getElementById('questionAmount').textContent = `$${value}`;
+            document.getElementById('questionText').textContent = questionObj.q;
+
+            const answerOptions = document.getElementById('answerOptions');
+            answerOptions.innerHTML = '';
+
+            const shuffledAnswers = [...questionObj.mc].sort(() => Math.random() - 0.5);
+
+            shuffledAnswers.forEach((answer, index) => {
+                const label = document.createElement('label');
+                label.className = 'answer-option';
+
+                const radio = document.createElement('input');
+                radio.type = 'radio';
+                radio.name = 'answer';
+                radio.value = answer;
+
+                label.appendChild(radio);
+                label.appendChild(document.createTextNode(answer));
+                answerOptions.appendChild(label);
+            });
+
+            document.getElementById('resultDisplay').innerHTML = '';
+            document.getElementById('submitBtn').style.display = 'block';
+            document.getElementById('nextBtn').style.display = 'none';
+
+            document.getElementById('submitBtn').onclick = function() {
+                checkAnswer(questionObj.a, value);
+            };
+
+            document.getElementById('questionModal').classList.add('active');
+        }
+
+        function checkAnswer(correctAnswer, value) {
+            const selected = document.querySelector('input[name="answer"]:checked');
+            if (!selected) {
+                alert('Please select an answer!');
+                return;
+            }
+
+            const resultDisplay = document.getElementById('resultDisplay');
+            const isCorrect = selected.value === correctAnswer;
+
+            if (isCorrect) {
+                document.getElementById('team' + gameState.selectedTeam + 'Score').textContent = '$' + (gameState['team' + gameState.selectedTeam + 'Score'] += value);
+                resultDisplay.innerHTML = '<div class="result-message correct">✅ Correct!</div>';
+            } else {
+                document.getElementById('team' + gameState.selectedTeam + 'Score').textContent = '$' + (gameState['team' + gameState.selectedTeam + 'Score'] -= value);
+                resultDisplay.innerHTML = `<div class="result-message incorrect">❌ Incorrect! The answer was: ${correctAnswer}</div>`;
+            }
+
+            document.getElementById('submitBtn').style.display = 'none';
+            document.getElementById('nextBtn').style.display = 'block';
+            document.querySelectorAll('.answer-option').forEach(opt => opt.style.pointerEvents = 'none');
+        }
+
+        function closeQuestion() {
+            document.getElementById('questionModal').classList.remove('active');
+            document.querySelectorAll('.answer-option').forEach(opt => opt.style.pointerEvents = 'auto');
+        }
+
+        function goHome() {
+            document.getElementById('gameScreen').classList.remove('active');
+            document.getElementById('homeScreen').classList.add('active');
+            gameState = {
+                selectedTeam: null,
+                startingPoints: null,
+                team1Score: 0,
+                team2Score: 0,
+                currentQuestion: null,
+                usedQuestions: new Set(),
+                totalQuestions: 0
+            };
+            document.querySelectorAll('.team-button, .point-button').forEach(btn => btn.classList.remove('active'));
+            document.getElementById('team1Score').textContent = '$0';
+            document.getElementById('team2Score').textContent = '$0';
+        }
+    </script>
+</body>
+</html>
