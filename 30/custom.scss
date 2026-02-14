@@ -1,0 +1,196 @@
+/*-- scss:defaults --*/
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;600;700&family=Noto+Serif+TC:wght@400;600&display=swap');
+
+$font-family-sans-serif: "Noto Sans TC", -apple-system, BlinkMacSystemFont, sans-serif;
+$font-family-serif: "Noto Serif TC", serif;
+$presentation-heading-font: $font-family-serif;
+$presentation-font: $font-family-sans-serif;
+
+// Colors - Traditional Chinese Church Theme
+$primary: #2C5F7C;
+$secondary: firebrick;
+$accent: #4A7C59;
+$background: #F5F5DC;
+$text: #2C3E50;
+
+$body-bg: $background;
+$body-color: $text;
+$link-color: $primary;
+
+// Heading sizes
+$presentation-heading-font-weight: 700;
+$presentation-h1-font-size: 2.5em;
+$presentation-h2-font-size: 1.8em;
+$presentation-h3-font-size: 1.4em;
+
+/*-- scss:rules --*/
+
+.reveal {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4 {
+  font-family: $presentation-heading-font;
+  font-weight: $presentation-heading-font-weight;
+  color: $primary;
+  text-transform: none;
+  margin-bottom: 0.5em;
+}
+
+.reveal h1 {
+  font-size: $presentation-h1-font-size;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.reveal h2 {
+  font-size: $presentation-h2-font-size;
+}
+
+.reveal h3 {
+  font-size: $presentation-h3-font-size;
+  color: $secondary;
+}
+
+// Center alignment
+.center {
+  text-align: center;
+  
+  h1, h2, h3 {
+    text-align: center;
+  }
+}
+
+// Blockquotes for Bible verses
+.reveal blockquote {
+  width: 90%;
+  margin: 20px auto;
+  padding: 15px 25px;
+  font-style: italic;
+  font-family: $font-family-serif;
+  background: rgba(255,255,255,0.7);
+  border-left: 5px solid $accent;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  font-size: 0.9em;
+  color: $secondary;
+}
+
+// Lists
+.reveal ul,
+.reveal ol {
+  margin-left: 1.5em;
+  line-height: 1.6;
+}
+
+.reveal li {
+  margin-bottom: 0.5em;
+}
+
+// Columns
+.reveal .columns {
+  display: flex;
+  gap: 2em;
+  align-items: flex-start;
+}
+
+.reveal .column {
+  flex: 1;
+}
+
+// Emphasis
+.reveal strong {
+  color: $secondary;
+  font-weight: 700;
+}
+
+.reveal em {
+  color: $accent;
+  font-style: normal;
+  font-weight: 600;
+}
+
+// Slide backgrounds
+.reveal .slide-background {
+  background-color: $background;
+}
+
+// Custom background colors
+.reveal section[data-background-color="#2C5F7C"],
+.reveal .slide-background[style*="background-color: rgb(44, 95, 124)"] {
+  color: #F5F5DC !important;
+  
+  h1, h2, h3 {
+    color: #F5F5DC !important;
+  }
+  
+  blockquote {
+    background: rgba(255,255,255,0.15);
+    color: #F5F5DC;
+    border-left-color: #4A7C59;
+  }
+}
+
+.reveal section[data-background-color="#8B4513"],
+.reveal .slide-background[style*="background-color: rgb(139, 69, 19)"] {
+  color: #F5F5DC !important;
+  
+  h1, h2, h3 {
+    color: #F5F5DC !important;
+  }
+  
+  blockquote {
+    background: rgba(255,255,255,0.15);
+    color: #F5F5DC;
+    border-left-color: #2C5F7C;
+  }
+}
+
+.reveal section[data-background-color="#4A7C59"],
+.reveal .slide-background[style*="background-color: rgb(74, 124, 89)"] {
+  color: #F5F5DC !important;
+  
+  h1, h2, h3 {
+    color: #F5F5DC !important;
+  }
+  
+  blockquote {
+    background: rgba(255,255,255,0.15);
+    color: #F5F5DC;
+    border-left-color: #8B4513;
+  }
+}
+
+// Title slide
+.reveal .title-slide {
+  text-align: center;
+  
+  .title {
+    font-size: 3em;
+    color: $primary;
+    margin-bottom: 0.3em;
+  }
+  
+  .subtitle {
+    font-size: 1.5em;
+    color: $secondary;
+    margin-bottom: 1em;
+  }
+  
+  .author {
+    font-size: 1.2em;
+    color: $accent;
+    font-weight: 600;
+  }
+}
+
+// Slide numbers
+.reveal .slide-number {
+  background-color: rgba(44, 95, 124, 0.8);
+  color: #F5F5DC;
+  font-family: $font-family-sans-serif;
+}
