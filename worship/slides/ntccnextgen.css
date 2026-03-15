@@ -7,7 +7,25 @@
   background-color: $body-bg;
   font-size: 1.8em;
 }
-.reveal .slide h1 {
+.reveal .slide h1 {  
+  font-family: "Palatino", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: gray;
+  font-size: 1.2em;
+}
+.reveal .slide h2 {  
+  font-family: "Palatino", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: gray; font-size: 1.4em;
+}
+.reveal .slide h3 {  
+  font-family: "Palatino", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: gray;
+}
+.reveal .slide h4 {  
+  font-family: "Palatino", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: gray;
+}
+.reveal .slide h5 {  
+  font-family: "Palatino", "Palatino Linotype", "Book Antiqua", Palatino, serif;
   color: gray;
 }
 .reveal .slide h6 {
@@ -20,14 +38,14 @@
   font-family: "Helvetica", Helvetica, Arial, sans-serif;
   color: $body-color;
   background-color: $body-bg;
-  font-size: .4em;
+  font-size: .2em;
 }
 .reveal ol {
   margin: 0 0 0 1.5em; 
 }
 // Font Sizes
 $presentation-font-size-root: 24px !default;  // Adjust base font size
-$presentation-h1-font-size: 2.0em !default;
+$presentation-h1-font-size: 1.4em !default;
 $presentation-h2-font-size: 1.4em !default;
 $presentation-h3-font-size: 1.2em !default;
 $presentation-h4-font-size: 0.8em !default;
