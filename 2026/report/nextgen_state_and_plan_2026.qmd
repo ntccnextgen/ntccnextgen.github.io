@@ -75,7 +75,7 @@ Youth in grades 7–12
 
 ::::: metric
 ::: number
-16
+4
 :::
 
 ::: label
@@ -85,7 +85,7 @@ College
 
 ::::: metric
 ::: number
-4
+16
 :::
 
 ::: label
