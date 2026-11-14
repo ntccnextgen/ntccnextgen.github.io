@@ -1,0 +1,36 @@
+/* NTCC NextGen Lock-In 2026 — edit colors and styles here. */
+:root {
+  --ntcc-navy: #10243b;
+  --ntcc-blue: #245173;
+  --ntcc-gold: #e2b65b;
+  --ntcc-light: #eaf2fa;
+}
+body { font-size: 1.06rem; line-height: 1.7; }
+h1, h2, h3 { color: var(--ntcc-navy); }
+h1.title { font-weight: 800; letter-spacing: .01em; }
+a { text-underline-offset: 3px; }
+.navbar { box-shadow: 0 4px 15px rgba(0,0,0,.10); }
+.hero-lockin {
+  color: white;
+  border-radius: 22px;
+  padding: clamp(2rem,5vw,4rem);
+  margin: 0 0 2rem;
+  background: linear-gradient(115deg, rgba(16,36,59,.95), rgba(36,81,115,.88)), url('images/hero.jpg') center/cover;
+  /* Optional: place your own licensed photograph at images/hero.jpg. */
+}
+.hero-lockin h2 { color: #f1c875; font-weight: 800; font-size: clamp(2rem,4vw,3.1rem); }
+.hero-lockin p { font-size: 1.2rem; max-width: 44rem; }
+.hero-lockin strong { color: #fff1c8; }
+.hero-kicker { letter-spacing: .16em; font-weight: 700; font-size: .88rem; }
+.hero-lockin .btn { margin: .6rem .6rem .2rem 0; }
+.hero-lockin .btn-primary { background-color: var(--ntcc-gold); color: var(--ntcc-navy); border-color: var(--ntcc-gold); font-weight: 700; }
+.hero-lockin .btn-outline-light { font-weight: 700; }
+blockquote { border-left: 4px solid var(--ntcc-gold); padding-left: 1rem; color: #394961; }
+.callout { border-radius: 12px; }
+main table { font-size: .97rem; }
+main table th { background: var(--ntcc-light); }
+@media (max-width: 700px) {
+  .hero-lockin { border-radius: 14px; }
+  .hero-lockin .btn { display: block; text-align: center; }
+  main table { display: block; overflow-x: auto; }
+}
