@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/index.html</loc>
-    <lastmod>2026-11-14T23:16:20.692Z</lastmod>
-  </url>
-  <url>
-    <loc>/games.html</loc>
-    <lastmod>2026-11-14T23:11:25.639Z</lastmod>
-  </url>
-  <url>
-    <loc>/worship.html</loc>
-    <lastmod>2026-11-14T23:11:37.615Z</lastmod>
+    <loc>/schedule.html</loc>
+    <lastmod>2026-11-15T07:02:25.673Z</lastmod>
   </url>
   <url>
     <loc>/parents.html</loc>
-    <lastmod>2026-11-14T23:11:20.890Z</lastmod>
+    <lastmod>2026-11-15T07:05:03.728Z</lastmod>
   </url>
   <url>
-    <loc>/schedule.html</loc>
-    <lastmod>2026-11-14T23:11:16.333Z</lastmod>
+    <loc>/games.html</loc>
+    <lastmod>2026-11-15T07:03:43.199Z</lastmod>
+  </url>
+  <url>
+    <loc>/worship.html</loc>
+    <lastmod>2026-11-15T07:01:41.425Z</lastmod>
+  </url>
+  <url>
+    <loc>/index.html</loc>
+    <lastmod>2026-11-15T03:22:44.161Z</lastmod>
   </url>
 </urlset>
